@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "asset_class": "Asset class when available in the daily context.",
+    "context_as_of": "Daily context timestamp or date when available.",
+    "daily_context_present": "Whether a local daily context file was present at build time.",
+    "public_note": "Human-readable note for downstream crawlers.",
+    "quality_status": "Public quality-state summary derived from context metadata.",
+    "sitemap_lastmod": "Last modification date from the stock sitemap.",
+    "source_count": "Count of source-manifest entries when exposed in metadata.",
+    "symbol": "Atlas symbol slug.",
+    "url": "Canonical public symbol URL."
+  },
+  "schema": "atlas.symbol_coverage.v1"
+}

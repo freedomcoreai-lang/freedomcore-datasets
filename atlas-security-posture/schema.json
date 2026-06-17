@@ -1,0 +1,8 @@
+{
+  "fields": {
+    "claims_boundary": "Scope statement for the evidence file.",
+    "controls": "Plain-language public control summary.",
+    "evidence_urls": "Public URLs that can be independently checked."
+  },
+  "schema": "atlas.security_posture_public.v1"
+}

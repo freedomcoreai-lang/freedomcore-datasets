@@ -1,0 +1,89 @@
+{
+  "content_hash": "8b1d326be5e310759fe583d83eda32a22b0bd19c79c3beee0699e9de05e9225f",
+  "current_version": "20260617-9c752e2d6f86",
+  "dataset_id": "atlas-market-pulse",
+  "disclaimer": "Read-only public market-research metadata. Not investment advice.",
+  "generated_at": "2026-06-17T10:12:43Z",
+  "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
+  "public_base": "https://atlas.freedomcore.io",
+  "pulse": {
+    "as_of": "2026-06-17T05:34:34.061673+00:00",
+    "coverage_count": 223,
+    "disclaimer": "Research only. Not financial advice. No brokerage execution.",
+    "generated_at": "2026-06-17T09:20:17+00:00",
+    "headline": "177 validated daily briefs live across Atlas coverage",
+    "items": [
+      {
+        "as_of": "2026-06-17T05:32:19.152700+00:00",
+        "asset_class": "equity",
+        "asset_label": "Stocks & Shares",
+        "href": "/stocks/NVDA/",
+        "name": "NVIDIA Corporation",
+        "snippet": "NVIDIA\u2019s cash machine just printed another $13.24 billion in the three months to 26 April 2026, vaulting the company into the rarefied air of firms that generate more operating cash in a single quarter than most nations collect in...",
+        "source_count": 4,
+        "ticker": "NVDA",
+        "updated": "2026-06-17"
+      },
+      {
+        "as_of": "2026-06-17T05:01:01.775082+00:00",
+        "asset_class": "crypto",
+        "asset_label": "Crypto",
+        "href": "/stocks/BTC/",
+        "name": "Bitcoin",
+        "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
+        "source_count": 5,
+        "ticker": "BTC",
+        "updated": "2026-06-17"
+      },
+      {
+        "as_of": "2026-06-17T05:34:20.189642+00:00",
+        "asset_class": "commodity",
+        "asset_label": "Commodities",
+        "href": "/stocks/GOLD/",
+        "name": "Gold Spot",
+        "snippet": "Gold spot remains a focal point for global capital as the World Gold Council releases fresh official research detailing the shifting dynamics of physical demand; this data serves as the primary anchor for understanding current...",
+        "source_count": 3,
+        "ticker": "GOLD",
+        "updated": "2026-06-17"
+      },
+      {
+        "as_of": "2026-06-17T05:34:15.919459+00:00",
+        "asset_class": "forex",
+        "asset_label": "Forex",
+        "href": "/stocks/EURUSD/",
+        "name": "Euro / US Dollar",
+        "snippet": "The EURUSD currency pair has been under pressure as the US economy releases strong data, contrasting with the UK's economic slowdown. According to the US Bureau of Labor Statistics, the US added 272,000 jobs in May, exceeding...",
+        "source_count": 5,
+        "ticker": "EURUSD",
+        "updated": "2026-06-17"
+      },
+      {
+        "as_of": "2026-06-17T05:34:30.100796+00:00",
+        "asset_class": "index",
+        "asset_label": "Indices",
+        "href": "/stocks/DXY/",
+        "name": "US Dollar Index",
+        "snippet": "The US Dollar Index is a calculated benchmark that measures the value of the United States dollar relative to a basket of six foreign currencies, including the euro, the Japanese yen, and the British pound. This index is not a...",
+        "source_count": 2,
+        "ticker": "DXY",
+        "updated": "2026-06-17"
+      },
+      {
+        "as_of": "2026-06-17T05:32:20.663849+00:00",
+        "asset_class": "etf",
+        "asset_label": "ETFs",
+        "href": "/stocks/SPY/",
+        "name": "SPDR S&P 500 ETF",
+        "snippet": "The SPDR S&P 500 ETF Trust, known as SPY, continues to function as the primary vehicle for tracking the S&P 500 index, with its listing and daily market activity documented on the Nasdaq exchange. The asset operates as a passive...",
+        "source_count": 3,
+        "ticker": "SPY",
+        "updated": "2026-06-17"
+      }
+    ],
+    "name": "Atlas Pulse",
+    "schema": "freedomcore.atlas.pulse.v1",
+    "validated_count": 177
+  },
+  "schema": "atlas.market_pulse_public.v1",
+  "source": "atlas-pulse.json"
+}

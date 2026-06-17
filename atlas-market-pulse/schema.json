@@ -1,0 +1,8 @@
+{
+  "fields": {
+    "generated_at": "Build timestamp for this public wrapper.",
+    "pulse": "Current Atlas public market pulse payload.",
+    "pulse.items": "Public showcase symbols and metadata when present."
+  },
+  "schema": "atlas.market_pulse_public.v1"
+}

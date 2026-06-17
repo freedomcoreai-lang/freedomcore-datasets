@@ -1,0 +1,24 @@
+{
+  "claims_boundary": "This dataset lists public retest and evidence entrypoints. Third-party grades should be retested at the linked external tools.",
+  "content_hash": "36edc602c944d02fec9a48e5afdf3ad171b4efd11a783e7fa8bbe9542534a870",
+  "controls": [
+    "Public HTTPS surface fronted by nginx.",
+    "Stripe-hosted checkout; Atlas pages do not collect card numbers.",
+    "Security proof page links to reproducible public test tools.",
+    "Research pages avoid third-party ad trackers by design."
+  ],
+  "current_version": "20260617-9c752e2d6f86",
+  "dataset_id": "atlas-security-posture",
+  "evidence_urls": [
+    "https://atlas.freedomcore.io/pages/atlas-security.html",
+    "https://atlas.freedomcore.io/built/",
+    "https://atlas.freedomcore.io/docs/",
+    "https://atlas.freedomcore.io/sitemap.xml",
+    "https://atlas.freedomcore.io/sitemap-apex.xml"
+  ],
+  "generated_at": "2026-06-17T10:12:43Z",
+  "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
+  "name": "Atlas Security Posture Public Evidence",
+  "public_base": "https://atlas.freedomcore.io",
+  "schema": "atlas.security_posture_public.v1"
+}
