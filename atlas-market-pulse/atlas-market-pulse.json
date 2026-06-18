@@ -1,17 +1,17 @@
 {
-  "content_hash": "c347231ec1d873396cc93b23755445923e467116ebc0aa2a748643a0f363f822",
-  "current_version": "20260618-f93d0d2ea67f",
+  "content_hash": "86277009738b960b60c852a53a4612e51521de3ad3b54511280cffc7c67a9a8e",
+  "current_version": "20260618-92874744c8ea",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-06-18T06:13:24Z",
+  "generated_at": "2026-06-18T07:12:21Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-06-18T05:03:54.452659+00:00",
-    "coverage_count": 223,
+    "as_of": "2026-06-18T06:41:22.628134+00:00",
+    "coverage_count": 225,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-06-18T05:20:46+00:00",
-    "headline": "177 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-06-18T06:46:48+00:00",
+    "headline": "179 validated daily briefs live across Atlas coverage",
     "items": [
       {
         "as_of": "2026-06-17T05:32:19.152700+00:00",
@@ -25,7 +25,7 @@
         "updated": "2026-06-17"
       },
       {
-        "as_of": "2026-06-18T05:00:00.688933+00:00",
+        "as_of": "2026-06-18T06:38:07.977774+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
@@ -36,7 +36,7 @@
         "updated": "2026-06-18"
       },
       {
-        "as_of": "2026-06-18T05:03:34.168183+00:00",
+        "as_of": "2026-06-18T06:41:07.777035+00:00",
         "asset_class": "commodity",
         "asset_label": "Commodities",
         "href": "/stocks/GOLD/",
@@ -47,7 +47,7 @@
         "updated": "2026-06-18"
       },
       {
-        "as_of": "2026-06-18T05:03:28.610169+00:00",
+        "as_of": "2026-06-18T06:41:03.508314+00:00",
         "asset_class": "forex",
         "asset_label": "Forex",
         "href": "/stocks/EURUSD/",
@@ -58,7 +58,7 @@
         "updated": "2026-06-18"
       },
       {
-        "as_of": "2026-06-18T05:03:49.422861+00:00",
+        "as_of": "2026-06-18T06:41:18.788858+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -69,7 +69,7 @@
         "updated": "2026-06-18"
       },
       {
-        "as_of": "2026-06-18T05:01:12.206839+00:00",
+        "as_of": "2026-06-18T06:39:20.145990+00:00",
         "asset_class": "etf",
         "asset_label": "ETFs",
         "href": "/stocks/SPY/",
@@ -82,7 +82,7 @@
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 177
+    "validated_count": 179
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
