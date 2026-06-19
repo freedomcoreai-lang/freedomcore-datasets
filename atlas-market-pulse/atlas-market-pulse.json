@@ -1,37 +1,37 @@
 {
-  "content_hash": "86277009738b960b60c852a53a4612e51521de3ad3b54511280cffc7c67a9a8e",
-  "current_version": "20260618-92874744c8ea",
+  "content_hash": "e0881ac603d665bc4b1550f78560deae48d386b319ab16c328afb2fb7ab0df72",
+  "current_version": "20260619-c36c7db1a5f2",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-06-18T07:12:21Z",
+  "generated_at": "2026-06-19T04:13:21Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-06-18T06:41:22.628134+00:00",
-    "coverage_count": 225,
+    "as_of": "2026-06-18T21:21:09.351044+00:00",
+    "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-06-18T06:46:48+00:00",
-    "headline": "179 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-06-18T21:21:38+00:00",
+    "headline": "217 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-06-17T05:32:19.152700+00:00",
+        "as_of": "2026-06-18T11:49:19.075116+00:00",
         "asset_class": "equity",
         "asset_label": "Stocks & Shares",
         "href": "/stocks/NVDA/",
         "name": "NVIDIA Corporation",
-        "snippet": "NVIDIA\u2019s cash machine just printed another $13.24 billion in the three months to 26 April 2026, vaulting the company into the rarefied air of firms that generate more operating cash in a single quarter than most nations collect in...",
-        "source_count": 4,
+        "snippet": "NVIDIA Corp (NVDA) has filed a series of 424B5 and FWP documents as of June 17, 2026, maintaining a high level of capital market activity ahead of its 2026 Annual Meeting of Stockholders on June 24. The company continues to...",
+        "source_count": 6,
         "ticker": "NVDA",
-        "updated": "2026-06-17"
+        "updated": "2026-06-18"
       },
       {
-        "as_of": "2026-06-18T06:38:07.977774+00:00",
+        "as_of": "2026-06-18T11:52:46.315942+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
-        "source_count": 5,
+        "snippet": "Bitcoin has officially transitioned from a niche cryptographic experiment into a globally recognised asset class, driven heavily by mainstream adoption through spot exchange traded funds, corporate treasury holdings, and...",
+        "source_count": 3,
         "ticker": "BTC",
         "updated": "2026-06-18"
       },
@@ -82,7 +82,7 @@
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 179
+    "validated_count": 217
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
