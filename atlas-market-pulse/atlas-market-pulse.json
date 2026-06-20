@@ -1,88 +1,88 @@
 {
-  "content_hash": "e0881ac603d665bc4b1550f78560deae48d386b319ab16c328afb2fb7ab0df72",
-  "current_version": "20260619-c36c7db1a5f2",
+  "content_hash": "f997e7cbbaf2470f48f32eb096c428f3a69a2a8dfb1322cf83800e9062343775",
+  "current_version": "20260620-c485079714c9",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-06-19T04:13:21Z",
+  "generated_at": "2026-06-20T02:13:55Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-06-18T21:21:09.351044+00:00",
+    "as_of": "2026-06-20T01:23:47.493943+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-06-18T21:21:38+00:00",
-    "headline": "217 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-06-20T01:24:34+00:00",
+    "headline": "5575 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-06-18T11:49:19.075116+00:00",
+        "as_of": "2026-06-19T09:22:20.264092+00:00",
         "asset_class": "equity",
         "asset_label": "Stocks & Shares",
         "href": "/stocks/NVDA/",
         "name": "NVIDIA Corporation",
-        "snippet": "NVIDIA Corp (NVDA) has filed a series of 424B5 and FWP documents as of June 17, 2026, maintaining a high level of capital market activity ahead of its 2026 Annual Meeting of Stockholders on June 24. The company continues to...",
-        "source_count": 6,
+        "snippet": "NVIDIA\u2019s strongest sourced fact today is not a slogan about AI. It is the SEC 10-Q for the period ending 2026-04-26: revenue of $81.61B, operating income of $53.54B, net income attributable to parent of $58.32B, diluted EPS of...",
+        "source_count": 14,
         "ticker": "NVDA",
-        "updated": "2026-06-18"
+        "updated": "2026-06-19"
       },
       {
-        "as_of": "2026-06-18T11:52:46.315942+00:00",
+        "as_of": "2026-06-19T07:49:43.650927+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin has officially transitioned from a niche cryptographic experiment into a globally recognised asset class, driven heavily by mainstream adoption through spot exchange traded funds, corporate treasury holdings, and...",
-        "source_count": 3,
+        "snippet": "The clearest hard fact in the current pack comes from the Trust's own books: it determined the fair value per Bitcoin to be $67,805.29 on 31 March 2026, against $87,549.41 on 31 December 2025, both struck from the 4:00 p.m. New...",
+        "source_count": 12,
         "ticker": "BTC",
-        "updated": "2026-06-18"
+        "updated": "2026-06-19"
       },
       {
-        "as_of": "2026-06-18T06:41:07.777035+00:00",
+        "as_of": "2026-06-19T16:19:15.616968+00:00",
         "asset_class": "commodity",
         "asset_label": "Commodities",
         "href": "/stocks/GOLD/",
         "name": "Gold Spot",
-        "snippet": "Gold spot remains a focal point for global capital as the World Gold Council releases fresh official research detailing the shifting dynamics of physical demand; this data serves as the primary anchor for understanding current...",
-        "source_count": 3,
+        "snippet": "The clearest named developments on the gold rail today are institutional rather than dramatic. The World Gold Council, through its Goldhub platform, maintains a Central Bank Gold Reserves Survey for both 2026 and 2025, alongside...",
+        "source_count": 8,
         "ticker": "GOLD",
-        "updated": "2026-06-18"
+        "updated": "2026-06-19"
       },
       {
-        "as_of": "2026-06-18T06:41:03.508314+00:00",
+        "as_of": "2026-06-19T13:31:06.526362+00:00",
         "asset_class": "forex",
         "asset_label": "Forex",
         "href": "/stocks/EURUSD/",
         "name": "Euro / US Dollar",
-        "snippet": "The EURUSD currency pair has been under pressure as the US economy releases strong data, contrasting with the UK's economic slowdown. According to the US Bureau of Labor Statistics, the US added 272,000 jobs in May, exceeding...",
-        "source_count": 5,
+        "snippet": "The strongest fact in today's EURUSD rail is publication discipline, not a dramatic quoted move. The Federal Reserve H10 page says the Board releases daily bilateral exchange rates and U.S. dollar indexes on Mondays at 4:15 p.m...",
+        "source_count": 10,
         "ticker": "EURUSD",
-        "updated": "2026-06-18"
+        "updated": "2026-06-19"
       },
       {
-        "as_of": "2026-06-18T06:41:18.788858+00:00",
+        "as_of": "2026-06-19T16:25:51.827663+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
         "name": "US Dollar Index",
-        "snippet": "The US Dollar Index is a calculated benchmark that measures the value of the United States dollar relative to a basket of six foreign currencies, including the euro, the Japanese yen, and the British pound. This index is not a...",
-        "source_count": 2,
+        "snippet": "The strongest sourced fact for DXY today is mechanical rather than dramatic: ICE lists US Dollar Index Futures with the trading screen product name US Dollar Index Futures, the hub name NYCC, and electronic trading hours from...",
+        "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-06-18"
+        "updated": "2026-06-19"
       },
       {
-        "as_of": "2026-06-18T06:39:20.145990+00:00",
+        "as_of": "2026-06-19T09:23:29.313224+00:00",
         "asset_class": "etf",
         "asset_label": "ETFs",
         "href": "/stocks/SPY/",
         "name": "SPDR S&P 500 ETF",
-        "snippet": "The SPDR S&P 500 ETF Trust, known as SPY, continues to function as the primary vehicle for tracking the S&P 500 index, with its listing and daily market activity documented on the Nasdaq exchange. The asset operates as a passive...",
-        "source_count": 3,
+        "snippet": "The strongest sourced fact in today\u2019s SPY file is not a price move or a new filing figure. It is the official product rail itself: State Street identifies SPY as the SPDR S&P 500 ETF Trust, while NYSE and Nasdaq supply public...",
+        "source_count": 10,
         "ticker": "SPY",
-        "updated": "2026-06-18"
+        "updated": "2026-06-19"
       }
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 217
+    "validated_count": 5575
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
