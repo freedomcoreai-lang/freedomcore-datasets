@@ -1,39 +1,39 @@
 {
-  "content_hash": "a84258aafb0a504c55ad47481946a9fec7e8611e8637d361d905b9501ead00ce",
-  "current_version": "20260621-89c456acc599",
+  "content_hash": "64c2ca302ca5a940b0fa1c62d54391d765eba53a25710518690dc3f9e95e3006",
+  "current_version": "20260622-e6c178c1ef98",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-06-21T04:12:12Z",
+  "generated_at": "2026-06-22T04:12:03Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-06-21T04:10:38.693664+00:00",
+    "as_of": "2026-06-22T02:06:03.423027+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-06-21T04:11:58+00:00",
-    "headline": "5601 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-06-22T02:07:40+00:00",
+    "headline": "9956 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-06-19T09:22:20.264092+00:00",
+        "as_of": "2026-06-21T10:22:27.778006+00:00",
         "asset_class": "equity",
         "asset_label": "Stocks & Shares",
         "href": "/stocks/NVDA/",
         "name": "NVIDIA Corporation",
-        "snippet": "NVIDIA\u2019s strongest sourced fact today is not a slogan about AI. It is the SEC 10-Q for the period ending 2026-04-26: revenue of $81.61B, operating income of $53.54B, net income attributable to parent of $58.32B, diluted EPS of...",
-        "source_count": 16,
+        "snippet": "NVIDIA\u2019s strongest sourced fact today is the filed financial rail: SEC EDGAR parsed revenues of $81.61B, operating income of $53.54B and net income attributable to parent of $58.32B for the 10-Q period ending 2026-04-26. The same...",
+        "source_count": 13,
         "ticker": "NVDA",
-        "updated": "2026-06-19"
+        "updated": "2026-06-21"
       },
       {
-        "as_of": "2026-06-20T05:00:02.896279+00:00",
+        "as_of": "2026-06-21T11:25:48.530291+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
-        "source_count": 7,
+        "snippet": "The strongest sourced fact in today's Bitcoin file is the Trust's own valuation mark. In its SEC EDGAR 10-Q dated 2026-05-05, the Trust determined fair value per Bitcoin at $67,805.29 on March 31, 2026, versus $87,549.41 on...",
+        "source_count": 8,
         "ticker": "BTC",
-        "updated": "2026-06-20"
+        "updated": "2026-06-21"
       },
       {
         "as_of": "2026-06-19T16:19:15.616968+00:00",
@@ -47,42 +47,42 @@
         "updated": "2026-06-19"
       },
       {
-        "as_of": "2026-06-19T13:31:06.526362+00:00",
+        "as_of": "2026-06-21T13:36:36.023272+00:00",
         "asset_class": "forex",
         "asset_label": "Forex",
         "href": "/stocks/EURUSD/",
         "name": "Euro / US Dollar",
-        "snippet": "The strongest fact in today's EURUSD rail is publication discipline, not a dramatic quoted move. The Federal Reserve H10 page says the Board releases daily bilateral exchange rates and U.S. dollar indexes on Mondays at 4:15 p.m...",
-        "source_count": 12,
+        "snippet": "EURUSD spent Friday sliding toward 1.0700 as markets digested a week in which the ECB\u2019s euro reference rates and the Federal Reserve\u2019s H10 dump landed with the inevitability of a Monday morning alarm clock. The ECB\u2019s daily fix at...",
+        "source_count": 10,
         "ticker": "EURUSD",
-        "updated": "2026-06-19"
+        "updated": "2026-06-21"
       },
       {
-        "as_of": "2026-06-19T16:25:51.827663+00:00",
+        "as_of": "2026-06-21T14:04:19.963683+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
         "name": "US Dollar Index",
-        "snippet": "The strongest sourced fact for DXY today is mechanical rather than dramatic: ICE lists US Dollar Index Futures with the trading screen product name US Dollar Index Futures, the hub name NYCC, and electronic trading hours from...",
-        "source_count": 8,
+        "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
+        "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-06-19"
+        "updated": "2026-06-21"
       },
       {
-        "as_of": "2026-06-19T09:23:29.313224+00:00",
+        "as_of": "2026-06-21T11:21:17.517717+00:00",
         "asset_class": "etf",
         "asset_label": "ETFs",
         "href": "/stocks/SPY/",
         "name": "SPDR S&P 500 ETF",
-        "snippet": "The strongest sourced fact in today\u2019s SPY file is not a price move or a new filing figure. It is the official product rail itself: State Street identifies SPY as the SPDR S&P 500 ETF Trust, while NYSE and Nasdaq supply public...",
-        "source_count": 12,
+        "snippet": "SPY\u2019s strongest supplied fact is its identity: State Street presents it as the SPDR S&P 500 ETF Trust on the official fund home, while NYSE, Nasdaq, S&P Dow Jones Indices, SEC EDGAR and FINRA provide separate source rails around...",
+        "source_count": 9,
         "ticker": "SPY",
-        "updated": "2026-06-19"
+        "updated": "2026-06-21"
       }
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 5601
+    "validated_count": 9956
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
