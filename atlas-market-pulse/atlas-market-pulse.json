@@ -1,20 +1,31 @@
 {
-  "content_hash": "17f8166231fe4971c13d73619a19a6e3480e74f56e5fe62482dd1396eaa41a33",
-  "current_version": "20260625-fbba3d39742f",
+  "content_hash": "595ca163d633bf5dab81d929a31bb6d3723c499dfcadef14fe933def41eba226",
+  "current_version": "20260626-e75f05879a7a",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-06-25T04:12:39Z",
+  "generated_at": "2026-06-26T04:12:43Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-06-25T03:59:38.080252+00:00",
+    "as_of": "2026-06-26T03:52:30.890300+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-06-25T04:01:42+00:00",
-    "headline": "9860 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-06-26T03:54:19+00:00",
+    "headline": "9974 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-06-24T05:00:03.350677+00:00",
+        "as_of": "2026-06-26T03:39:54.536480+00:00",
+        "asset_class": "equity",
+        "asset_label": "Stocks & Shares",
+        "href": "/stocks/NVDA/",
+        "name": "NVIDIA Corporation",
+        "snippet": "NVIDIA\u2019s strongest sourced fact today is still the filed financial rail: SEC EDGAR companyfacts show revenues of $81.61B, net income attributable to parent of $58.32B, operating income of $53.54B and diluted EPS of $2.39 for the...",
+        "source_count": 14,
+        "ticker": "NVDA",
+        "updated": "2026-06-26"
+      },
+      {
+        "as_of": "2026-06-25T05:01:04.456980+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
@@ -22,18 +33,18 @@
         "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
         "source_count": 5,
         "ticker": "BTC",
-        "updated": "2026-06-24"
+        "updated": "2026-06-25"
       },
       {
-        "as_of": "2026-06-19T16:19:15.616968+00:00",
+        "as_of": "2026-06-25T13:54:43.174088+00:00",
         "asset_class": "commodity",
         "asset_label": "Commodities",
         "href": "/stocks/GOLD/",
         "name": "Gold Spot",
-        "snippet": "The clearest named developments on the gold rail today are institutional rather than dramatic. The World Gold Council, through its Goldhub platform, maintains a Central Bank Gold Reserves Survey for both 2026 and 2025, alongside...",
-        "source_count": 10,
+        "snippet": "The World Gold Council's Central Bank Gold Reserves Survey 2026 shows that global central bank gold reserves rose by 17% year-on-year, driven by continued buying from emerging markets. However, the survey also notes significant...",
+        "source_count": 11,
         "ticker": "GOLD",
-        "updated": "2026-06-19"
+        "updated": "2026-06-25"
       },
       {
         "as_of": "2026-06-21T13:36:36.023272+00:00",
@@ -47,7 +58,7 @@
         "updated": "2026-06-21"
       },
       {
-        "as_of": "2026-06-24T05:07:00.513602+00:00",
+        "as_of": "2026-06-25T05:35:09.674586+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -55,7 +66,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-06-24"
+        "updated": "2026-06-25"
       },
       {
         "as_of": "2026-06-21T11:21:17.517717+00:00",
@@ -67,22 +78,11 @@
         "source_count": 9,
         "ticker": "SPY",
         "updated": "2026-06-21"
-      },
-      {
-        "as_of": "2026-06-19T09:21:26.220586+00:00",
-        "asset_class": "equity",
-        "asset_label": "Stocks & Shares",
-        "href": "/stocks/AAPL/",
-        "name": "Apple Inc.",
-        "snippet": "Apple's daily file opens with a hard financial centre: SEC EDGAR filed financials show $111.18B of revenue from contracts with customers, $29.58B of net income attributable to the parent, $35.88B of operating income and diluted...",
-        "source_count": 16,
-        "ticker": "AAPL",
-        "updated": "2026-06-19"
       }
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 9860
+    "validated_count": 9974
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
