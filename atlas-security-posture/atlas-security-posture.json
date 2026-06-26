@@ -7,7 +7,7 @@
     "Security proof page links to reproducible public test tools.",
     "Research pages avoid third-party ad trackers by design."
   ],
-  "current_version": "20260625-fbba3d39742f",
+  "current_version": "20260626-e75f05879a7a",
   "dataset_id": "atlas-security-posture",
   "evidence_urls": [
     "https://atlas.freedomcore.io/pages/atlas-security.html",
@@ -16,7 +16,7 @@
     "https://atlas.freedomcore.io/sitemap.xml",
     "https://atlas.freedomcore.io/sitemap-apex.xml"
   ],
-  "generated_at": "2026-06-25T04:12:39Z",
+  "generated_at": "2026-06-26T04:12:43Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "name": "Atlas Security Posture Public Evidence",
   "public_base": "https://atlas.freedomcore.io",
