@@ -1,17 +1,17 @@
 {
-  "content_hash": "d28ff2f51607f7ef7ce6be3151a2d546caedb9484fafb80e73308a4dabf36dcc",
-  "current_version": "20260627-670bd51fd9f7",
+  "content_hash": "030e0b463ec2c594b4983b087a96d669d0bf1829e95570793949b8f65b0ed3ae",
+  "current_version": "20260628-2519bb0df3ba",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-06-27T04:12:49Z",
+  "generated_at": "2026-06-28T04:13:50Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-06-27T02:28:17.293560+00:00",
+    "as_of": "2026-06-28T03:47:48.260473+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-06-27T02:30:26+00:00",
-    "headline": "9944 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-06-28T03:49:43+00:00",
+    "headline": "5394 validated daily briefs live across Atlas coverage",
     "items": [
       {
         "as_of": "2026-06-26T03:39:54.536480+00:00",
@@ -25,26 +25,26 @@
         "updated": "2026-06-26"
       },
       {
-        "as_of": "2026-06-26T05:00:14.082249+00:00",
+        "as_of": "2026-06-27T13:32:06.344360+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
-        "source_count": 5,
+        "snippet": "Bitcoin recorded exactly $201,962 in transaction fees and $0.00 in project revenue over the past 24 hours, illustrating the unique economic model of a decentralized financial network that operates without a traditional corporate...",
+        "source_count": 3,
         "ticker": "BTC",
-        "updated": "2026-06-26"
+        "updated": "2026-06-27"
       },
       {
-        "as_of": "2026-06-25T13:54:43.174088+00:00",
+        "as_of": "2026-06-27T15:21:15.269494+00:00",
         "asset_class": "commodity",
         "asset_label": "Commodities",
         "href": "/stocks/GOLD/",
         "name": "Gold Spot",
-        "snippet": "The World Gold Council's Central Bank Gold Reserves Survey 2026 shows that global central bank gold reserves rose by 17% year-on-year, driven by continued buying from emerging markets. However, the survey also notes significant...",
-        "source_count": 11,
+        "snippet": "The London Bullion Market Association has released a new report exploring the progress made between 2022 and 2025 to help build the foundations for greater inclusion of responsibly sourced artisanal and small-scale mining gold in...",
+        "source_count": 8,
         "ticker": "GOLD",
-        "updated": "2026-06-25"
+        "updated": "2026-06-27"
       },
       {
         "as_of": "2026-06-21T13:36:36.023272+00:00",
@@ -58,7 +58,7 @@
         "updated": "2026-06-21"
       },
       {
-        "as_of": "2026-06-26T05:09:43.683974+00:00",
+        "as_of": "2026-06-27T05:06:50.933845+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,7 +66,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-06-26"
+        "updated": "2026-06-27"
       },
       {
         "as_of": "2026-06-21T11:21:17.517717+00:00",
@@ -82,7 +82,7 @@
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 9944
+    "validated_count": 5394
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
