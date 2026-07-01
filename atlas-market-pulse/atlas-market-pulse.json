@@ -1,50 +1,50 @@
 {
-  "content_hash": "41d65e0407e0693fa6555c26e0b6ebe565977e566a81a3859d4733b005108a3c",
-  "current_version": "20260630-61231e73958a",
+  "content_hash": "228a66635e19f13b220f21dead504dabbf56c07f9b8e2fd91ad1d1b91feccd30",
+  "current_version": "20260701-fa621de80a83",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-06-30T04:13:22Z",
+  "generated_at": "2026-07-01T04:13:14Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-06-30T03:43:25.550085+00:00",
+    "as_of": "2026-07-01T03:54:37.831826+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-06-30T03:44:53+00:00",
-    "headline": "1027 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-07-01T03:56:06+00:00",
+    "headline": "1015 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-06-26T03:39:54.536480+00:00",
+        "as_of": "2026-06-30T09:06:27.842071+00:00",
         "asset_class": "equity",
         "asset_label": "Stocks & Shares",
         "href": "/stocks/NVDA/",
         "name": "NVIDIA Corporation",
-        "snippet": "NVIDIA\u2019s strongest sourced fact today is still the filed financial rail: SEC EDGAR companyfacts show revenues of $81.61B, net income attributable to parent of $58.32B, operating income of $53.54B and diluted EPS of $2.39 for the...",
+        "snippet": "The strongest sourced development for NVIDIA Corporation is the general availability of Anthropic's Claude models in Microsoft Foundry, hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs. This integration...",
         "source_count": 14,
         "ticker": "NVDA",
-        "updated": "2026-06-26"
+        "updated": "2026-06-30"
       },
       {
-        "as_of": "2026-06-29T08:17:29.459425+00:00",
+        "as_of": "2026-06-30T09:09:13.250777+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "The most significant sourced development for Bitcoin is its transition into a recognised global financial asset, having achieved mainstream adoption through spot ETF approvals, corporate treasury holdings, and acceptance by...",
+        "snippet": "Bitcoin has achieved mainstream adoption through spot ETF approvals, corporate treasury holdings, and acceptance by governments and institutions worldwide, representing a significant shift from its early origins as an experimental...",
         "source_count": 3,
         "ticker": "BTC",
-        "updated": "2026-06-29"
+        "updated": "2026-06-30"
       },
       {
-        "as_of": "2026-06-27T15:21:15.269494+00:00",
+        "as_of": "2026-06-30T09:29:37.985757+00:00",
         "asset_class": "commodity",
         "asset_label": "Commodities",
         "href": "/stocks/GOLD/",
         "name": "Gold Spot",
-        "snippet": "The London Bullion Market Association has released a new report exploring the progress made between 2022 and 2025 to help build the foundations for greater inclusion of responsibly sourced artisanal and small-scale mining gold in...",
+        "snippet": "The Central Bank Gold Reserves Survey 2026 from the World Gold Council confirms that official sector buying remains a dominant force, with central banks continuing to accumulate physical gold reserves at a pace that suggests a...",
         "source_count": 8,
         "ticker": "GOLD",
-        "updated": "2026-06-27"
+        "updated": "2026-06-30"
       },
       {
         "as_of": "2026-06-29T15:21:46.907250+00:00",
@@ -58,7 +58,7 @@
         "updated": "2026-06-29"
       },
       {
-        "as_of": "2026-06-29T05:07:59.047142+00:00",
+        "as_of": "2026-06-30T05:53:29.836687+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,23 +66,23 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-06-29"
+        "updated": "2026-06-30"
       },
       {
-        "as_of": "2026-06-29T13:24:59.322566+00:00",
+        "as_of": "2026-06-30T09:07:32.366704+00:00",
         "asset_class": "etf",
         "asset_label": "ETFs",
         "href": "/stocks/SPY/",
         "name": "SPDR S&P 500 ETF",
-        "snippet": "The SPDR S&P 500 ETF Trust (SPY) remains the most liquid vehicle for gaining exposure to the S&P 500 index, yet its daily performance is dictated less by the business fundamentals of the underlying companies and more by the...",
+        "snippet": "The SPDR S&P 500 ETF Trust, organized as a unit investment trust, is officially evaluated under a rigid percentile system that determines its analytical standing. Based on the rules outlined by its official fund home, products in...",
         "source_count": 9,
         "ticker": "SPY",
-        "updated": "2026-06-29"
+        "updated": "2026-06-30"
       }
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 1027
+    "validated_count": 1015
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
