@@ -1,39 +1,28 @@
 {
-  "content_hash": "228a66635e19f13b220f21dead504dabbf56c07f9b8e2fd91ad1d1b91feccd30",
-  "current_version": "20260701-fa621de80a83",
+  "content_hash": "76d5ad0dcc8f09d04efa9444b8cf8595fa3b9cdb2211bc9e655132fae010f057",
+  "current_version": "20260702-6b8f637ccb6e",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-01T04:13:14Z",
+  "generated_at": "2026-07-02T04:12:13Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-01T03:54:37.831826+00:00",
+    "as_of": "2026-07-02T03:58:58.725938+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-07-01T03:56:06+00:00",
-    "headline": "1015 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-07-02T04:00:20+00:00",
+    "headline": "1016 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-06-30T09:06:27.842071+00:00",
-        "asset_class": "equity",
-        "asset_label": "Stocks & Shares",
-        "href": "/stocks/NVDA/",
-        "name": "NVIDIA Corporation",
-        "snippet": "The strongest sourced development for NVIDIA Corporation is the general availability of Anthropic's Claude models in Microsoft Foundry, hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs. This integration...",
-        "source_count": 14,
-        "ticker": "NVDA",
-        "updated": "2026-06-30"
-      },
-      {
-        "as_of": "2026-06-30T09:09:13.250777+00:00",
+        "as_of": "2026-07-01T08:49:48.391806+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin has achieved mainstream adoption through spot ETF approvals, corporate treasury holdings, and acceptance by governments and institutions worldwide, representing a significant shift from its early origins as an experimental...",
+        "snippet": "Bitcoin ETFs have recorded a record $4.1 billion in outflows, a development flagged by market data providers as a significant signal of strategy shifts and potential asset sales within the institutional wrapper. This figure...",
         "source_count": 3,
         "ticker": "BTC",
-        "updated": "2026-06-30"
+        "updated": "2026-07-01"
       },
       {
         "as_of": "2026-06-30T09:29:37.985757+00:00",
@@ -58,7 +47,7 @@
         "updated": "2026-06-29"
       },
       {
-        "as_of": "2026-06-30T05:53:29.836687+00:00",
+        "as_of": "2026-07-01T05:07:44.968211+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,7 +55,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-06-30"
+        "updated": "2026-07-01"
       },
       {
         "as_of": "2026-06-30T09:07:32.366704+00:00",
@@ -78,11 +67,22 @@
         "source_count": 9,
         "ticker": "SPY",
         "updated": "2026-06-30"
+      },
+      {
+        "as_of": "2026-07-01T08:44:45.572501+00:00",
+        "asset_class": "equity",
+        "asset_label": "Stocks & Shares",
+        "href": "/stocks/AAPL/",
+        "name": "Apple Inc.",
+        "snippet": "Apple Inc. reported revenue from contracts with customers, excluding assessed tax, of $111.18 billion for the quarter ending March 28, 2026, a figure that underscores the sheer scale of its global operations despite ongoing...",
+        "source_count": 14,
+        "ticker": "AAPL",
+        "updated": "2026-07-01"
       }
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 1015
+    "validated_count": 1016
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
