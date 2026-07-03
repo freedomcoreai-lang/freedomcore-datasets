@@ -1,39 +1,50 @@
 {
-  "content_hash": "76d5ad0dcc8f09d04efa9444b8cf8595fa3b9cdb2211bc9e655132fae010f057",
-  "current_version": "20260702-6b8f637ccb6e",
+  "content_hash": "f0a193979497127a691d573de5a7206da46c8cbfb9ddf87c4313d9459bf326b1",
+  "current_version": "20260703-e7dabf39000c",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-02T04:12:13Z",
+  "generated_at": "2026-07-03T04:14:00Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-02T03:58:58.725938+00:00",
+    "as_of": "2026-07-03T04:08:29.314148+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-07-02T04:00:20+00:00",
-    "headline": "1016 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-07-03T04:09:55+00:00",
+    "headline": "972 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-07-01T08:49:48.391806+00:00",
+        "as_of": "2026-07-02T09:06:12.605825+00:00",
+        "asset_class": "equity",
+        "asset_label": "Stocks & Shares",
+        "href": "/stocks/NVDA/",
+        "name": "NVIDIA Corporation",
+        "snippet": "NVIDIA Corporation recently filed a Form 8-K report with the SEC on June 30, 2026, outlining the results of its latest stockholder voting. The company disclosed that stockholders approved the election of each of its ten director...",
+        "source_count": 13,
+        "ticker": "NVDA",
+        "updated": "2026-07-02"
+      },
+      {
+        "as_of": "2026-07-02T09:06:49.161847+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin ETFs have recorded a record $4.1 billion in outflows, a development flagged by market data providers as a significant signal of strategy shifts and potential asset sales within the institutional wrapper. This figure...",
+        "snippet": "Bitcoin official project information shows the software remains released under the MIT license, with the project copyright covering the period from 2009 to 2026. According to market data from CoinGecko, the first block of the...",
         "source_count": 3,
         "ticker": "BTC",
-        "updated": "2026-07-01"
+        "updated": "2026-07-02"
       },
       {
-        "as_of": "2026-06-30T09:29:37.985757+00:00",
+        "as_of": "2026-07-02T09:40:30.555691+00:00",
         "asset_class": "commodity",
         "asset_label": "Commodities",
         "href": "/stocks/GOLD/",
         "name": "Gold Spot",
-        "snippet": "The Central Bank Gold Reserves Survey 2026 from the World Gold Council confirms that official sector buying remains a dominant force, with central banks continuing to accumulate physical gold reserves at a pace that suggests a...",
+        "snippet": "The Central Bank Gold Reserves Survey 2026 confirms that sovereign institutions continue to accumulate physical gold at a pace that defies standard portfolio rebalancing logic, building on the significant purchasing activity...",
         "source_count": 8,
         "ticker": "GOLD",
-        "updated": "2026-06-30"
+        "updated": "2026-07-02"
       },
       {
         "as_of": "2026-06-29T15:21:46.907250+00:00",
@@ -47,7 +58,7 @@
         "updated": "2026-06-29"
       },
       {
-        "as_of": "2026-07-01T05:07:44.968211+00:00",
+        "as_of": "2026-07-02T05:07:02.102269+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -55,7 +66,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-07-01"
+        "updated": "2026-07-02"
       },
       {
         "as_of": "2026-06-30T09:07:32.366704+00:00",
@@ -67,22 +78,11 @@
         "source_count": 9,
         "ticker": "SPY",
         "updated": "2026-06-30"
-      },
-      {
-        "as_of": "2026-07-01T08:44:45.572501+00:00",
-        "asset_class": "equity",
-        "asset_label": "Stocks & Shares",
-        "href": "/stocks/AAPL/",
-        "name": "Apple Inc.",
-        "snippet": "Apple Inc. reported revenue from contracts with customers, excluding assessed tax, of $111.18 billion for the quarter ending March 28, 2026, a figure that underscores the sheer scale of its global operations despite ongoing...",
-        "source_count": 14,
-        "ticker": "AAPL",
-        "updated": "2026-07-01"
       }
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 1016
+    "validated_count": 972
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
