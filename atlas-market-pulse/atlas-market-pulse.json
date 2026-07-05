@@ -1,64 +1,64 @@
 {
-  "content_hash": "f0a193979497127a691d573de5a7206da46c8cbfb9ddf87c4313d9459bf326b1",
-  "current_version": "20260703-e7dabf39000c",
+  "content_hash": "5218392988ac4738d966024f0d4f6330e17920e9137528c8319f69abe1bb0183",
+  "current_version": "20260705-e7bf9637b0e6",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-03T04:14:00Z",
+  "generated_at": "2026-07-05T04:13:46Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-03T04:08:29.314148+00:00",
+    "as_of": "2026-07-05T03:31:50.316085+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-07-03T04:09:55+00:00",
+    "generated_at": "2026-07-05T03:33:03+00:00",
     "headline": "972 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-07-02T09:06:12.605825+00:00",
+        "as_of": "2026-07-04T15:34:54.366002+00:00",
         "asset_class": "equity",
         "asset_label": "Stocks & Shares",
         "href": "/stocks/NVDA/",
         "name": "NVIDIA Corporation",
-        "snippet": "NVIDIA Corporation recently filed a Form 8-K report with the SEC on June 30, 2026, outlining the results of its latest stockholder voting. The company disclosed that stockholders approved the election of each of its ten director...",
+        "snippet": "The most significant corporate development for NVIDIA Corporation is the appointment of Nicholas Parker as Executive Vice President of Worldwide Field Operations, effective August 24, 2026, as disclosed in an 8-K filing on July 2...",
         "source_count": 13,
         "ticker": "NVDA",
-        "updated": "2026-07-02"
+        "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-07-02T09:06:49.161847+00:00",
+        "as_of": "2026-07-04T05:00:42.677093+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin official project information shows the software remains released under the MIT license, with the project copyright covering the period from 2009 to 2026. According to market data from CoinGecko, the first block of the...",
-        "source_count": 3,
+        "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
+        "source_count": 5,
         "ticker": "BTC",
-        "updated": "2026-07-02"
+        "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-07-02T09:40:30.555691+00:00",
+        "as_of": "2026-07-04T17:59:03.092381+00:00",
         "asset_class": "commodity",
         "asset_label": "Commodities",
         "href": "/stocks/GOLD/",
         "name": "Gold Spot",
-        "snippet": "The Central Bank Gold Reserves Survey 2026 confirms that sovereign institutions continue to accumulate physical gold at a pace that defies standard portfolio rebalancing logic, building on the significant purchasing activity...",
+        "snippet": "The global gold market is experiencing a significant transition from regulatory dialogue to active structural implementation, marked by the London Bullion Market Association launching a public consultation on version 10 of its...",
         "source_count": 8,
         "ticker": "GOLD",
-        "updated": "2026-07-02"
+        "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-06-29T15:21:46.907250+00:00",
+        "as_of": "2026-07-04T17:59:48.081158+00:00",
         "asset_class": "forex",
         "asset_label": "Forex",
         "href": "/stocks/EURUSD/",
         "name": "Euro / US Dollar",
-        "snippet": "The European Central Bank is preparing for the expansion of the single currency area as Bulgaria moves toward joining the euro zone. According to official publications, the conversion rate for Bulgaria joining the euro area will...",
+        "snippet": "The European Central Bank maintains the euro reference exchange rates, which are published to four decimal places, while the official conversion rate for countries joining the currency area, such as Bulgaria, is specified to five...",
         "source_count": 10,
         "ticker": "EURUSD",
-        "updated": "2026-06-29"
+        "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-07-02T05:07:02.102269+00:00",
+        "as_of": "2026-07-03T05:36:59.553084+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,18 +66,18 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-07-02"
+        "updated": "2026-07-03"
       },
       {
-        "as_of": "2026-06-30T09:07:32.366704+00:00",
+        "as_of": "2026-07-04T15:35:48.058272+00:00",
         "asset_class": "etf",
         "asset_label": "ETFs",
         "href": "/stocks/SPY/",
         "name": "SPDR S&P 500 ETF",
-        "snippet": "The SPDR S&P 500 ETF Trust, organized as a unit investment trust, is officially evaluated under a rigid percentile system that determines its analytical standing. Based on the rules outlined by its official fund home, products in...",
+        "snippet": "The State Street SPDR S&P 500 ETF Trust, commonly known by its ticker SPY, represents one of the most significant and widely traded financial instruments in the global market. Sourced data from State Street reveals the rigid...",
         "source_count": 9,
         "ticker": "SPY",
-        "updated": "2026-06-30"
+        "updated": "2026-07-04"
       }
     ],
     "name": "Atlas Pulse",
