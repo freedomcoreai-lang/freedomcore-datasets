@@ -1,17 +1,17 @@
 {
-  "content_hash": "5218392988ac4738d966024f0d4f6330e17920e9137528c8319f69abe1bb0183",
-  "current_version": "20260705-e7bf9637b0e6",
+  "content_hash": "45a750d3bf4527fbfa680c5200fb70bbdff2f786c5a6706ce3468cfc28a2c8c8",
+  "current_version": "20260706-9fdf8660ab4c",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-05T04:13:46Z",
+  "generated_at": "2026-07-06T04:13:25Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-05T03:31:50.316085+00:00",
+    "as_of": "2026-07-06T03:27:15.885996+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-07-05T03:33:03+00:00",
-    "headline": "972 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-07-06T03:28:29+00:00",
+    "headline": "974 validated daily briefs live across Atlas coverage",
     "items": [
       {
         "as_of": "2026-07-04T15:34:54.366002+00:00",
@@ -25,15 +25,15 @@
         "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-07-04T05:00:42.677093+00:00",
+        "as_of": "2026-07-05T08:18:07.215578+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
-        "source_count": 5,
+        "snippet": "The official launch of the Bitcoin network was marked by the mining of the genesis block on January 9, 2009, establishing a decentralized digital network. In the years following its launch, the protocol has achieved mainstream...",
+        "source_count": 3,
         "ticker": "BTC",
-        "updated": "2026-07-04"
+        "updated": "2026-07-05"
       },
       {
         "as_of": "2026-07-04T17:59:03.092381+00:00",
@@ -58,7 +58,7 @@
         "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-07-03T05:36:59.553084+00:00",
+        "as_of": "2026-07-05T05:07:39.643952+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,7 +66,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-07-03"
+        "updated": "2026-07-05"
       },
       {
         "as_of": "2026-07-04T15:35:48.058272+00:00",
@@ -82,7 +82,7 @@
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 972
+    "validated_count": 974
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
