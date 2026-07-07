@@ -1,19 +1,19 @@
 {
-  "content_hash": "ff0ccf98b37bcd3134e3cb5f1166c03dc5dbeb5afe8df69e40e498e103692cc0",
-  "current_version": "20260706-9fdf8660ab4c",
+  "content_hash": "54960b30c520bf81baf60ad8f84c16d8e9ef06109c05c6cb7a9b2ff71d2905f5",
+  "current_version": "20260707-322d6c3243b6",
   "dataset_id": "atlas-symbol-coverage",
   "disclaimer": "Read-only public metadata for Atlas coverage. Not investment advice.",
-  "generated_at": "2026-07-06T04:13:25Z",
+  "generated_at": "2026-07-07T04:13:05Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "name": "Atlas Symbol Coverage Index",
   "public_base": "https://atlas.freedomcore.io",
   "row_count": 10013,
   "row_count_public": 10013,
-  "row_count_total": 10160,
+  "row_count_total": 10165,
   "rows": [
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:16:28.130529+00:00",
+      "context_as_of": "2026-07-06T05:15:35.339805+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -57,7 +57,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:16:09.148920+00:00",
+      "context_as_of": "2026-07-06T05:15:14.016265+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -68,7 +68,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:16:21.974727+00:00",
+      "context_as_of": "2026-07-06T05:15:29.575798+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -244,7 +244,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:26:42.187019+00:00",
+      "context_as_of": "2026-07-06T09:01:24.624431+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -486,17 +486,6 @@
     },
     {
       "asset_class": "etf",
-      "context_as_of": "2026-06-19T06:15:38.311899+00:00",
-      "daily_context_present": true,
-      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
-      "quality_status": "persisted_atlas_wit_v2",
-      "sitemap_lastmod": "2026-06-20",
-      "source_count": 2,
-      "symbol": "AAUM",
-      "url": "https://atlas.freedomcore.io/stocks/AAUM/"
-    },
-    {
-      "asset_class": "etf",
       "context_as_of": "2026-06-19T06:15:38.318077+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
@@ -508,7 +497,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.995030+00:00",
+      "context_as_of": "2026-07-06T05:00:05.436791+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -1245,7 +1234,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:42:11.022243+00:00",
+      "context_as_of": "2026-07-06T09:04:32.794979+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -1278,7 +1267,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-04T13:30:15.407295+00:00",
+      "context_as_of": "2026-07-06T08:24:16.250281+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -1630,7 +1619,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.623975+00:00",
+      "context_as_of": "2026-07-06T05:00:03.676932+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -1773,7 +1762,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.536953+00:00",
+      "context_as_of": "2026-07-06T05:00:06.946580+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -2180,7 +2169,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:16:17.175318+00:00",
+      "context_as_of": "2026-07-06T05:15:20.405058+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -4028,7 +4017,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.987347+00:00",
+      "context_as_of": "2026-07-06T05:00:06.718716+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -7702,7 +7691,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.597694+00:00",
+      "context_as_of": "2026-07-06T05:00:05.121759+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -8109,7 +8098,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.938431+00:00",
+      "context_as_of": "2026-07-06T05:00:06.681554+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -8549,7 +8538,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.975115+00:00",
+      "context_as_of": "2026-07-06T05:00:04.499078+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -9473,7 +9462,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T08:21:40.684117+00:00",
+      "context_as_of": "2026-07-06T09:36:30.654238+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -10122,7 +10111,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:13:47.284868+00:00",
+      "context_as_of": "2026-07-06T05:13:26.917411+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -10265,7 +10254,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-04T11:49:13.684210+00:00",
+      "context_as_of": "2026-07-06T08:42:26.761985+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -10815,7 +10804,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.570395+00:00",
+      "context_as_of": "2026-07-06T05:00:06.115790+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -10991,7 +10980,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.489440+00:00",
+      "context_as_of": "2026-07-06T05:00:04.009357+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -11453,7 +11442,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.607675+00:00",
+      "context_as_of": "2026-07-06T05:00:07.043653+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -11508,7 +11497,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.859277+00:00",
+      "context_as_of": "2026-07-06T05:00:06.559796+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -12069,7 +12058,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.020926+00:00",
+      "context_as_of": "2026-07-06T05:00:05.511446+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -12102,7 +12091,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.250761+00:00",
+      "context_as_of": "2026-07-06T05:00:05.694017+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -12608,7 +12597,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.281485+00:00",
+      "context_as_of": "2026-07-06T05:00:07.000699+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -14236,7 +14225,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:06.830346+00:00",
+      "context_as_of": "2026-07-06T05:00:03.042274+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -14874,7 +14863,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:13:41.801333+00:00",
+      "context_as_of": "2026-07-06T05:13:20.994762+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -15391,7 +15380,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-29T09:20:30.733601+00:00",
+      "context_as_of": "2026-07-06T08:40:48.542499+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -16205,7 +16194,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T08:18:07.215578+00:00",
+      "context_as_of": "2026-07-06T08:14:10.793651+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -16799,7 +16788,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.330051+00:00",
+      "context_as_of": "2026-07-06T05:00:04.836505+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -18295,7 +18284,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:27:34.795084+00:00",
+      "context_as_of": "2026-07-06T09:08:27.613216+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -18801,7 +18790,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.923999+00:00",
+      "context_as_of": "2026-07-06T05:00:03.943427+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -21683,7 +21672,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-03T21:42:27.116297+00:00",
+      "context_as_of": "2026-07-06T08:28:14.282563+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -23102,7 +23091,7 @@
     },
     {
       "asset_class": "commodity",
-      "context_as_of": "2026-07-05T05:07:01.300211+00:00",
+      "context_as_of": "2026-07-06T05:06:23.434865+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -24499,7 +24488,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.071804+00:00",
+      "context_as_of": "2026-07-06T05:00:04.602851+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -24873,7 +24862,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T09:25:49.722399+00:00",
+      "context_as_of": "2026-07-06T09:40:41.565079+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -26457,7 +26446,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.547602+00:00",
+      "context_as_of": "2026-07-06T05:00:04.109585+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -27513,7 +27502,7 @@
     },
     {
       "asset_class": "index",
-      "context_as_of": "2026-07-05T05:13:38.090314+00:00",
+      "context_as_of": "2026-07-06T05:13:16.788548+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -27843,7 +27832,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.399720+00:00",
+      "context_as_of": "2026-07-06T05:00:05.788913+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -29823,7 +29812,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:07.074885+00:00",
+      "context_as_of": "2026-07-06T05:00:03.421058+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -29944,7 +29933,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.798238+00:00",
+      "context_as_of": "2026-07-06T05:00:05.329810+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -30648,7 +30637,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:15:27.194265+00:00",
+      "context_as_of": "2026-07-06T05:14:31.461122+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -31594,7 +31583,7 @@
     },
     {
       "asset_class": "index",
-      "context_as_of": "2026-07-05T05:07:39.643952+00:00",
+      "context_as_of": "2026-07-06T05:07:01.610984+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -31946,7 +31935,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-04T11:54:56.182910+00:00",
+      "context_as_of": "2026-07-06T08:47:32.068340+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -31957,7 +31946,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T08:56:10.634039+00:00",
+      "context_as_of": "2026-07-06T08:27:26.867853+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -32144,7 +32133,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-04T11:51:21.638145+00:00",
+      "context_as_of": "2026-07-06T08:30:19.366792+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -34366,7 +34355,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.422587+00:00",
+      "context_as_of": "2026-07-06T05:00:06.871722+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -34377,7 +34366,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-01T10:03:22.003312+00:00",
+      "context_as_of": "2026-07-06T08:21:18.024838+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -34399,7 +34388,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:15:42.562957+00:00",
+      "context_as_of": "2026-07-06T05:14:49.397927+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -34414,7 +34403,7 @@
       "daily_context_present": false,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "metadata-only",
-      "sitemap_lastmod": "2026-07-04",
+      "sitemap_lastmod": "2026-07-06",
       "source_count": 0,
       "symbol": "ENERGY-STOCKS",
       "url": "https://atlas.freedomcore.io/stocks/energy-stocks/"
@@ -34575,7 +34564,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-04T11:28:09.955192+00:00",
+      "context_as_of": "2026-07-06T08:41:32.620893+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -35246,7 +35235,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T13:21:10.859271+00:00",
+      "context_as_of": "2026-07-06T15:22:04.621090+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -35807,7 +35796,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.366488+00:00",
+      "context_as_of": "2026-07-06T05:00:05.891391+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -35873,7 +35862,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T08:19:31.448163+00:00",
+      "context_as_of": "2026-07-06T08:15:41.641374+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -36291,7 +36280,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.645653+00:00",
+      "context_as_of": "2026-07-06T05:00:07.120371+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -36335,7 +36324,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.469034+00:00",
+      "context_as_of": "2026-07-06T05:00:06.024436+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -38150,7 +38139,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:36:29.958639+00:00",
+      "context_as_of": "2026-07-06T09:09:50.896489+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -38810,7 +38799,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T09:00:22.461155+00:00",
+      "context_as_of": "2026-07-06T08:31:12.467002+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -39921,7 +39910,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:07.023058+00:00",
+      "context_as_of": "2026-07-06T05:00:03.312237+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -39965,7 +39954,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.723727+00:00",
+      "context_as_of": "2026-07-06T05:00:08.693993+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -40911,7 +40900,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.852821+00:00",
+      "context_as_of": "2026-07-06T05:00:08.731620+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -44574,7 +44563,7 @@
     },
     {
       "asset_class": "forex",
-      "context_as_of": "2026-07-04T18:00:30.606323+00:00",
+      "context_as_of": "2026-07-06T08:17:00.554061+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -45784,7 +45773,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.910839+00:00",
+      "context_as_of": "2026-07-06T05:00:08.774029+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -46048,7 +46037,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-04T01:29:11.166288+00:00",
+      "context_as_of": "2026-07-06T08:35:12.603950+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -47819,7 +47808,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:09.032219+00:00",
+      "context_as_of": "2026-07-06T05:00:04.054381+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -48413,7 +48402,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:13:56.767518+00:00",
+      "context_as_of": "2026-07-06T05:13:36.513241+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -48589,7 +48578,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.519408+00:00",
+      "context_as_of": "2026-07-06T05:00:06.971840+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -48872,6 +48861,17 @@
       "source_count": 2,
       "symbol": "GTY",
       "url": "https://atlas.freedomcore.io/stocks/GTY/"
+    },
+    {
+      "asset_class": "unknown",
+      "context_as_of": "",
+      "daily_context_present": false,
+      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
+      "quality_status": "metadata-only",
+      "sitemap_lastmod": "2026-07-06",
+      "source_count": 0,
+      "symbol": "GUAC",
+      "url": "https://atlas.freedomcore.io/stocks/GUAC/"
     },
     {
       "asset_class": "equity",
@@ -49535,7 +49535,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:01:16.936519+00:00",
+      "context_as_of": "2026-07-06T05:00:10.368530+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -49634,7 +49634,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.745224+00:00",
+      "context_as_of": "2026-07-06T05:00:04.312830+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -50954,7 +50954,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T09:28:53.612453+00:00",
+      "context_as_of": "2026-07-06T09:44:33.315869+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -52153,7 +52153,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.730018+00:00",
+      "context_as_of": "2026-07-06T05:00:05.195111+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -52835,7 +52835,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:07.048310+00:00",
+      "context_as_of": "2026-07-06T05:00:03.385925+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -54254,7 +54254,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.186243+00:00",
+      "context_as_of": "2026-07-06T05:00:05.659613+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -54350,6 +54350,17 @@
       "source_count": 13,
       "symbol": "IDA",
       "url": "https://atlas.freedomcore.io/stocks/IDA/"
+    },
+    {
+      "asset_class": "unknown",
+      "context_as_of": "",
+      "daily_context_present": false,
+      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
+      "quality_status": "metadata-only",
+      "sitemap_lastmod": "2026-07-06",
+      "source_count": 0,
+      "symbol": "IDAC",
+      "url": "https://atlas.freedomcore.io/stocks/IDAC/"
     },
     {
       "asset_class": "equity",
@@ -56454,11 +56465,11 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-03T17:49:49.500861+00:00",
+      "context_as_of": "2026-07-06T08:23:18.646217+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
-      "sitemap_lastmod": "2026-07-01",
+      "sitemap_lastmod": "2026-07-06",
       "source_count": 5,
       "symbol": "ING",
       "url": "https://atlas.freedomcore.io/stocks/ING/"
@@ -58830,7 +58841,7 @@
     },
     {
       "asset_class": "etf",
-      "context_as_of": "2026-07-05T05:13:35.415075+00:00",
+      "context_as_of": "2026-07-06T05:13:15.105306+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -59270,7 +59281,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.683872+00:00",
+      "context_as_of": "2026-07-06T05:00:07.155940+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -60403,7 +60414,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:45:45.071006+00:00",
+      "context_as_of": "2026-07-06T09:14:25.580479+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -60755,7 +60766,7 @@
     },
     {
       "asset_class": "index",
-      "context_as_of": "2026-07-06T03:27:07.789618+00:00",
+      "context_as_of": "2026-07-07T03:21:21.253647+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -61118,7 +61129,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.145969+00:00",
+      "context_as_of": "2026-07-06T05:00:06.772246+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -61173,7 +61184,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.677790+00:00",
+      "context_as_of": "2026-07-06T05:00:06.243190+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -61415,7 +61426,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.044507+00:00",
+      "context_as_of": "2026-07-06T05:00:06.637570+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -61657,7 +61668,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.755585+00:00",
+      "context_as_of": "2026-07-06T05:00:06.489786+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -61932,7 +61943,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.607450+00:00",
+      "context_as_of": "2026-07-06T05:00:05.995990+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -62977,7 +62988,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T09:43:34.060927+00:00",
+      "context_as_of": "2026-07-06T11:22:43.327981+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -63384,7 +63395,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-04T12:01:02.294655+00:00",
+      "context_as_of": "2026-07-06T08:57:18.240872+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "deterministic_fallback_wit_v1",
@@ -64000,7 +64011,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.982326+00:00",
+      "context_as_of": "2026-07-06T05:00:03.978423+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -64946,7 +64957,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.502143+00:00",
+      "context_as_of": "2026-07-06T05:00:03.595692+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -65672,7 +65683,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.815217+00:00",
+      "context_as_of": "2026-07-06T05:00:03.899065+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -65716,7 +65727,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:01:16.915401+00:00",
+      "context_as_of": "2026-07-06T05:00:08.652766+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -65825,17 +65836,6 @@
       "url": "https://atlas.freedomcore.io/stocks/LIVN/"
     },
     {
-      "asset_class": "equity",
-      "context_as_of": "2026-06-21T08:18:01.390724+00:00",
-      "daily_context_present": true,
-      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
-      "quality_status": "persisted_atlas_wit_v2",
-      "sitemap_lastmod": "2026-06-21",
-      "source_count": 2,
-      "symbol": "LIXT",
-      "url": "https://atlas.freedomcore.io/stocks/LIXT/"
-    },
-    {
       "asset_class": "etf",
       "context_as_of": "2026-06-19T06:16:14.505900+00:00",
       "daily_context_present": true,
@@ -65914,7 +65914,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:13:44.795143+00:00",
+      "context_as_of": "2026-07-06T05:13:24.193545+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -66332,7 +66332,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-30T15:40:48.918494+00:00",
+      "context_as_of": "2026-07-06T08:38:55.643434+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -67113,7 +67113,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.707043+00:00",
+      "context_as_of": "2026-07-06T05:00:04.247219+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -67135,7 +67135,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:47:48.260473+00:00",
+      "context_as_of": "2026-07-06T09:22:00.311601+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -67630,7 +67630,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.485144+00:00",
+      "context_as_of": "2026-07-06T05:00:05.080003+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -68620,7 +68620,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T06:17:49.297448+00:00",
+      "context_as_of": "2026-07-06T06:14:24.823103+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -69456,7 +69456,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T08:18:53.958842+00:00",
+      "context_as_of": "2026-07-06T08:15:01.999616+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -71348,7 +71348,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.763656+00:00",
+      "context_as_of": "2026-07-06T05:00:05.367513+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -71524,7 +71524,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T09:22:53.867161+00:00",
+      "context_as_of": "2026-07-06T09:46:54.960171+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -71590,7 +71590,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.085659+00:00",
+      "context_as_of": "2026-07-06T05:00:05.558797+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -71942,7 +71942,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-04T12:03:09.502551+00:00",
+      "context_as_of": "2026-07-06T08:45:30.574768+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -75022,7 +75022,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.117697+00:00",
+      "context_as_of": "2026-07-06T05:00:04.653084+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -75209,7 +75209,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:15:45.076159+00:00",
+      "context_as_of": "2026-07-06T05:14:52.215557+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -75352,7 +75352,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.218461+00:00",
+      "context_as_of": "2026-07-06T05:00:06.809825+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -75572,7 +75572,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T08:32:18.610647+00:00",
+      "context_as_of": "2026-07-06T05:14:23.715295+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -75825,7 +75825,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:14.037313+00:00",
+      "context_as_of": "2026-07-06T05:00:08.813310+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -76130,6 +76130,17 @@
       "source_count": 13,
       "symbol": "NLY",
       "url": "https://atlas.freedomcore.io/stocks/NLY/"
+    },
+    {
+      "asset_class": "unknown",
+      "context_as_of": "",
+      "daily_context_present": false,
+      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
+      "quality_status": "metadata-only",
+      "sitemap_lastmod": "2026-07-06",
+      "source_count": 0,
+      "symbol": "NMAD",
+      "url": "https://atlas.freedomcore.io/stocks/NMAD/"
     },
     {
       "asset_class": "equity",
@@ -76606,11 +76617,11 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-03T16:01:17.267265+00:00",
+      "context_as_of": "2026-07-06T08:18:16.375303+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
-      "sitemap_lastmod": "2026-07-02",
+      "sitemap_lastmod": "2026-07-06",
       "source_count": 7,
       "symbol": "NOVN",
       "url": "https://atlas.freedomcore.io/stocks/NOVN/"
@@ -77024,7 +77035,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-02T13:35:59.840647+00:00",
+      "context_as_of": "2026-07-06T08:25:58.333655+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -78212,11 +78223,11 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-03T16:16:02.295433+00:00",
+      "context_as_of": "2026-07-06T08:19:36.247330+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
-      "quality_status": "deterministic_fallback_wit_v1",
-      "sitemap_lastmod": "2026-07-02",
+      "quality_status": "validated",
+      "sitemap_lastmod": "2026-07-06",
       "source_count": 5,
       "symbol": "NVS",
       "url": "https://atlas.freedomcore.io/stocks/NVS/"
@@ -79741,7 +79752,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.627626+00:00",
+      "context_as_of": "2026-07-06T05:00:05.155473+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -80148,7 +80159,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.668255+00:00",
+      "context_as_of": "2026-07-06T05:00:05.225295+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -80698,7 +80709,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:15:32.952273+00:00",
+      "context_as_of": "2026-07-06T05:14:39.015871+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -81611,7 +81622,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T09:06:56.068263+00:00",
+      "context_as_of": "2026-07-06T08:35:58.843335+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -82139,7 +82150,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.533029+00:00",
+      "context_as_of": "2026-07-06T05:00:05.024222+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -83503,7 +83514,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.314820+00:00",
+      "context_as_of": "2026-07-06T05:00:05.843205+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -84229,7 +84240,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.115232+00:00",
+      "context_as_of": "2026-07-06T05:00:05.625643+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -85714,7 +85725,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.091606+00:00",
+      "context_as_of": "2026-07-06T05:00:06.740653+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -86670,6 +86681,17 @@
       "url": "https://atlas.freedomcore.io/stocks/PRVS/"
     },
     {
+      "asset_class": "unknown",
+      "context_as_of": "",
+      "daily_context_present": false,
+      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
+      "quality_status": "metadata-only",
+      "sitemap_lastmod": "2026-07-06",
+      "source_count": 0,
+      "symbol": "PRVT",
+      "url": "https://atlas.freedomcore.io/stocks/PRVT/"
+    },
+    {
       "asset_class": "etf",
       "context_as_of": "2026-06-19T06:16:25.336126+00:00",
       "daily_context_present": true,
@@ -87385,6 +87407,17 @@
       "url": "https://atlas.freedomcore.io/stocks/PSX/"
     },
     {
+      "asset_class": "unknown",
+      "context_as_of": "",
+      "daily_context_present": false,
+      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
+      "quality_status": "metadata-only",
+      "sitemap_lastmod": "2026-07-06",
+      "source_count": 0,
+      "symbol": "PTAC",
+      "url": "https://atlas.freedomcore.io/stocks/PTAC/"
+    },
+    {
       "asset_class": "etf",
       "context_as_of": "2026-06-19T06:16:25.753739+00:00",
       "daily_context_present": true,
@@ -87716,7 +87749,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.822845+00:00",
+      "context_as_of": "2026-07-06T05:00:08.611649+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -88101,7 +88134,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.040719+00:00",
+      "context_as_of": "2026-07-06T05:00:04.555999+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -89234,7 +89267,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.519900+00:00",
+      "context_as_of": "2026-07-06T05:00:06.148416+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -89674,7 +89707,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:47:03.824026+00:00",
+      "context_as_of": "2026-07-06T09:23:47.032016+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -90378,7 +90411,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:07.101341+00:00",
+      "context_as_of": "2026-07-06T05:00:03.547154+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -90598,7 +90631,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T09:05:19.720701+00:00",
+      "context_as_of": "2026-07-06T09:51:03.640330+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -90785,11 +90818,11 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T09:07:42.601220+00:00",
+      "context_as_of": "2026-07-06T08:37:59.477017+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
-      "quality_status": "validated",
-      "sitemap_lastmod": "2026-07-05",
+      "quality_status": "deterministic_fallback_wit_v1",
+      "sitemap_lastmod": "2026-07-06",
       "source_count": 5,
       "symbol": "RCI",
       "url": "https://atlas.freedomcore.io/stocks/RCI/"
@@ -91434,7 +91467,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:16:32.903890+00:00",
+      "context_as_of": "2026-07-06T05:15:38.615949+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -91511,7 +91544,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.889662+00:00",
+      "context_as_of": "2026-07-06T05:00:06.585343+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -92314,7 +92347,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:25:54.012250+00:00",
+      "context_as_of": "2026-07-06T09:27:40.666272+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -92677,7 +92710,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.697188+00:00",
+      "context_as_of": "2026-07-06T05:00:05.260566+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -93172,7 +93205,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:15:57.452065+00:00",
+      "context_as_of": "2026-07-06T05:15:06.047604+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -97638,7 +97671,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T06:17:36.686786+00:00",
+      "context_as_of": "2026-07-06T06:14:12.887917+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -97671,7 +97704,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.229233+00:00",
+      "context_as_of": "2026-07-06T05:00:04.721067+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -98012,7 +98045,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:15:24.447440+00:00",
+      "context_as_of": "2026-07-06T05:14:28.268423+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -98639,7 +98672,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.055226+00:00",
+      "context_as_of": "2026-07-06T05:00:05.474518+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -99915,7 +99948,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-29T09:05:42.294454+00:00",
+      "context_as_of": "2026-07-06T08:34:09.700840+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -100487,10 +100520,10 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T08:24:04.514033+00:00",
+      "context_as_of": "2026-07-06T08:16:23.113028+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
-      "quality_status": "deterministic_fallback_wit_v1",
+      "quality_status": "validated",
       "sitemap_lastmod": "2026-07-04",
       "source_count": 6,
       "symbol": "SOL",
@@ -101136,17 +101169,6 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-21T08:18:10.772380+00:00",
-      "daily_context_present": true,
-      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
-      "quality_status": "persisted_atlas_wit_v2",
-      "sitemap_lastmod": "2026-06-21",
-      "source_count": 2,
-      "symbol": "SPE",
-      "url": "https://atlas.freedomcore.io/stocks/SPE/"
-    },
-    {
-      "asset_class": "equity",
       "context_as_of": "2026-06-21T08:18:10.778784+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
@@ -101155,28 +101177,6 @@
       "source_count": 2,
       "symbol": "SPEG",
       "url": "https://atlas.freedomcore.io/stocks/SPEG/"
-    },
-    {
-      "asset_class": "etf",
-      "context_as_of": "2026-06-19T06:16:33.203943+00:00",
-      "daily_context_present": true,
-      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
-      "quality_status": "persisted_atlas_wit_v2",
-      "sitemap_lastmod": "2026-06-20",
-      "source_count": 2,
-      "symbol": "SPEM",
-      "url": "https://atlas.freedomcore.io/stocks/SPEM/"
-    },
-    {
-      "asset_class": "etf",
-      "context_as_of": "2026-06-19T06:16:33.212179+00:00",
-      "daily_context_present": true,
-      "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
-      "quality_status": "persisted_atlas_wit_v2",
-      "sitemap_lastmod": "2026-06-20",
-      "source_count": 2,
-      "symbol": "SPEU",
-      "url": "https://atlas.freedomcore.io/stocks/SPEU/"
     },
     {
       "asset_class": "equity",
@@ -101708,7 +101708,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.810294+00:00",
+      "context_as_of": "2026-07-06T05:00:06.392308+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -101994,7 +101994,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.897770+00:00",
+      "context_as_of": "2026-07-06T05:00:04.448471+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -102500,7 +102500,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.371860+00:00",
+      "context_as_of": "2026-07-06T05:00:04.908235+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -102852,7 +102852,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:16:36.837349+00:00",
+      "context_as_of": "2026-07-06T05:15:41.191189+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -103032,7 +103032,7 @@
       "daily_context_present": false,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "metadata-only",
-      "sitemap_lastmod": "2026-07-05",
+      "sitemap_lastmod": "2026-07-06",
       "source_count": 0,
       "symbol": "TECHNOLOGY-STOCKS",
       "url": "https://atlas.freedomcore.io/stocks/technology-stocks/"
@@ -104029,7 +104029,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T08:55:46.560857+00:00",
+      "context_as_of": "2026-07-06T09:52:32.007514+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -104293,7 +104293,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:06.990622+00:00",
+      "context_as_of": "2026-07-06T05:00:03.279830+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -104898,7 +104898,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T08:45:20.350241+00:00",
+      "context_as_of": "2026-07-06T08:20:25.872757+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105008,7 +105008,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.440002+00:00",
+      "context_as_of": "2026-07-06T05:00:05.945185+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105327,7 +105327,7 @@
     },
     {
       "asset_class": "index",
-      "context_as_of": "2026-07-06T03:27:15.885996+00:00",
+      "context_as_of": "2026-07-07T03:21:32.000119+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -105426,7 +105426,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-05T05:13:59.161520+00:00",
+      "context_as_of": "2026-07-06T05:13:39.106154+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -105503,7 +105503,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.446650+00:00",
+      "context_as_of": "2026-07-06T05:00:04.960545+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105778,7 +105778,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:01:15.510639+00:00",
+      "context_as_of": "2026-07-06T05:00:08.899987+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105789,7 +105789,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.595358+00:00",
+      "context_as_of": "2026-07-06T05:00:04.145625+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105800,7 +105800,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:06.872462+00:00",
+      "context_as_of": "2026-07-06T05:00:03.100151+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105811,7 +105811,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.952129+00:00",
+      "context_as_of": "2026-07-06T05:00:05.388882+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105822,7 +105822,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.674769+00:00",
+      "context_as_of": "2026-07-06T05:00:04.191211+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105833,7 +105833,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.913642+00:00",
+      "context_as_of": "2026-07-06T05:00:05.411304+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105844,7 +105844,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.866773+00:00",
+      "context_as_of": "2026-07-06T05:00:04.407656+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105855,7 +105855,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.635924+00:00",
+      "context_as_of": "2026-07-06T05:00:06.194264+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105877,7 +105877,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:07.133534+00:00",
+      "context_as_of": "2026-07-06T05:00:03.495029+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105888,7 +105888,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:06.785687+00:00",
+      "context_as_of": "2026-07-06T05:00:02.957668+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105899,7 +105899,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.566334+00:00",
+      "context_as_of": "2026-07-06T05:00:06.917328+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -105921,7 +105921,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.351619+00:00",
+      "context_as_of": "2026-07-06T05:00:04.879818+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -106086,7 +106086,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:12.716159+00:00",
+      "context_as_of": "2026-07-06T05:00:06.317548+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -106130,7 +106130,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:10.810770+00:00",
+      "context_as_of": "2026-07-06T05:00:04.371291+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -106966,7 +106966,7 @@
     },
     {
       "asset_class": "index",
-      "context_as_of": "2026-07-05T05:07:35.222409+00:00",
+      "context_as_of": "2026-07-06T05:06:57.764121+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "persisted_atlas_wit_v2",
@@ -107648,7 +107648,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-04T05:01:45.142734+00:00",
+      "context_as_of": "2026-07-06T05:00:10.348768+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -107868,7 +107868,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.749120+00:00",
+      "context_as_of": "2026-07-06T05:00:03.793604+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -108286,7 +108286,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.859634+00:00",
+      "context_as_of": "2026-07-06T05:00:05.299683+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -108330,7 +108330,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.559721+00:00",
+      "context_as_of": "2026-07-06T05:00:05.049177+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -108781,7 +108781,7 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-06-28T03:21:01.190822+00:00",
+      "context_as_of": "2026-07-06T09:31:30.257908+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -108814,7 +108814,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:11.260280+00:00",
+      "context_as_of": "2026-07-06T05:00:04.781602+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -108935,7 +108935,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:13.970087+00:00",
+      "context_as_of": "2026-07-06T05:00:08.850055+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -109056,7 +109056,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.684371+00:00",
+      "context_as_of": "2026-07-06T05:00:03.744543+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -109100,7 +109100,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.774700+00:00",
+      "context_as_of": "2026-07-06T05:00:03.830063+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -109265,7 +109265,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:06.914892+00:00",
+      "context_as_of": "2026-07-06T05:00:03.127587+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
@@ -109837,7 +109837,7 @@
     },
     {
       "asset_class": "crypto",
-      "context_as_of": "2026-07-05T05:00:08.553607+00:00",
+      "context_as_of": "2026-07-06T05:00:03.626146+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
