@@ -1,50 +1,50 @@
 {
-  "content_hash": "bf3ec820bc1027104938d470b66d59d0a69011abbe01d735d05fda6281e0f4ed",
-  "current_version": "20260707-322d6c3243b6",
+  "content_hash": "a529910283494ff1ad72f324a7e3dc501899f0321322c6278c9164de66f33222",
+  "current_version": "20260708-80a83eb537c6",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-07T04:13:05Z",
+  "generated_at": "2026-07-08T04:13:23Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-07T03:21:32.000119+00:00",
+    "as_of": "2026-07-08T03:40:03.985561+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-07-07T03:22:49+00:00",
-    "headline": "970 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-07-08T03:41:18+00:00",
+    "headline": "1095 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-07-04T15:34:54.366002+00:00",
+        "as_of": "2026-07-07T08:38:38.321802+00:00",
         "asset_class": "equity",
         "asset_label": "Stocks & Shares",
         "href": "/stocks/NVDA/",
         "name": "NVIDIA Corporation",
-        "snippet": "The most significant corporate development for NVIDIA Corporation is the appointment of Nicholas Parker as Executive Vice President of Worldwide Field Operations, effective August 24, 2026, as disclosed in an 8-K filing on July 2...",
+        "snippet": "NVIDIA Corporation has announced the appointment of Nicholas Parker as its new Executive Vice President of Worldwide Field Operations, effective August 24, 2026, following the retirement of Ajay K. Puri who served in the role for...",
         "source_count": 13,
         "ticker": "NVDA",
-        "updated": "2026-07-04"
+        "updated": "2026-07-07"
       },
       {
-        "as_of": "2026-07-06T08:14:10.793651+00:00",
+        "as_of": "2026-07-07T22:29:52.748907+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "The launch of the first Bitcoin block, known as the genesis block, was mined on January 9, 2009, marking the official launch of the Bitcoin network. This historical development established a decentralized network that operates...",
-        "source_count": 3,
+        "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
+        "source_count": 5,
         "ticker": "BTC",
-        "updated": "2026-07-06"
+        "updated": "2026-07-07"
       },
       {
-        "as_of": "2026-07-04T17:59:03.092381+00:00",
+        "as_of": "2026-07-07T09:07:15.086954+00:00",
         "asset_class": "commodity",
         "asset_label": "Commodities",
         "href": "/stocks/GOLD/",
         "name": "Gold Spot",
-        "snippet": "The global gold market is experiencing a significant transition from regulatory dialogue to active structural implementation, marked by the London Bullion Market Association launching a public consultation on version 10 of its...",
+        "snippet": "The latest Central Bank Gold Reserves Survey 2026, released by the World Gold Council, confirms a sustained period of aggressive accumulation by sovereign nations, following the significant trends documented in the 2025 survey...",
         "source_count": 8,
         "ticker": "GOLD",
-        "updated": "2026-07-04"
+        "updated": "2026-07-07"
       },
       {
         "as_of": "2026-07-04T17:59:48.081158+00:00",
@@ -58,7 +58,7 @@
         "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-07-06T05:07:01.610984+00:00",
+        "as_of": "2026-07-07T05:24:36.801129+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,7 +66,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-07-06"
+        "updated": "2026-07-07"
       },
       {
         "as_of": "2026-07-04T15:35:48.058272+00:00",
@@ -82,7 +82,7 @@
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 970
+    "validated_count": 1095
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
