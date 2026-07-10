@@ -1,39 +1,39 @@
 {
-  "content_hash": "1b6293d87691acb055d12518c90c4a2fec6d13a6f4a68fa4e928d051892e2868",
-  "current_version": "20260709-19626bea32fd",
+  "content_hash": "7a6156b9e743abffa976ff4b393200e9ef2485662abced951231c6bcb45c84c7",
+  "current_version": "20260710-fd4b0a4301db",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-09T04:12:36Z",
+  "generated_at": "2026-07-10T04:13:19Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-09T03:36:40.488752+00:00",
+    "as_of": "2026-07-10T04:01:13.632962+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-07-09T03:38:02+00:00",
-    "headline": "1101 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-07-10T04:02:40+00:00",
+    "headline": "1125 validated daily briefs live across Atlas coverage",
     "items": [
       {
-        "as_of": "2026-07-08T08:20:52.276536+00:00",
+        "as_of": "2026-07-09T08:24:55.646734+00:00",
         "asset_class": "equity",
         "asset_label": "Stocks & Shares",
         "href": "/stocks/NVDA/",
         "name": "NVIDIA Corporation",
-        "snippet": "The board of NVIDIA Corporation was expanded with the appointment of a new director as disclosed in an 8-K filing on July 2, 2026. This newly appointed director brings significant enterprise technology experience, having recently...",
+        "snippet": "NVIDIA Corporation has filed a 10-Q report for the period ending 2026-04-26, revealing revenues of $81.61 billion and a net income attributable to the parent of $58.32 billion, figures that underscore the sheer scale of its...",
         "source_count": 13,
         "ticker": "NVDA",
-        "updated": "2026-07-08"
+        "updated": "2026-07-09"
       },
       {
-        "as_of": "2026-07-08T08:22:09.177879+00:00",
+        "as_of": "2026-07-09T08:28:17.535513+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin has experienced downward pressure, dropping amid geopolitical tensions and sales from corporate accumulator MicroStrategy. According to market data, the digital asset recorded $230,339 in transaction fees over a...",
+        "snippet": "Bitcoin\u2019s public archive still carries the headline of the day it was born: \u2018The Times 03/Jan/2009 Chancellor on brink of second bailout for banks\u2019. That single Times front page is now a museum artefact pinned beneath the genesis...",
         "source_count": 3,
         "ticker": "BTC",
-        "updated": "2026-07-08"
+        "updated": "2026-07-09"
       },
       {
         "as_of": "2026-07-08T08:51:34.532486+00:00",
@@ -58,7 +58,7 @@
         "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-07-08T05:07:47.351464+00:00",
+        "as_of": "2026-07-09T05:07:01.842725+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,7 +66,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-07-08"
+        "updated": "2026-07-09"
       },
       {
         "as_of": "2026-07-08T08:21:37.731285+00:00",
@@ -82,7 +82,7 @@
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 1101
+    "validated_count": 1125
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
