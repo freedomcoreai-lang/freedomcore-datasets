@@ -1,16 +1,16 @@
 {
-  "content_hash": "7a6156b9e743abffa976ff4b393200e9ef2485662abced951231c6bcb45c84c7",
-  "current_version": "20260710-fd4b0a4301db",
+  "content_hash": "435026f1c2b3fb20eefbb082cc239997e587fc8cdcd39d3efc688190192d2e36",
+  "current_version": "20260711-ea38f79510c8",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-10T04:13:19Z",
+  "generated_at": "2026-07-11T04:13:48Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-10T04:01:13.632962+00:00",
+    "as_of": "2026-07-10T06:16:51.381598+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-07-10T04:02:40+00:00",
+    "generated_at": "2026-07-10T06:39:20+00:00",
     "headline": "1125 validated daily briefs live across Atlas coverage",
     "items": [
       {
@@ -25,15 +25,15 @@
         "updated": "2026-07-09"
       },
       {
-        "as_of": "2026-07-09T08:28:17.535513+00:00",
+        "as_of": "2026-07-10T05:00:04.245028+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
         "name": "Bitcoin",
-        "snippet": "Bitcoin\u2019s public archive still carries the headline of the day it was born: \u2018The Times 03/Jan/2009 Chancellor on brink of second bailout for banks\u2019. That single Times front page is now a museum artefact pinned beneath the genesis...",
-        "source_count": 3,
+        "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
+        "source_count": 5,
         "ticker": "BTC",
-        "updated": "2026-07-09"
+        "updated": "2026-07-10"
       },
       {
         "as_of": "2026-07-08T08:51:34.532486+00:00",
@@ -58,7 +58,7 @@
         "updated": "2026-07-04"
       },
       {
-        "as_of": "2026-07-09T05:07:01.842725+00:00",
+        "as_of": "2026-07-10T05:07:27.867650+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,7 +66,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-07-09"
+        "updated": "2026-07-10"
       },
       {
         "as_of": "2026-07-08T08:21:37.731285+00:00",
