@@ -1,17 +1,17 @@
 {
-  "content_hash": "f56f67b36a0de0c816e569f22b5e563e2ddd36c69bbb939cdf92a67ba56d5a3f",
-  "current_version": "20260713-b607693979b5",
+  "content_hash": "3086eedb9d6ff65b44ec9def490553b702d13476b55e1ac7e3b6b486834f3889",
+  "current_version": "20260713-d9b3af66611b",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-13T04:13:51Z",
+  "generated_at": "2026-07-13T23:13:45Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-12T06:13:40.136302+00:00",
+    "as_of": "2026-07-13T08:29:24.887691+00:00",
     "coverage_count": 10000,
     "disclaimer": "Research only. Not financial advice. No brokerage execution.",
-    "generated_at": "2026-07-12T08:13:19+00:00",
-    "headline": "1134 validated daily briefs live across Atlas coverage",
+    "generated_at": "2026-07-13T08:30:59+00:00",
+    "headline": "1139 validated daily briefs live across Atlas coverage",
     "items": [
       {
         "as_of": "2026-07-10T08:47:17.968187+00:00",
@@ -25,7 +25,7 @@
         "updated": "2026-07-10"
       },
       {
-        "as_of": "2026-07-12T05:00:02.746653+00:00",
+        "as_of": "2026-07-13T05:00:06.009149+00:00",
         "asset_class": "crypto",
         "asset_label": "Crypto",
         "href": "/stocks/BTC/",
@@ -33,7 +33,7 @@
         "snippet": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a...",
         "source_count": 5,
         "ticker": "BTC",
-        "updated": "2026-07-12"
+        "updated": "2026-07-13"
       },
       {
         "as_of": "2026-07-08T08:51:34.532486+00:00",
@@ -47,18 +47,18 @@
         "updated": "2026-07-08"
       },
       {
-        "as_of": "2026-07-04T17:59:48.081158+00:00",
+        "as_of": "2026-07-12T23:27:23.691327+00:00",
         "asset_class": "forex",
         "asset_label": "Forex",
         "href": "/stocks/EURUSD/",
         "name": "Euro / US Dollar",
-        "snippet": "The European Central Bank maintains the euro reference exchange rates, which are published to four decimal places, while the official conversion rate for countries joining the currency area, such as Bulgaria, is specified to five...",
+        "snippet": "The European Central Bank maintains a strict division in its exchange rate reporting, publishing its daily euro foreign exchange reference rates with four decimal places while using a five decimal place standard for official euro...",
         "source_count": 10,
         "ticker": "EURUSD",
-        "updated": "2026-07-04"
+        "updated": "2026-07-12"
       },
       {
-        "as_of": "2026-07-12T05:07:35.656695+00:00",
+        "as_of": "2026-07-13T05:09:00.159353+00:00",
         "asset_class": "index",
         "asset_label": "Indices",
         "href": "/stocks/DXY/",
@@ -66,7 +66,7 @@
         "snippet": "The US Dollar Index (USDX) futures contract serves as a primary benchmark for tracking the performance of the United States dollar against a basket of foreign currencies, operating under the strict supervision of the...",
         "source_count": 6,
         "ticker": "DXY",
-        "updated": "2026-07-12"
+        "updated": "2026-07-13"
       },
       {
         "as_of": "2026-07-08T08:21:37.731285+00:00",
@@ -82,7 +82,7 @@
     ],
     "name": "Atlas Pulse",
     "schema": "freedomcore.atlas.pulse.v1",
-    "validated_count": 1134
+    "validated_count": 1139
   },
   "schema": "atlas.market_pulse_public.v1",
   "source": "atlas-pulse.json"
