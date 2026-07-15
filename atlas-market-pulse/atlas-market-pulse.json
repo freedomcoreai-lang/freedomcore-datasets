@@ -1,9 +1,9 @@
 {
   "content_hash": "3086eedb9d6ff65b44ec9def490553b702d13476b55e1ac7e3b6b486834f3889",
-  "current_version": "20260713-d9b3af66611b",
+  "current_version": "20260714-5e279e4d5e9e",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-13T23:13:45Z",
+  "generated_at": "2026-07-14T23:12:50Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
