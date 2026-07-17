@@ -4115,7 +4115,7 @@ GDXU,https://atlas.freedomcore.io/stocks/GDXU/,2026-06-20,etf,2026-06-19T06:16:0
 GDXW,https://atlas.freedomcore.io/stocks/GDXW/,2026-06-20,etf,2026-06-19T06:16:03.082936+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
 GDXY,https://atlas.freedomcore.io/stocks/GDXY/,2026-06-20,etf,2026-06-19T06:16:03.088813+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
 GDYN,https://atlas.freedomcore.io/stocks/GDYN/,2026-06-21,equity,2026-06-21T08:17:56.938944+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
-GE,https://atlas.freedomcore.io/stocks/GE/,2026-07-03,equity,2026-07-15T22:06:53.036600+00:00,True,validated,14,Crawlable Atlas symbol page backed by daily context metadata.
+GE,https://atlas.freedomcore.io/stocks/GE/,2026-07-03,equity,2026-07-16T11:31:43.921762+00:00,True,validated,13,Crawlable Atlas symbol page backed by daily context metadata.
 GECC,https://atlas.freedomcore.io/stocks/GECC/,2026-06-21,equity,2026-06-21T08:17:56.944871+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
 GEF,https://atlas.freedomcore.io/stocks/GEF/,2026-06-21,equity,2026-06-21T08:17:56.950673+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
 GEF-B,https://atlas.freedomcore.io/stocks/GEF-B/,2026-06-21,equity,2026-06-21T08:17:56.957145+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
@@ -9585,7 +9585,7 @@ UMBF,https://atlas.freedomcore.io/stocks/UMBF/,2026-07-09,equity,2026-07-16T00:0
 UMMA,https://atlas.freedomcore.io/stocks/UMMA/,2026-06-20,etf,2026-06-19T06:16:36.002950+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
 UNB,https://atlas.freedomcore.io/stocks/UNB/,2026-06-21,equity,2026-06-21T08:18:12.306581+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
 UNCY,https://atlas.freedomcore.io/stocks/UNCY/,2026-06-21,equity,2026-06-21T08:18:12.312255+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
-UNH,https://atlas.freedomcore.io/stocks/UNH/,2026-07-07,equity,2026-07-15T21:48:39.041657+00:00,True,validated,13,Crawlable Atlas symbol page backed by daily context metadata.
+UNH,https://atlas.freedomcore.io/stocks/UNH/,2026-07-07,equity,2026-07-16T11:31:12.496269+00:00,True,validated,14,Crawlable Atlas symbol page backed by daily context metadata.
 UNHG,https://atlas.freedomcore.io/stocks/UNHG/,2026-06-20,etf,2026-06-19T06:16:36.020098+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.
 UNI,https://atlas.freedomcore.io/stocks/UNI/,2026-06-21,crypto,2026-07-14T19:53:26.176381+00:00,True,validated,5,Crawlable Atlas symbol page backed by daily context metadata.
 UNIT,https://atlas.freedomcore.io/stocks/UNIT/,2026-06-21,equity,2026-06-21T08:18:12.318145+00:00,True,persisted_atlas_wit_v2,2,Crawlable Atlas symbol page backed by daily context metadata.

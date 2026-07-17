@@ -1,9 +1,9 @@
 {
-  "content_hash": "e95aabf078970b6a61f948739681f4fba6364b2344721207a0ce924f314de96b",
-  "current_version": "20260716-a167074e31ea",
+  "content_hash": "25b3d566a533bff31cd4250fc02634421ed81feba65b52216c6675661161b598",
+  "current_version": "20260717-c24dba459c74",
   "dataset_id": "atlas-symbol-coverage",
   "disclaimer": "Read-only public metadata for Atlas coverage. Not investment advice.",
-  "generated_at": "2026-07-16T06:13:04Z",
+  "generated_at": "2026-07-17T06:13:22Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "name": "Atlas Symbol Coverage Index",
   "public_base": "https://atlas.freedomcore.io",
@@ -45289,12 +45289,12 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-15T22:06:53.036600+00:00",
+      "context_as_of": "2026-07-16T11:31:43.921762+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
       "sitemap_lastmod": "2026-07-03",
-      "source_count": 14,
+      "source_count": 13,
       "symbol": "GE",
       "url": "https://atlas.freedomcore.io/stocks/GE/"
     },
@@ -105459,12 +105459,12 @@
     },
     {
       "asset_class": "equity",
-      "context_as_of": "2026-07-15T21:48:39.041657+00:00",
+      "context_as_of": "2026-07-16T11:31:12.496269+00:00",
       "daily_context_present": true,
       "public_note": "Crawlable Atlas symbol page backed by daily context metadata.",
       "quality_status": "validated",
       "sitemap_lastmod": "2026-07-07",
-      "source_count": 13,
+      "source_count": 14,
       "symbol": "UNH",
       "url": "https://atlas.freedomcore.io/stocks/UNH/"
     },
