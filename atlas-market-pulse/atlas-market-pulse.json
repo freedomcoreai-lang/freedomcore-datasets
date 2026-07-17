@@ -1,16 +1,38 @@
 {
-  "content_hash": "d9e141dbab91dd9f358495c744710e8e3c107959715d9127a8f6ba3091c75499",
-  "current_version": "20260716-a167074e31ea",
+  "content_hash": "360fc6da53904b87e29935571468c7bfa8eab5922ad0b04c44024d44dd5f2604",
+  "current_version": "20260717-c24dba459c74",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-16T06:13:04Z",
+  "generated_at": "2026-07-17T06:13:22Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-16T06:00:18+00:00",
-    "generated_at": "2026-07-16T06:00:18+00:00",
+    "as_of": "2026-07-17T06:02:44+00:00",
+    "generated_at": "2026-07-17T06:02:44+00:00",
     "headline": "20 material changes ready to review",
     "items": [
+      {
+        "asset_class": "equity",
+        "asset_label": "Equity",
+        "href": "https://atlas.freedomcore.io/stocks/GE/",
+        "name": "GE Aerospace",
+        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: Potential operational efficiencies from the expanded Commercial Engines and Services segment lifecycle integration announced on January...",
+        "source_count": 13,
+        "state": "material_change",
+        "ticker": "GE",
+        "updated": "2026-07-16"
+      },
+      {
+        "asset_class": "equity",
+        "asset_label": "Equity",
+        "href": "https://atlas.freedomcore.io/stocks/UNH/",
+        "name": "UnitedHealth Group Incorporated",
+        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: Revenue expansion was demonstrated by the increase in revenue to 112.0 billion dollars in Q2 2026 from 111.72 billion dollars in Q1 2026...",
+        "source_count": 14,
+        "state": "material_change",
+        "ticker": "UNH",
+        "updated": "2026-07-16"
+      },
       {
         "asset_class": "equity",
         "asset_label": "Equity",
@@ -20,17 +42,6 @@
         "source_count": 13,
         "state": "material_change",
         "ticker": "ELV",
-        "updated": "2026-07-16"
-      },
-      {
-        "asset_class": "equity",
-        "asset_label": "Equity",
-        "href": "https://atlas.freedomcore.io/stocks/PTCT/",
-        "name": "PTC THERAPEUTICS, INC.",
-        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: SEC EDGAR Form 144 filing dated 2026-07-14 gives the market a fresh affiliate sale disclosure event to parse, though the supplied rail...",
-        "source_count": 14,
-        "state": "material_change",
-        "ticker": "PTCT",
         "updated": "2026-07-16"
       },
       {
@@ -53,17 +64,6 @@
         "source_count": 13,
         "state": "material_change",
         "ticker": "FSS",
-        "updated": "2026-07-16"
-      },
-      {
-        "asset_class": "equity",
-        "asset_label": "Equity",
-        "href": "https://atlas.freedomcore.io/stocks/PLXS/",
-        "name": "PLEXUS CORP",
-        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: The latest parsed 10-Q rail shows $49.8M of net income attributable to parent for the period ending 2026-04-04, giving the equity file a...",
-        "source_count": 13,
-        "state": "material_change",
-        "ticker": "PLXS",
         "updated": "2026-07-16"
       },
       {
