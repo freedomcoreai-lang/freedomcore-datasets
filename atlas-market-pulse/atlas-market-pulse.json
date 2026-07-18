@@ -1,14 +1,14 @@
 {
-  "content_hash": "360fc6da53904b87e29935571468c7bfa8eab5922ad0b04c44024d44dd5f2604",
-  "current_version": "20260717-c24dba459c74",
+  "content_hash": "8662e57821987a52ee29335e1ceefab18193bbb705116a0421165e837e876293",
+  "current_version": "20260718-f03c204808ca",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-17T06:13:22Z",
+  "generated_at": "2026-07-18T06:13:43Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-17T06:02:44+00:00",
-    "generated_at": "2026-07-17T06:02:44+00:00",
+    "as_of": "2026-07-18T06:02:06+00:00",
+    "generated_at": "2026-07-18T06:02:06+00:00",
     "headline": "20 material changes ready to review",
     "items": [
       {
