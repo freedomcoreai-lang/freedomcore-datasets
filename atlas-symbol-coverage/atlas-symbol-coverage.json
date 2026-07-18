@@ -1,9 +1,9 @@
 {
   "content_hash": "25b3d566a533bff31cd4250fc02634421ed81feba65b52216c6675661161b598",
-  "current_version": "20260717-c24dba459c74",
+  "current_version": "20260718-f03c204808ca",
   "dataset_id": "atlas-symbol-coverage",
   "disclaimer": "Read-only public metadata for Atlas coverage. Not investment advice.",
-  "generated_at": "2026-07-17T06:13:22Z",
+  "generated_at": "2026-07-18T06:13:43Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "name": "Atlas Symbol Coverage Index",
   "public_base": "https://atlas.freedomcore.io",
