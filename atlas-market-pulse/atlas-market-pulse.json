@@ -1,14 +1,14 @@
 {
-  "content_hash": "83799b819423926855981e1820ac1ef799f78b600bf66b0782a4b8b5b6489f22",
-  "current_version": "20260719-125723cf7637",
+  "content_hash": "3ab02b3e88f17ed1b06cfaac34ef88fb45ffd93b053152c5b730ff01038db735",
+  "current_version": "20260720-1356281cd0ac",
   "dataset_id": "atlas-market-pulse",
   "disclaimer": "Read-only public market-research metadata. Not investment advice.",
-  "generated_at": "2026-07-19T06:13:20Z",
+  "generated_at": "2026-07-20T06:14:00Z",
   "manifest_url": "https://atlas.freedomcore.io/datasets/atlas-authority-manifest.json",
   "public_base": "https://atlas.freedomcore.io",
   "pulse": {
-    "as_of": "2026-07-19T06:01:45+00:00",
-    "generated_at": "2026-07-19T06:01:45+00:00",
+    "as_of": "2026-07-20T06:00:55+00:00",
+    "generated_at": "2026-07-20T06:00:55+00:00",
     "headline": "20 material changes ready to review",
     "items": [
       {
@@ -135,17 +135,6 @@
       {
         "asset_class": "equity",
         "asset_label": "Equity",
-        "href": "https://atlas.freedomcore.io/stocks/QBTS/",
-        "name": "D-Wave Quantum Inc.",
-        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: The 2026-07-14 QBTS 8-K on SEC EDGAR is a named disclosure event that can deepen the file if its item-level content is parsed from the...",
-        "source_count": 14,
-        "state": "material_change",
-        "ticker": "QBTS",
-        "updated": "2026-07-16"
-      },
-      {
-        "asset_class": "equity",
-        "asset_label": "Equity",
         "href": "https://atlas.freedomcore.io/stocks/HXL/",
         "name": "HEXCEL CORP /DE/",
         "snippet": "Since the previous file: updated source coverage, new catalyst evidence: Latest filed operating performance gives a concrete base: $501.5M revenue from contracts with customers, $57.6M operating income and...",
@@ -163,17 +152,6 @@
         "source_count": 14,
         "state": "material_change",
         "ticker": "NFG",
-        "updated": "2026-07-16"
-      },
-      {
-        "asset_class": "equity",
-        "asset_label": "Equity",
-        "href": "https://atlas.freedomcore.io/stocks/CORZ/",
-        "name": "Core Scientific, Inc./tx",
-        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: The 2026-05-06 SEC 10-Q is the central catalyst rail because it gives the latest parsed financial base: $115.2M revenue, $1.01B cash and...",
-        "source_count": 14,
-        "state": "material_change",
-        "ticker": "CORZ",
         "updated": "2026-07-16"
       },
       {
@@ -212,23 +190,45 @@
       {
         "asset_class": "equity",
         "asset_label": "Equity",
-        "href": "https://atlas.freedomcore.io/stocks/SFM/",
-        "name": "Sprouts Farmers Market, Inc.",
-        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: Latest filed 10-Q rail shows $2.33B of revenue for the period ending 2026-03-29, giving the report a current operating base rather than a...",
-        "source_count": 12,
-        "state": "material_change",
-        "ticker": "SFM",
-        "updated": "2026-07-16"
-      },
-      {
-        "asset_class": "equity",
-        "asset_label": "Equity",
         "href": "https://atlas.freedomcore.io/stocks/JOBY/",
         "name": "Joby Aviation, Inc.",
         "snippet": "Since the previous file: updated source coverage, new catalyst evidence: SEC EDGAR shows a fresh July 2026 filing sequence for JOBY, including Forms 144 dated July 13, July 14 and July 15, and two Forms 4 dated...",
         "source_count": 13,
         "state": "material_change",
         "ticker": "JOBY",
+        "updated": "2026-07-16"
+      },
+      {
+        "asset_class": "equity",
+        "asset_label": "Equity",
+        "href": "https://atlas.freedomcore.io/stocks/POOL/",
+        "name": "POOL CORP",
+        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: The 10-Q for the period ending 2026-03-31 reported $1.14B of revenue, giving the market a fresh filed base for judging seasonal demand...",
+        "source_count": 13,
+        "state": "material_change",
+        "ticker": "POOL",
+        "updated": "2026-07-16"
+      },
+      {
+        "asset_class": "equity",
+        "asset_label": "Equity",
+        "href": "https://atlas.freedomcore.io/stocks/RSI/",
+        "name": "Rush Street Interactive, Inc.",
+        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: First quarter 2026 results named record quarterly revenue of $370.4 million and raised full year guidance, according to the official...",
+        "source_count": 14,
+        "state": "material_change",
+        "ticker": "RSI",
+        "updated": "2026-07-16"
+      },
+      {
+        "asset_class": "equity",
+        "asset_label": "Equity",
+        "href": "https://atlas.freedomcore.io/stocks/RAL/",
+        "name": "Ralliant Corp",
+        "snippet": "Since the previous file: updated source coverage, new catalyst evidence: Ralliant Reports First Quarter 2026 Results and Raises Full Year Guidance, a named official press release development on the supplied...",
+        "source_count": 14,
+        "state": "material_change",
+        "ticker": "RAL",
         "updated": "2026-07-16"
       }
     ],
