@@ -1,14 +1,310 @@
 {
-  "fields": {
-    "asset_class": "Asset class when available in the daily context.",
-    "context_as_of": "Daily context timestamp or date when available.",
-    "daily_context_present": "Whether a local daily context file was present at build time.",
-    "public_note": "Human-readable note for downstream crawlers.",
-    "quality_status": "Public quality-state summary derived from context metadata.",
-    "sitemap_lastmod": "Last modification date from the stock sitemap.",
-    "source_count": "Count of source-manifest entries when exposed in metadata.",
-    "symbol": "Atlas symbol slug.",
-    "url": "Canonical public symbol URL."
+  "schema": "atlas.symbol_coverage.v3",
+  "title": "FreedomCore Atlas Symbol Coverage & Entity-Resolution Register Schema (v3)",
+  "scope": "full_6375_canonical_company_and_crypto_register",
+  "generated_at": "2026-10-25T09:48:00Z",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "canonical_origin": "https://atlas.freedomcore.io/",
+  "canonical_routes": {
+    "directory": "https://atlas.freedomcore.io/stocks/",
+    "data_catalog": "https://atlas.freedomcore.io/datasets/",
+    "symbol_coverage_dataset": "https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/",
+    "research_centre": "https://atlas.freedomcore.io/workstation/",
+    "market_quakes": "https://atlas.freedomcore.io/market-pulse/",
+    "daily_note_2026_10_25": "https://atlas.freedomcore.io/notes/atlas-daily-note-2026-10-25-0823/",
+    "methodology": "https://atlas.freedomcore.io/methodology/",
+    "studio": "https://atlas.freedomcore.io/studio/"
   },
-  "schema": "atlas.symbol_coverage.v1"
+  "described_artifacts": {
+    "atlas-symbol-coverage.json": {
+      "schema": "atlas.symbol_coverage.v3",
+      "sha256": "0adc8bf3c84ac1537ac71e21e0722ecaa728c1f64ad4dd6844535be71bf2121d",
+      "bytes": 4291305,
+      "record_count": 6375
+    },
+    "atlas-symbol-coverage.csv": {
+      "schema": "atlas.symbol_coverage.v3",
+      "sha256": "3cbb453831f162d94f32e9129aa346be6116e136c6538563d401510772eac013",
+      "bytes": 1680933,
+      "row_count": 6375
+    },
+    "atlas-symbol-coverage-summary-20261025.json": {
+      "schema": "atlas.symbol_coverage_public_summary.v3",
+      "sha256": "88783cbb5300fbbb56c8a880924ee98763683a40e204d9ca33f615e951004b0a",
+      "bytes": 31292,
+      "sample_canonical_records_count": 30
+    }
+  },
+  "source_pins": {
+    "catalog_sha256": "944469dc78e5067fb68a2265d9ccb4fe03eabefc3ad94d85835f596fafdebd9d",
+    "source_identity_register_sha256": "26fb791a53a8eac5e07a4aec2e6d77b052dcfbf0fba51d94481151bdd1f058ab",
+    "source_inventory_summary_sha256": "eb1c26492e8f32d718609cfd1e7200f1030a3634098562c2a7957d2e2077b598",
+    "terminal_realm_review_sha256": "762625692de497ebdeeeac5c4fec546ba57c96c092e3f7a756d2dc02cf14ca55",
+    "writer_state_sha256": "040cfbe69d29a5beb970c4e90bbe0177c0411de86f891aca09584e7ce9521c9c"
+  },
+  "fields": {
+    "listing_key": "Primary key. Exchange- or namespace-qualified canonical identifier (EXCHANGE:TICKER, CRYPTO:SYMBOL, or COINGECKO:ID) across all 6,375 rows.",
+    "ticker": "Display symbol (e.g., AAPL, SOL, LDO, 1810). Non-unique across borders and asset classes (330 colliding bare-ticker groups across 722 listings); never join on bare ticker.",
+    "name": "Canonical company or digital asset name from SOURCE_IDENTITY_REGISTER.json.",
+    "asset_class": "Canonical asset class enum: 'equity' (4,875 rows) or 'crypto' (1,500 rows).",
+    "country_code": "ISO-3166 alpha-2 country code for sovereign equities (53 countries) or 'GL' for global digital assets.",
+    "route_slug": "Canonical URL-safe route slug under /stocks/{route_slug}/ (disambiguated for colliding tickers, e.g., SOL, asx-sol, jse-sol, mil-sol, bme-sol).",
+    "profile_url": "Canonical public instrument profile URL (https://atlas.freedomcore.io/stocks/{route_slug}/).",
+    "workstation_url": "Direct Research Centre launcher URL keyed by exact listing_key (https://atlas.freedomcore.io/workstation/?symbol={listing_key}).",
+    "sec_cik": "10-digit SEC Central Index Key when populated on the canonical register identity (100 equity rows; null in JSON and empty string in CSV otherwise).",
+    "coingecko_id": "Verified CoinGecko slug when populated on the canonical register identity (1,500 crypto rows; null in JSON and empty string in CSV for equities).",
+    "record_exists": "Boolean (true/false) indicating whether a stored source-inventory record exists for this listing_key (3,961 true; 2,414 false).",
+    "record_state": "Explicit stored source-record state enum: 'populated', 'checked_no_signal', 'evidence_collected', 'source_unavailable', or 'record_missing' (never blank).",
+    "record_checked_at": "Original ISO-8601 UTC timestamp when the stored source record was checked (populated on all 3,961 existing records spanning 2026-10-23T06:17:40.161669+00:00 to 2026-10-25T06:38:50.690793+00:00; null in JSON and empty string in CSV on all 2,414 record_missing rows).",
+    "record_sha256": "64-hex SHA-256 digest of the stored source record when record_exists is true (3,961 rows; null in JSON and empty string in CSV on all 2,414 record_missing rows).",
+    "stored_source_count": "Non-negative integer count (0..8, sum 16,155) of primary source entries attached to the stored record.",
+    "dated_source_count": "Non-negative integer count (0..7, sum 3,173) of primary source entries carrying an explicit publication or filing date."
+  },
+  "field_specifications": [
+    {
+      "name": "listing_key",
+      "type": "string",
+      "nullable": false,
+      "primary_key": true,
+      "csv_column_index": 0
+    },
+    {
+      "name": "ticker",
+      "type": "string",
+      "nullable": false,
+      "unique": false,
+      "colliding_groups": 330,
+      "colliding_listings": 722,
+      "csv_column_index": 1
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "nullable": false,
+      "csv_column_index": 2
+    },
+    {
+      "name": "asset_class",
+      "type": "string",
+      "nullable": false,
+      "enum": ["equity", "crypto"],
+      "counts": {"equity": 4875, "crypto": 1500},
+      "csv_column_index": 3
+    },
+    {
+      "name": "country_code",
+      "type": "string",
+      "nullable": false,
+      "sovereign_equity_countries": 53,
+      "crypto_country_code": "GL",
+      "csv_column_index": 4
+    },
+    {
+      "name": "route_slug",
+      "type": "string",
+      "nullable": false,
+      "unique": true,
+      "csv_column_index": 5
+    },
+    {
+      "name": "profile_url",
+      "type": "string",
+      "format": "uri",
+      "nullable": false,
+      "csv_column_index": 6
+    },
+    {
+      "name": "workstation_url",
+      "type": "string",
+      "format": "uri",
+      "nullable": false,
+      "csv_column_index": 7
+    },
+    {
+      "name": "sec_cik",
+      "type": ["string", "null"],
+      "nullable": true,
+      "non_null_count": 100,
+      "null_count": 6275,
+      "csv_null_representation": "",
+      "csv_column_index": 8
+    },
+    {
+      "name": "coingecko_id",
+      "type": ["string", "null"],
+      "nullable": true,
+      "non_null_count": 1500,
+      "null_count": 4875,
+      "csv_null_representation": "",
+      "csv_column_index": 9
+    },
+    {
+      "name": "record_exists",
+      "type": "boolean",
+      "nullable": false,
+      "counts": {"true": 3961, "false": 2414},
+      "csv_column_index": 10
+    },
+    {
+      "name": "record_state",
+      "type": "string",
+      "nullable": false,
+      "enum": [
+        "populated",
+        "checked_no_signal",
+        "evidence_collected",
+        "source_unavailable",
+        "record_missing"
+      ],
+      "blank_values_allowed": false,
+      "csv_column_index": 11
+    },
+    {
+      "name": "record_checked_at",
+      "type": ["string", "null"],
+      "format": "date-time",
+      "nullable": true,
+      "non_null_count": 3961,
+      "null_count": 2414,
+      "min_utc": "2026-10-23T06:17:40.161669+00:00",
+      "max_utc": "2026-10-25T06:38:50.690793+00:00",
+      "csv_null_representation": "",
+      "csv_column_index": 12
+    },
+    {
+      "name": "record_sha256",
+      "type": ["string", "null"],
+      "pattern": "^[0-9a-f]{64}$",
+      "nullable": true,
+      "non_null_count": 3961,
+      "null_count": 2414,
+      "csv_null_representation": "",
+      "csv_column_index": 13
+    },
+    {
+      "name": "stored_source_count",
+      "type": "integer",
+      "nullable": false,
+      "min": 0,
+      "max": 8,
+      "sum": 16155,
+      "csv_column_index": 14
+    },
+    {
+      "name": "dated_source_count",
+      "type": "integer",
+      "nullable": false,
+      "min": 0,
+      "max": 7,
+      "sum": 3173,
+      "csv_column_index": 15
+    }
+  ],
+  "wrapper_fields": {
+    "schema": "Schema identifier ('atlas.symbol_coverage.v3').",
+    "scope": "Dataset scope ('full_6375_canonical_company_and_crypto_register').",
+    "generated_at": "Export wrapper generation timestamp ('2026-10-25T09:48:00Z'); individual row check clocks are preserved in records[].record_checked_at.",
+    "license": "SPDX license identifier ('CC-BY-4.0').",
+    "license_url": "Canonical Creative Commons Attribution 4.0 license URL.",
+    "canonical_origin": "Canonical Atlas origin ('https://atlas.freedomcore.io/').",
+    "canonical_routes": "Map of canonical Atlas public entry points.",
+    "source_pins": "Five SHA-256 digests pinning the underlying catalog, identity register, source inventory summary, terminal Realm review, and writer state.",
+    "reconciled_counts": "Reconciled identity, runtime-admission, hold, stored source-record state, ticker-collision, and issuer/document binding counts.",
+    "truthfulness_and_copyright_assertions": "Boolean assertions enforcing explicit record_missing states, no bare-ticker joins, and zero private/paid prose inclusion.",
+    "records": "Array of 6,375 canonical company and crypto listing records."
+  },
+  "clocks": {
+    "wrapper_generated_at": "2026-10-25T09:48:00Z",
+    "record_checked_at_non_null_count": 3961,
+    "record_checked_at_null_count": 2414,
+    "record_checked_at_min_utc": "2026-10-23T06:17:40.161669+00:00",
+    "record_checked_at_max_utc": "2026-10-25T06:38:50.690793+00:00",
+    "clock_preservation_rule": "Original stored source-record check timestamps are preserved verbatim for all 3,961 existing records and remain null (empty in CSV) for all 2,414 record_missing rows."
+  },
+  "reconciled_counts": {
+    "company_and_crypto_identities": 6375,
+    "canonical_asset_counts": {
+      "crypto": 1500,
+      "equity": 4875,
+      "index": 8,
+      "commodity": 8,
+      "fx": 3
+    },
+    "total_realm_identities": 6394,
+    "runtime_admitted": 5163,
+    "holds": 1231,
+    "terminal_outcome_breakdown": {
+      "recovered": 59,
+      "published": 4853,
+      "already_published": 251,
+      "writer_validation_pending": 602,
+      "recovery_zero_call_proof_unavailable": 15,
+      "source_admission_pending": 613,
+      "execution_error": 1
+    },
+    "full_acceptance": false,
+    "stored_source_record_states": {
+      "crypto:checked_no_signal": 91,
+      "crypto:populated": 1244,
+      "crypto:record_missing": 165,
+      "equity:evidence_collected": 2054,
+      "equity:record_missing": 2249,
+      "equity:source_unavailable": 572
+    },
+    "record_exists_true": 3961,
+    "record_missing_total": 2414,
+    "colliding_bare_ticker_group_count": 330,
+    "colliding_bare_ticker_listing_count": 722,
+    "stage2_verified_brand_svg_collision_cohort": {
+      "colliding_groups": 15,
+      "colliding_listings": 37
+    },
+    "issuer_and_source_binding_counts": {
+      "register_records_with_sec_cik": 100,
+      "register_records_with_coingecko_id": 1500,
+      "inventory_document_binding_labels_sec_cik": 1270,
+      "inventory_document_binding_labels_coingecko_id": 2292,
+      "live_sources_db_distinct_sec_submissions_listings": 262
+    },
+    "source_entry_sums": {
+      "stored_source_count_sum": 16155,
+      "dated_source_count_sum": 3173
+    }
+  },
+  "compatibility_from_v1": {
+    "supersedes_schema": "atlas.symbol_coverage.v1",
+    "superseded_github_path": "atlas-symbol-coverage/schema.json",
+    "superseded_github_blob_sha": "d34167b7fb7300574f783ab9cd6f6917cb1f30ce",
+    "retained_column_names": [
+      "asset_class"
+    ],
+    "added_v3_columns": [
+      "coingecko_id",
+      "country_code",
+      "dated_source_count",
+      "listing_key",
+      "name",
+      "profile_url",
+      "record_checked_at",
+      "record_exists",
+      "record_sha256",
+      "record_state",
+      "route_slug",
+      "sec_cik",
+      "stored_source_count",
+      "ticker",
+      "workstation_url"
+    ],
+    "retired_v1_columns_mapping": {
+      "symbol": "Replaced by primary key 'listing_key' (EXCHANGE:TICKER / CRYPTO:SYMBOL / COINGECKO:ID), display 'ticker', and URL-safe 'route_slug' to eliminate bare-ticker ambiguity across 330 colliding ticker groups.",
+      "url": "Replaced by 'profile_url' (https://atlas.freedomcore.io/stocks/{route_slug}/) and 'workstation_url' (https://atlas.freedomcore.io/workstation/?symbol={listing_key}).",
+      "context_as_of": "Replaced by 'record_checked_at' (original ISO-8601 UTC stored source-record check timestamp) and top-level wrapper 'generated_at'.",
+      "daily_context_present": "Replaced by boolean 'record_exists' (3,961 true, 2,414 false).",
+      "quality_status": "Replaced by explicit 5-state 'record_state' enum ('populated', 'checked_no_signal', 'evidence_collected', 'source_unavailable', 'record_missing').",
+      "source_count": "Replaced by 'stored_source_count' and 'dated_source_count'.",
+      "sitemap_lastmod": "Retired from per-row register; sitemap timestamps remain in sitemap-index.xml.",
+      "public_note": "Replaced by structured top-level 'reconciled_counts' and 'truthfulness_and_copyright_assertions'."
+    }
+  }
 }
