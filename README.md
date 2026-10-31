@@ -1,4 +1,10 @@
+<p align="center">
+  <img src="assets/atlas-banner.png" alt="Atlas Symbol Coverage: 6,375 identities, 53 countries, 1,500 crypto assets" width="100%">
+</p>
+
 # FreedomCore Atlas Open Datasets (CC BY 4.0)
+
+I started publishing this register because joining market data on bare tickers quietly breaks things. "SOL" is Solana, but it's also four different listed companies. Every row here is keyed to one exact listing, so a join on the key can't silently merge them. Some listings are still waiting on source records, and each row's record_state says so. If you spot something wrong, open an issue and I'll look into it. Rob, FreedomCore.
 
 [![Platform](https://img.shields.io/badge/Platform-atlas.freedomcore.io-0284c7)](https://atlas.freedomcore.io/)
 [![Data catalog](https://img.shields.io/badge/Data_catalog-%2Fdatasets%2F-0f766e)](https://atlas.freedomcore.io/datasets/)
