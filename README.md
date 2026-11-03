@@ -13,7 +13,7 @@ I started publishing this register because joining market data on bare tickers q
 
 Public, machine-readable reference datasets published by **[FreedomCore Atlas](https://atlas.freedomcore.io/)** for cross-border financial entity resolution, source-dated market developments and platform security verification.
 
-> **Current release in this repository:** `atlas-symbol-coverage` **v3** (`atlas.symbol_coverage.v3`), **6,375** canonical company and crypto listings, data generated `2026-10-25T09:48:00Z`, byte-identical to the files served at the canonical dataset page. It supersedes the 2026-07-20 (200+ symbol) files previously published here.
+> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,394** listings (4,875 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 venues, checked `2026-11-03T06:52Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
 
 ---
 
@@ -24,7 +24,7 @@ Public, machine-readable reference datasets published by **[FreedomCore Atlas](h
 | Atlas homepage | [`https://atlas.freedomcore.io/`](https://atlas.freedomcore.io/) | Global market overview and dated observations |
 | Public data catalog | [`/datasets/`](https://atlas.freedomcore.io/datasets/) | `schema.org/DataCatalog` index, CSV/JSON downloads |
 | Symbol Coverage dataset page | [`/datasets/atlas-symbol-coverage/`](https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/) | Canonical page for the files in this repository |
-| Realm directory | [`/stocks/`](https://atlas.freedomcore.io/stocks/) | 6,375 company and crypto listings across 53 countries |
+| Realm directory | [`/stocks/`](https://atlas.freedomcore.io/stocks/) | 6,375 company and crypto listings; equities across 53 countries |
 | Research Centre | [`/workstation/`](https://atlas.freedomcore.io/workstation/) | Interactive research desk with source citations |
 | Atlas Quakes | [`/quakes/`](https://atlas.freedomcore.io/quakes/) | Source-dated company and protocol developments (successor to Market Pulse) |
 | Atlas Studio | [`/studio/`](https://atlas.freedomcore.io/studio/) | Audio briefings and recorded market observations |
@@ -46,57 +46,60 @@ Mirror revisions are managed per platform and can lag this repository. The canon
 
 ---
 
-## 3. Symbol Coverage v3 files and digests
+## 3. Symbol Coverage v4 files and digests
 
 | File | Bytes | SHA-256 | Description |
 | :-- | --: | :-- | :-- |
-| `atlas-symbol-coverage/atlas-symbol-coverage.csv` | 1,681,073 | `ceee6577ee01758b0449187149187926ede6c4186eae83e0971e16a4a455d8ef` | Full 6,375-row CSV register (16 columns, `atlas.symbol_coverage.v3`) |
-| `atlas-symbol-coverage/atlas-symbol-coverage.json` | 4,291,344 | `ee6f0e00a34fdcab10f86c4457c00488fe1b7f9bcf922f2ca851072b96ed03e3` | Full 6,375-record JSON register with reconciled counts and source pins |
-| `atlas-symbol-coverage/schema.json` | 13,128 | `046caa03c47d8b68777bdf345fa63aa294415c87903d915cec9f6156cf2767a6` | Machine-readable 16-column v3 schema and v1-to-v3 field map |
+| `atlas-symbol-coverage/atlas-symbol-coverage.csv` | 2,655,533 | `191dea14956c433d1bd198e6e6458d231a4808fce94dc16edcf7b72a96db9fa0` | Full 6,394-row CSV register (25 columns, `atlas.symbol_coverage.v4`) |
+| `atlas-symbol-coverage/atlas-symbol-coverage.json` | 5,373,222 | `db2f39dd08d79f556801476ad6ac30baf4d84c7c71c0c78e1030d1041fb47f75` | Full 6,394-record JSON register |
+| `atlas-symbol-coverage/schema.json` | 3,720 | `8a69589461dc00b4e914e44c13d725ebb600647b5d609c4f1695dd44b01dd33f` | Machine-readable 25-column v4 schema |
+| `atlas-symbol-coverage/atlas-symbol-coverage-summary.json` | 1,314 | `9089336d34ff083c9aad6efdcf500c76cbe11a646c6d12a79eabe08add7dcd99` | Counts for this release (quote, profile, research and chart layers) |
 
-Columns (`16`): `listing_key`, `ticker`, `name`, `asset_class`, `country_code`, `route_slug`, `profile_url`, `workstation_url`, `sec_cik`, `coingecko_id`, `record_exists`, `record_state`, `record_checked_at`, `record_sha256`, `stored_source_count`, `dated_source_count`.
+Columns (`25`): `listing_key`, `ticker`, `name`, `asset_class`, `exchange`, `country_code`, `route_slug`, `profile_url`, `workstation_url`, `sec_cik`, `coingecko_id`, `profile_state`, `profile_as_of`, `research_state`, `research_as_of`, `quote_state`, `quote_observed_at`, `chart_bars`, `checked_at`, `record_exists`, `record_state`, `record_checked_at`, `record_sha256`, `stored_source_count`, `dated_source_count`.
 
-`listing_key` is the primary key: `EXCHANGE:TICKER` for equities, `CRYPTO:SYMBOL` or `COINGECKO:ID` for digital assets. `profile_url` and `workstation_url` are the canonical Atlas routes for each listing.
+`listing_key` is the primary key: `EXCHANGE:TICKER` for equities, `CRYPTO:SYMBOL` or `COINGECKO:ID` for digital assets. `quote_state` says whether the price is live for that exchange's session (`live`), stored but awaiting a fresh accepted capture, stale, or held because the venue calendar isn't certified yet. `record_*` columns are carried from v3 with their original 23-25 October dates.
 
 ---
 
 ## 4. Why exact `listing_key` disambiguation matters (330 colliding bare-ticker groups)
 
-Joining global datasets on bare ticker strings corrupts cross-border equity and crypto data. Across the 6,375 canonical listings in this register, **330 bare tickers collide across 722 distinct canonical listings.** Every record is keyed by its exact `listing_key` and canonical profile route:
+Joining global datasets on bare ticker strings corrupts cross-border equity and crypto data. Across the 6,375 company and crypto listings in this register, **330 bare tickers collide across 722 distinct listings.** Every record is keyed by its exact `listing_key` and canonical profile route:
 
-| Bare ticker | Canonical `listing_key` | Instrument | Class | Country | Canonical profile route | `record_state` |
+| Bare ticker | Canonical `listing_key` | Instrument | Class | Country | Canonical profile route | `quote_state` |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
-| `SOL` | `CRYPTO:SOL` | Solana | `crypto` | `GL` | [`/stocks/SOL/`](https://atlas.freedomcore.io/stocks/SOL/) | `populated` |
-| `SOL` | `ASX:SOL` | Washington H. Soul Pattinson and Company Limited | `equity` | `AU` | [`/stocks/asx-sol/`](https://atlas.freedomcore.io/stocks/asx-sol/) | `record_missing` |
-| `SOL` | `BME:SOL` | Soltec Power Holdings SA | `equity` | `ES` | [`/stocks/bme-sol/`](https://atlas.freedomcore.io/stocks/bme-sol/) | `record_missing` |
-| `SOL` | `JSE:SOL` | Sasol Limited | `equity` | `ZA` | [`/stocks/jse-sol/`](https://atlas.freedomcore.io/stocks/jse-sol/) | `evidence_collected` |
-| `SOL` | `MIL:SOL` | SOL S.p.A. | `equity` | `IT` | [`/stocks/mil-sol/`](https://atlas.freedomcore.io/stocks/mil-sol/) | `record_missing` |
-| `ARB` | `CRYPTO:ARB` | Arbitrum | `crypto` | `GL` | [`/stocks/ARB/`](https://atlas.freedomcore.io/stocks/ARB/) | `populated` |
-| `ARB` | `NZX:ARB` | ArborGen Holdings Limited | `equity` | `NZ` | [`/stocks/nzx-arb/`](https://atlas.freedomcore.io/stocks/nzx-arb/) | `evidence_collected` |
-| `BCH` | `CRYPTO:BCH` | Bitcoin Cash | `crypto` | `GL` | [`/stocks/BCH/`](https://atlas.freedomcore.io/stocks/BCH/) | `populated` |
-| `BCH` | `SET:BCH` | Bangkok Chain Hospital Public Co., Ltd. | `equity` | `TH` | [`/stocks/set-bch/`](https://atlas.freedomcore.io/stocks/set-bch/) | `evidence_collected` |
-| `LDO` | `COINGECKO:lido-dao` | Lido DAO | `crypto` | `GL` | [`/stocks/cg-lido-dao/`](https://atlas.freedomcore.io/stocks/cg-lido-dao/) | `populated` |
-| `LDO` | `MIL:LDO` | Leonardo SpA | `equity` | `IT` | [`/stocks/mil-ldo/`](https://atlas.freedomcore.io/stocks/mil-ldo/) | `evidence_collected` |
-| `1810` | `HKEX:1810` | Xiaomi Corporation Class B | `equity` | `HK` | [`/stocks/hkex-1810/`](https://atlas.freedomcore.io/stocks/hkex-1810/) | `record_missing` |
-| `1810` | `TADAWUL:1810` | Seera Holding Group | `equity` | `SA` | [`/stocks/tadawul-1810/`](https://atlas.freedomcore.io/stocks/tadawul-1810/) | `record_missing` |
-| `7203` | `TADAWUL:7203` | Elm Company | `equity` | `SA` | [`/stocks/tadawul-7203/`](https://atlas.freedomcore.io/stocks/tadawul-7203/) | `record_missing` |
-| `7203` | `TSE:7203` | Toyota | `equity` | `JP` | [`/stocks/7203/`](https://atlas.freedomcore.io/stocks/7203/) | `evidence_collected` |
+| `SOL` | `CRYPTO:SOL` | Solana | `crypto` | `GL` | [`/stocks/SOL/`](https://atlas.freedomcore.io/stocks/SOL/) | `live` |
+| `SOL` | `ASX:SOL` | Washington H. Soul Pattinson and Company Limited | `equity` | `AU` | [`/stocks/asx-sol/`](https://atlas.freedomcore.io/stocks/asx-sol/) | `live` |
+| `SOL` | `BME:SOL` | Soltec Power Holdings SA | `equity` | `ES` | [`/stocks/bme-sol/`](https://atlas.freedomcore.io/stocks/bme-sol/) | `live` |
+| `SOL` | `JSE:SOL` | Sasol Limited | `equity` | `ZA` | [`/stocks/jse-sol/`](https://atlas.freedomcore.io/stocks/jse-sol/) | `live` |
+| `SOL` | `MIL:SOL` | SOL S.p.A. | `equity` | `IT` | [`/stocks/mil-sol/`](https://atlas.freedomcore.io/stocks/mil-sol/) | `live` |
+| `ARB` | `CRYPTO:ARB` | Arbitrum | `crypto` | `GL` | [`/stocks/ARB/`](https://atlas.freedomcore.io/stocks/ARB/) | `live` |
+| `ARB` | `NZX:ARB` | ArborGen Holdings Limited | `equity` | `NZ` | [`/stocks/nzx-arb/`](https://atlas.freedomcore.io/stocks/nzx-arb/) | `held_calendar_unknown` |
+| `BCH` | `CRYPTO:BCH` | Bitcoin Cash | `crypto` | `GL` | [`/stocks/BCH/`](https://atlas.freedomcore.io/stocks/BCH/) | `live` |
+| `BCH` | `SET:BCH` | Bangkok Chain Hospital Public Co., Ltd. | `equity` | `TH` | [`/stocks/set-bch/`](https://atlas.freedomcore.io/stocks/set-bch/) | `live` |
+| `LDO` | `COINGECKO:lido-dao` | Lido DAO | `crypto` | `GL` | [`/stocks/cg-lido-dao/`](https://atlas.freedomcore.io/stocks/cg-lido-dao/) | `live` |
+| `LDO` | `MIL:LDO` | Leonardo SpA | `equity` | `IT` | [`/stocks/mil-ldo/`](https://atlas.freedomcore.io/stocks/mil-ldo/) | `live` |
+| `1810` | `HKEX:1810` | Xiaomi Corporation Class B | `equity` | `HK` | [`/stocks/hkex-1810/`](https://atlas.freedomcore.io/stocks/hkex-1810/) | `stale_receipt` |
+| `1810` | `TADAWUL:1810` | Seera Holding Group | `equity` | `SA` | [`/stocks/tadawul-1810/`](https://atlas.freedomcore.io/stocks/tadawul-1810/) | `live` |
+| `7203` | `TADAWUL:7203` | Elm Company | `equity` | `SA` | [`/stocks/tadawul-7203/`](https://atlas.freedomcore.io/stocks/tadawul-7203/) | `live` |
+| `7203` | `TSE:7203` | Toyota | `equity` | `JP` | [`/stocks/7203/`](https://atlas.freedomcore.io/stocks/7203/) | `live` |
 
 ---
 
-## 5. Reconciled coverage and source-record accounting
+## 5. Coverage in this release (2026-11-03)
 
-| Metric | Value | Unit |
+| Metric | Value | Note |
 | :-- | --: | :-- |
-| Company and crypto canonical listings | 6,375 | 4,875 equities across 53 countries + 1,500 crypto assets |
-| Total Realm identities | 6,394 | listings + 8 indices + 8 commodities + 3 FX pairs |
-| Runtime research admission | 5,163 admitted / 1,231 held | per `TERMINAL_REALM_REVIEW.json` |
-| Stored source records present | 3,961 | `populated` 1,244, `evidence_collected` 2,054, `source_unavailable` 572, `checked_no_signal` 91 |
-| Stored source records missing | 2,414 | explicit `record_state: "record_missing"` (never blank) |
-| `coingecko_id` bound | 1,500 | all crypto rows |
-| `sec_cik` bound | 100 | canonical equity rows with SEC filings |
+| Listings | 6,394 | 4,875 equities, 1,500 crypto, 8 indices, 8 commodities, 3 FX |
+| Venues | 69 | exchanges plus crypto namespaces |
+| Live price | 4,082 | current for the listing's exchange session |
+| Stored price awaiting fresh capture | 1,720 | |
+| Valid price held (calendar not certified) | 85 | |
+| Stale / none collected / source conflict | 504 / 2 / 1 | |
+| Verified profile text | 6,025 | |
+| Research report observed | 5,142 | |
+| Chart renderable | 4,325 | listings with daily bars |
 
-Directory registration, runtime research admission and stored source-record state are separate clocks and are never conflated. Listing, class, country and record-state counts are computed from the CSV in this repository. Realm identity and admission counts come from the reconciled summary published with the v3 release.
+Counts are computed from the files in this repository. Unknown never means delisted, and prices that fail a check are held rather than guessed.
 
 ---
 
