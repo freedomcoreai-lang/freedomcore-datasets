@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/atlas-banner.png" alt="Atlas Symbol Coverage: 6,375 identities, 53 countries, 1,500 crypto assets" width="100%">
+  <img src="assets/atlas-banner.png" alt="Atlas Symbol Coverage: 6,394 listings, 59 exchanges, 1,500 crypto assets" width="100%">
 </p>
 
 # FreedomCore Atlas Open Datasets (CC BY 4.0)
