@@ -1,6 +1,6 @@
 {
  "schema": "atlas.symbol_coverage.v4",
- "generated_at": "2026-11-03T06:54:35+00:00",
+ "generated_at": "2026-11-03T21:35:11+00:00",
  "snapshot_date": "2026-11-03",
  "rows": 6394,
  "asset_class": {
@@ -12,9 +12,9 @@
  },
  "exchanges": 69,
  "quote_state": {
-  "live": 4082,
-  "receipt_present_unverified": 1720,
-  "stale_receipt": 504,
+  "live": 4442,
+  "receipt_present_unverified": 1597,
+  "stale_receipt": 267,
   "held_calendar_unknown": 85,
   "unmeasured_no_receipt": 2,
   "source_failure": 1
@@ -29,12 +29,12 @@
   "blocked": 157
  },
  "rows_with_chart_bars": 4325,
- "fresh_checks_at": "2026-11-03T06:52:57.162379+00:00",
- "register_generated_at": "2026-11-03T06:53:37.448047+00:00",
+ "fresh_checks_at": "2026-11-03T21:33:24.339967+00:00",
+ "register_generated_at": "2026-11-03T21:33:10.815446+00:00",
  "source_pins": {
   "master_catalog_sha256": "f2410fdb3f7f3f1c5e11d51c24239e1189e25e99d31ab3292e1b162d1f24ffe7",
-  "realm_register_sha256": "1814eb0d6e93df2e0611c95c23df23ee246064a407097b1c9358c16a2d0edc95",
-  "p8_scoreboard_sha256": "e5a5f3a708b01def63712ea8ccbca8e699186608b917d4bb513931c219ced765",
+  "realm_register_sha256": "059f9cf93408193dfb1910c1b818d58052a69863acbb028c693e0cbbe5cdbe46",
+  "p8_scoreboard_sha256": "af2f87e668c4dea48983914279a1c8bf0f5a4059f807648e98500784c8d9e08d",
   "previous_v3_csv_sha256": "ceee6577ee01758b0449187149187926ede6c4186eae83e0971e16a4a455d8ef"
  },
  "carried_columns": "record_* columns are carried unchanged from v3 with their own original record_checked_at dates (2026-10-23..25); they are not re-dated."
