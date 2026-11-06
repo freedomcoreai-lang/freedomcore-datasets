@@ -2,10 +2,10 @@
 
 A small, citable record of the FreedomCore Atlas public security posture: plain-language controls, public evidence links and an explicit claims boundary you can re-test yourself.
 
-The files in this folder (`atlas-security-posture.json`, `schema.json`) are the **retained 2026-07-20 snapshot** as last published to this repository and are preserved unchanged. Current controls are published live:
+The files in this folder are release **v3.1** (2026-11-06), the same bytes as the Hugging Face and Kaggle mirrors. The retained 2026-07-20 snapshot that this folder held before remains in the repository history.
 
 - Security and trust controls: [`/security/`](https://atlas.freedomcore.io/security/)
-- Reproducible security proof page: [`/pages/atlas-security.html`](https://atlas.freedomcore.io/pages/atlas-security.html)
+- Payment and data handling: [`/privacy/`](https://atlas.freedomcore.io/privacy/)
 - Canonical dataset page: [`/datasets/atlas-security-posture/`](https://atlas.freedomcore.io/datasets/atlas-security-posture/)
 - Mirrors: [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-security-posture) · [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-security-posture)
 

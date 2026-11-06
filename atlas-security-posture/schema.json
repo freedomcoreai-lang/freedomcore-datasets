@@ -1,8 +1,99 @@
 {
-  "fields": {
-    "claims_boundary": "Scope statement for the evidence file.",
-    "controls": "Plain-language public control summary.",
-    "evidence_urls": "Public URLs that can be independently checked."
+  "schema": "atlas.security_posture_evidence.v3",
+  "title": "FreedomCore Atlas Security Posture & Audit Evidence Schema (v3.1)",
+  "generated_at": "2026-11-06T23:20:28Z",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "canonical_dataset_url": "https://atlas.freedomcore.io/datasets/atlas-security-posture/",
+  "described_artifacts": {
+    "atlas-security-posture.json": {
+      "sha256": "9e312a902ee2dddda887dc50103043c1dade528183cd63ab9b9d570a19f03148",
+      "bytes": 21148,
+      "control_count": 12
+    },
+    "atlas-security-posture.csv": {
+      "sha256": "c8ed78657892348cb5e2921d8f4360169c1217ae06143a720d2945da62563c80",
+      "bytes": 10663,
+      "control_count": 12
+    },
+    "atlas-security-posture-summary-20261106.json": {
+      "sha256": "b8a75670f7076a5731185d6aa415ff1faa47ef96b579dd33224b64407023cd69",
+      "bytes": 1812
+    }
   },
-  "schema": "atlas.security_posture_public.v1"
+  "fields": {
+    "control_id": "Primary key. Canonical Atlas security/provenance control identifier (ATLAS-SEC-01 through ATLAS-SEC-12).",
+    "category": "Control domain category (transport, payment isolation, privacy, entity resolution, fail-closed inventory, two-clock provenance, receipt admission, media integrity, hold enforcement, feed integrity, retirement governance, claims boundary).",
+    "control_title": "Plain-language title of the enforced security or provenance control.",
+    "enforcement_layer": "Architectural subsystem enforcing the control.",
+    "verification_status": "Explicit verification state ('verified_active', 'staged_pending_installation' or 'recheck_failed').",
+    "verified_at": "ISO-8601 UTC timestamp of the last successful verification of the cited evidence artifact (null when staged; kept unchanged when a re-check fails).",
+    "evidence_artifact": "Canonical public URL or workspace evidence artifact path backing the control.",
+    "evidence_sha256": "64-hex SHA-256 digest of the named evidence_artifact.",
+    "public_evidence_url": "Live clickable https://atlas.freedomcore.io/... URL where the control can be inspected.",
+    "reproducible_check": "Step-by-step instructions for an external reviewer to verify the control independently.",
+    "scope_and_limits": "Explicit boundary stating what the control covers and what requires external retesting.",
+    "evidence_http_status_now": "HTTP status of evidence_artifact at links_checked_at, or internal_file_checked for withheld internal files.",
+    "evidence_sha256_now": "SHA-256 of evidence_artifact at links_checked_at.",
+    "evidence_changed_since_verified": "Whether evidence_sha256_now differs from evidence_sha256.",
+    "public_evidence_http_status_now": "HTTP status of public_evidence_url at links_checked_at.",
+    "links_checked_at": "ISO-8601 UTC time of this row's link and fingerprint check."
+  },
+  "field_specifications": [
+    {
+      "name": "control_id",
+      "csv_column_index": 0,
+      "description": "Primary key. Canonical Atlas security/provenance control identifier (ATLAS-SEC-01 through ATLAS-SEC-12)."
+    },
+    {
+      "name": "category",
+      "csv_column_index": 1,
+      "description": "Control domain category (transport, payment isolation, privacy, entity resolution, fail-closed inventory, two-clock provenance, receipt admission, media integrity, hold enforcement, feed integrity, retirement governance, claims boundary)."
+    },
+    {
+      "name": "control_title",
+      "csv_column_index": 2,
+      "description": "Plain-language title of the enforced security or provenance control."
+    },
+    {
+      "name": "enforcement_layer",
+      "csv_column_index": 3,
+      "description": "Architectural subsystem enforcing the control."
+    },
+    {
+      "name": "verification_status",
+      "csv_column_index": 4,
+      "description": "Explicit verification state ('verified_active', 'staged_pending_installation' or 'recheck_failed')."
+    },
+    {
+      "name": "verified_at",
+      "csv_column_index": 5,
+      "description": "ISO-8601 UTC timestamp of the last successful verification of the cited evidence artifact (null when staged; kept unchanged when a re-check fails)."
+    },
+    {
+      "name": "evidence_artifact",
+      "csv_column_index": 6,
+      "description": "Canonical public URL or workspace evidence artifact path backing the control."
+    },
+    {
+      "name": "evidence_sha256",
+      "csv_column_index": 7,
+      "description": "64-hex SHA-256 digest of the named evidence_artifact."
+    },
+    {
+      "name": "public_evidence_url",
+      "csv_column_index": 8,
+      "description": "Live clickable https://atlas.freedomcore.io/... URL where the control can be inspected."
+    },
+    {
+      "name": "reproducible_check",
+      "csv_column_index": 9,
+      "description": "Step-by-step instructions for an external reviewer to verify the control independently."
+    },
+    {
+      "name": "scope_and_limits",
+      "csv_column_index": 10,
+      "description": "Explicit boundary stating what the control covers and what requires external retesting."
+    }
+  ]
 }
