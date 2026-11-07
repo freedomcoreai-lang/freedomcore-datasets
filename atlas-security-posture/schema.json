@@ -1,23 +1,23 @@
 {
   "schema": "atlas.security_posture_evidence.v3",
-  "title": "FreedomCore Atlas Security Posture & Audit Evidence Schema (v3.1)",
-  "generated_at": "2026-11-06T23:20:28Z",
+  "title": "FreedomCore Atlas Security Posture & Audit Evidence Schema (v3.2)",
+  "generated_at": "2026-11-07T00:14:37Z",
   "license": "CC-BY-4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "canonical_dataset_url": "https://atlas.freedomcore.io/datasets/atlas-security-posture/",
   "described_artifacts": {
     "atlas-security-posture.json": {
-      "sha256": "9e312a902ee2dddda887dc50103043c1dade528183cd63ab9b9d570a19f03148",
-      "bytes": 21148,
+      "sha256": "2692960cb528b5c150bd5eb6d7662281360d6abfc34637010d41cbf580e0160e",
+      "bytes": 20940,
       "control_count": 12
     },
     "atlas-security-posture.csv": {
-      "sha256": "c8ed78657892348cb5e2921d8f4360169c1217ae06143a720d2945da62563c80",
-      "bytes": 10663,
+      "sha256": "6d000e1cee2221e25e8875b79d7b6206a46fcb0b37ac7d4d631f447c648c20ec",
+      "bytes": 10458,
       "control_count": 12
     },
-    "atlas-security-posture-summary-20261106.json": {
-      "sha256": "b8a75670f7076a5731185d6aa415ff1faa47ef96b579dd33224b64407023cd69",
+    "atlas-security-posture-summary-20261107.json": {
+      "sha256": "5b4313d44355f8b16c54d2428415bfa951d8f7bc3852130d05c82db6473497bc",
       "bytes": 1812
     }
   },

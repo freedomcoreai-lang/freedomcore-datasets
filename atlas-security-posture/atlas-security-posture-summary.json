@@ -1,13 +1,13 @@
 {
  "schema": "atlas.security_posture_evidence.v3",
- "release": "v3.1",
- "generated_at": "2026-11-06T23:20:28Z",
- "snapshot_date": "2026-11-06",
+ "release": "v3.2",
+ "generated_at": "2026-11-07T00:14:37Z",
+ "snapshot_date": "2026-11-07",
  "summary_counts": {
   "total_controls": 12,
-  "verified_active_controls": 10,
+  "verified_active_controls": 11,
   "staged_pending_installation_controls": 1,
-  "recheck_failed_controls": 1,
+  "recheck_failed_controls": 0,
   "categories": [
    "canonical_product_naming_and_feed_integrity",
    "editorial_receipt_admission",
@@ -28,18 +28,18 @@
   "live_security_controls_url": {
    "url": "https://atlas.freedomcore.io/security/",
    "http_status": 200,
-   "checked_at": "2026-11-06T23:20:28Z"
+   "checked_at": "2026-11-07T00:14:37Z"
   },
   "payment_statement_url": {
    "url": "https://atlas.freedomcore.io/privacy/",
    "http_status": 200,
-   "checked_at": "2026-11-06T23:20:28Z"
+   "checked_at": "2026-11-07T00:14:37Z"
   },
   "canonical_dataset_url": {
    "url": "https://atlas.freedomcore.io/datasets/atlas-security-posture/",
    "http_status": 200,
-   "checked_at": "2026-11-06T23:20:28Z"
+   "checked_at": "2026-11-07T00:14:37Z"
   }
  },
- "freshness_note": "v3.1 (2026-11-06): ATLAS-SEC-01, ATLAS-SEC-02, ATLAS-SEC-04, ATLAS-SEC-05, ATLAS-SEC-12 were re-checked at 2026-11-06T23:20:28Z against canonical pages (/security/, /privacy/) and the register files pinned by the authority manifest of 2026-11-06; verified_at is re-dated only where the check passed. The other seven controls are carried from v3 with their own verification (25 October) and link-check (31 October) dates. Internal evidence files are fingerprinted locally; their server paths are withheld."
+ "freshness_note": "v3.2 (2026-11-07): ATLAS-SEC-01, ATLAS-SEC-02, ATLAS-SEC-04, ATLAS-SEC-05, ATLAS-SEC-12 were re-checked at 2026-11-07T00:14:37Z against canonical pages (/security/, /privacy/) and the register files pinned by the authority manifest of 2026-11-07; verified_at is re-dated only where the check passed. The other seven controls are carried from v3 with their own verification (25 October) and link-check (31 October) dates. Internal evidence files are fingerprinted locally; their server paths are withheld."
 }

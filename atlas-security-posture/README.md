@@ -2,7 +2,7 @@
 
 A small, citable record of the FreedomCore Atlas public security posture: plain-language controls, public evidence links and an explicit claims boundary you can re-test yourself.
 
-The files in this folder are release **v3.1** (2026-11-06), the same bytes as the Hugging Face and Kaggle mirrors. The retained 2026-07-20 snapshot that this folder held before remains in the repository history.
+The files in this folder are release **v3.2** (2026-11-07), the same bytes as the Hugging Face and Kaggle mirrors. The retained 2026-07-20 snapshot that this folder held before remains in the repository history.
 
 - Security and trust controls: [`/security/`](https://atlas.freedomcore.io/security/)
 - Payment and data handling: [`/privacy/`](https://atlas.freedomcore.io/privacy/)
