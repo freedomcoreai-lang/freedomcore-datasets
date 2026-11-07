@@ -13,7 +13,7 @@ I started publishing this register because joining market data on bare tickers q
 
 Public, machine-readable reference datasets published by **[FreedomCore Atlas](https://atlas.freedomcore.io/)** for cross-border financial entity resolution, source-dated market developments and platform security verification.
 
-> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,394** listings (4,875 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 venues, checked `2026-11-07T07:06Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
+> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,394** listings (4,875 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 venues, checked `2026-11-07T21:37Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
 
 ---
 
@@ -50,10 +50,10 @@ Mirror revisions are managed per platform and can lag this repository. The canon
 
 | File | Bytes | SHA-256 | Description |
 | :-- | --: | :-- | :-- |
-| `atlas-symbol-coverage/atlas-symbol-coverage.csv` | 2,650,368 | `103c0d6e2ef4457f95c6e4df97b4dbdbd1da6f9e215e871903ce65e14c2dd15f` | Full 6,394-row CSV register (25 columns, `atlas.symbol_coverage.v4`) |
-| `atlas-symbol-coverage/atlas-symbol-coverage.json` | 5,368,228 | `0b8d248f3baa1663dbca6d1b7ae738518cf44672d7c9600e42d2c27b1023516b` | Full 6,394-record JSON register |
+| `atlas-symbol-coverage/atlas-symbol-coverage.csv` | 2,653,557 | `471cb67271abdbfef80fbf65a3cd9f9afa1fbc76e65b31cf85aeadb8946cabc5` | Full 6,394-row CSV register (25 columns, `atlas.symbol_coverage.v4`) |
+| `atlas-symbol-coverage/atlas-symbol-coverage.json` | 5,371,415 | `675e9a3352ddfdeab08facfdf366a5c8c233265070cdbf298a7026bbeae0d77f` | Full 6,394-record JSON register |
 | `atlas-symbol-coverage/schema.json` | 3,720 | `8a69589461dc00b4e914e44c13d725ebb600647b5d609c4f1695dd44b01dd33f` | Machine-readable 25-column v4 schema |
-| `atlas-symbol-coverage/atlas-symbol-coverage-summary.json` | 1,489 | `8e75acd72ce7d0ab442705df4dbf7172a1153031339ac6986c0975f8a57589c8` | Counts for this release (quote, profile, research and chart layers) |
+| `atlas-symbol-coverage/atlas-symbol-coverage-summary.json` | 1,487 | `bf801fb219052ea2f1cc690283a0eaaad24d8cc586ec70042a4a3f87aa39955c` | Counts for this release (quote, profile, research and chart layers) |
 
 Columns (`25`): `listing_key`, `ticker`, `name`, `asset_class`, `exchange`, `country_code`, `route_slug`, `profile_url`, `workstation_url`, `sec_cik`, `coingecko_id`, `profile_state`, `profile_as_of`, `research_state`, `research_as_of`, `quote_state`, `quote_observed_at`, `chart_bars`, `checked_at`, `record_exists`, `record_state`, `record_checked_at`, `record_sha256`, `stored_source_count`, `dated_source_count`.
 
@@ -91,13 +91,13 @@ Joining global datasets on bare ticker strings corrupts cross-border equity and 
 | :-- | --: | :-- |
 | Listings | 6,394 | 4,875 equities, 1,500 crypto, 8 indices, 8 commodities, 3 FX |
 | Venues | 69 | exchanges plus crypto namespaces |
-| Live price | 4,691 | current for the listing's exchange session |
-| Stored price awaiting fresh capture | 1,322 | |
-| Valid price held (calendar not certified) | 48 | |
-| Stale / none collected / source conflict | 152 / 2 / 179 | |
+| Live price | 4,870 | current for the listing's exchange session |
+| Stored price awaiting fresh capture | 1,298 | |
+| Valid price held (calendar not certified) | 72 | |
+| Stale / none collected / source conflict | 151 / 2 / 1 | |
 | Verified profile text | 6,066 | |
 | Research report observed | 5,142 | |
-| Chart renderable | 4,929 | listings with daily bars |
+| Chart renderable | 4,952 | listings with daily bars |
 
 Counts are computed from the files in this repository. Unknown never means delisted, and prices that fail a check are held rather than guessed.
 
