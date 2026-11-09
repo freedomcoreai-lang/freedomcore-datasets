@@ -1,7 +1,7 @@
 {
  "schema": "atlas.symbol_coverage.v4",
- "generated_at": "2026-11-08T21:32:43+00:00",
- "snapshot_date": "2026-11-08",
+ "generated_at": "2026-11-09T21:33:06+00:00",
+ "snapshot_date": "2026-11-09",
  "rows": 6394,
  "asset_class": {
   "equity": 4875,
@@ -12,16 +12,15 @@
  },
  "exchanges": 69,
  "quote_state": {
-  "live": 4849,
-  "receipt_present_unverified": 1181,
-  "stale_receipt": 249,
-  "source_failure": 74,
-  "held_calendar_unknown": 39,
+  "live": 4828,
+  "receipt_present_unverified": 1141,
+  "stale_receipt": 290,
+  "source_failure": 72,
+  "held_calendar_unknown": 61,
   "unmeasured_no_receipt": 2
  },
  "profile_state": {
-  "observed": 6066,
-  "insufficient_evidence": 328
+  "observed": 6394
  },
  "research_state": {
   "observed": 5142,
@@ -29,13 +28,13 @@
   "blocked": 157,
   "not_qualified": 25
  },
- "rows_with_chart_bars": 5191,
- "fresh_checks_at": "2026-11-08T21:31:30.476603+00:00",
- "register_generated_at": "2026-11-08T21:30:57.791393+00:00",
+ "rows_with_chart_bars": 5243,
+ "fresh_checks_at": "2026-11-09T21:31:21.686083+00:00",
+ "register_generated_at": "2026-11-09T21:31:57.310368+00:00",
  "source_pins": {
   "master_catalog_sha256": "f2410fdb3f7f3f1c5e11d51c24239e1189e25e99d31ab3292e1b162d1f24ffe7",
-  "realm_register_sha256": "18911d8b97b02bd1bbfe49f5198af5eeb451a9b39d4c2b97ac88fd918a6b1725",
-  "p8_scoreboard_sha256": "a3fe66587f6f4bc40d907724df357fd53c95fa7443716f566a146bc3242bf74b",
+  "realm_register_sha256": "7f9956d7ac60ab9f99f1cc802830b91ccd257d38e47c7459ace74f197360171b",
+  "p8_scoreboard_sha256": "3b9e11f44340f650466dd17b46db803d6a701229187a97db2c9f73e4e68b5937",
   "previous_v3_csv_sha256": "ceee6577ee01758b0449187149187926ede6c4186eae83e0971e16a4a455d8ef"
  },
  "carried_columns": "record_* columns are carried unchanged from v3 with their own original record_checked_at dates (2026-10-23..25); they are not re-dated. The 19 rows with no v3 row have no stored record and are labelled record_missing (record_exists False, no record date or digest, zero source counts)."
