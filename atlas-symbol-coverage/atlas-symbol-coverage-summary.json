@@ -1,7 +1,7 @@
 {
  "schema": "atlas.symbol_coverage.v4",
- "generated_at": "2026-11-09T21:33:06+00:00",
- "snapshot_date": "2026-11-09",
+ "generated_at": "2026-11-10T21:36:14+00:00",
+ "snapshot_date": "2026-11-10",
  "rows": 6394,
  "asset_class": {
   "equity": 4875,
@@ -12,11 +12,11 @@
  },
  "exchanges": 69,
  "quote_state": {
-  "live": 4828,
-  "receipt_present_unverified": 1141,
-  "stale_receipt": 290,
-  "source_failure": 72,
-  "held_calendar_unknown": 61,
+  "live": 4854,
+  "receipt_present_unverified": 1133,
+  "stale_receipt": 285,
+  "held_calendar_unknown": 68,
+  "source_failure": 52,
   "unmeasured_no_receipt": 2
  },
  "profile_state": {
@@ -28,13 +28,13 @@
   "blocked": 157,
   "not_qualified": 25
  },
- "rows_with_chart_bars": 5243,
- "fresh_checks_at": "2026-11-09T21:31:21.686083+00:00",
- "register_generated_at": "2026-11-09T21:31:57.310368+00:00",
+ "rows_with_chart_bars": 5251,
+ "fresh_checks_at": "2026-11-10T21:34:30.394145+00:00",
+ "register_generated_at": "2026-11-10T21:35:14.672986+00:00",
  "source_pins": {
   "master_catalog_sha256": "f2410fdb3f7f3f1c5e11d51c24239e1189e25e99d31ab3292e1b162d1f24ffe7",
-  "realm_register_sha256": "7f9956d7ac60ab9f99f1cc802830b91ccd257d38e47c7459ace74f197360171b",
-  "p8_scoreboard_sha256": "3b9e11f44340f650466dd17b46db803d6a701229187a97db2c9f73e4e68b5937",
+  "realm_register_sha256": "fde51911df9ac9d10f4889b37600f6aa157974e7dd57d471ce883bf14ade07e8",
+  "p8_scoreboard_sha256": "57b101f79586ccadd358c78f6e712ff6350a17783a93ac1b465d8351e8aae2db",
   "previous_v3_csv_sha256": "ceee6577ee01758b0449187149187926ede6c4186eae83e0971e16a4a455d8ef"
  },
  "carried_columns": "record_* columns are carried unchanged from v3 with their own original record_checked_at dates (2026-10-23..25); they are not re-dated. The 19 rows with no v3 row have no stored record and are labelled record_missing (record_exists False, no record date or digest, zero source counts)."
