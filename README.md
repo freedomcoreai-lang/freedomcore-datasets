@@ -26,7 +26,7 @@ Public, machine-readable reference datasets published by **[FreedomCore Atlas](h
 | Symbol Coverage dataset page | [`/datasets/atlas-symbol-coverage/`](https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/) | Canonical page for the files in this repository |
 | Realm directory | [`/stocks/`](https://atlas.freedomcore.io/stocks/) | 6,375 company and crypto listings; equities across 53 countries |
 | Research Centre | [`/workstation/`](https://atlas.freedomcore.io/workstation/) | Interactive research desk with source citations |
-| Atlas Quakes | [`/quakes/`](https://atlas.freedomcore.io/quakes/) | Source-dated company and protocol developments (successor to Market Pulse) |
+| Atlas Quakes | [`/quakes/`](https://atlas.freedomcore.io/quakes/) | Source-dated company and protocol developments; dated editions at `/quakes/YYYY-MM-DD/` since 2026-10-29 |
 | Atlas Studio | [`/studio/`](https://atlas.freedomcore.io/studio/) | Audio briefings and recorded market observations |
 | Daily Notes | [`/notes/daily/`](https://atlas.freedomcore.io/notes/daily/) | Receipt-bound public research editions |
 | Methodology | [`/methodology/`](https://atlas.freedomcore.io/methodology/) | Source admission rules, clock separation, non-fabrication boundary |
@@ -39,7 +39,7 @@ Public, machine-readable reference datasets published by **[FreedomCore Atlas](h
 | Family | Canonical Atlas route | Hugging Face | Kaggle | Status in this repository |
 | :-- | :-- | :-- | :-- | :-- |
 | **Symbol Coverage** (`atlas-symbol-coverage`) | [`/datasets/atlas-symbol-coverage/`](https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/) | [`freedomcoreai/atlas-symbol-coverage`](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) | [`atlasfreedomcoreio/atlas-symbol-coverage`](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) | **v4** (6,394 rows, refreshed daily, digests below) |
-| **Market Pulse** (`atlas-market-pulse`) | [`/datasets/atlas-market-pulse/`](https://atlas.freedomcore.io/datasets/atlas-market-pulse/) | [`freedomcoreai/atlas-market-pulse`](https://huggingface.co/datasets/freedomcoreai/atlas-market-pulse) | Removed | **Retired product.** Files here are the retained 2026-07-20 snapshot, unchanged. Live successor: [Atlas Quakes](https://atlas.freedomcore.io/quakes/) |
+| **Atlas Quakes (archive to 17 August 2026)** (`atlas-quakes-archive`) | [`/quakes/`](https://atlas.freedomcore.io/quakes/) | [`freedomcoreai/atlas-quakes-archive`](https://huggingface.co/datasets/freedomcoreai/atlas-quakes-archive) | Not mirrored | **Archive.** Earlier editions, published under the product's former name. This folder holds the 20 July 2026 edition; the Hugging Face archive runs to 17 August 2026. Live editions are on the site: [Atlas Quakes](https://atlas.freedomcore.io/quakes/) |
 | **Security Posture** (`atlas-security-posture`) | [`/datasets/atlas-security-posture/`](https://atlas.freedomcore.io/datasets/atlas-security-posture/) | [`freedomcoreai/atlas-security-posture`](https://huggingface.co/datasets/freedomcoreai/atlas-security-posture) | [`atlasfreedomcoreio/atlas-security-posture`](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-security-posture) | **v3.2** (12 controls, re-checked 2026-11-07; CSV, JSON, schema and summary in this folder) |
 
 Mirror revisions are managed per platform and can lag this repository. The canonical Atlas dataset pages state the current revision for each platform.

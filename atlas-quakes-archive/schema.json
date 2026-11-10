@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "archive_maintenance": "Record of the 2026-11-10 archive maintenance: what was edited, and the originally published content hash.",
+    "dataset_id": "Name of this archive dataset.",
+    "generated_at": "Build timestamp for this public wrapper.",
+    "pulse": "Archived Atlas Quakes payload for this edition. The field name is kept from the original file format.",
+    "pulse.items": "Public showcase symbols and metadata when present."
+  },
+  "schema": "atlas.market_pulse_public.v1"
+}
