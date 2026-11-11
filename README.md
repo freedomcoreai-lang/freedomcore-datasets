@@ -13,7 +13,7 @@ I started publishing this register because joining market data on bare tickers q
 
 Public, machine-readable reference datasets published by **[FreedomCore Atlas](https://atlas.freedomcore.io/)** for cross-border financial entity resolution, source-dated market developments and platform security verification.
 
-> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,394** listings (4,875 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 venues, checked `2026-11-10T22:02Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
+> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,394** listings (4,875 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 venues, checked `2026-11-11T21:33Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
 
 ---
 
@@ -50,10 +50,10 @@ Mirror revisions are managed per platform and can lag this repository. The canon
 
 | File | Bytes | SHA-256 | Description |
 | :-- | --: | :-- | :-- |
-| `atlas-symbol-coverage/atlas-symbol-coverage.csv` | 2,659,492 | `9ef5c2898e7968a86f53c9e37bb556a4b82ed97e557e74c07a4a5339145c1708` | Full 6,394-row CSV register (25 columns, `atlas.symbol_coverage.v4`) |
-| `atlas-symbol-coverage/atlas-symbol-coverage.json` | 5,377,324 | `c1ebabd5ae87b7662d3c23fc62c847a4e05ecabd1dcd3a8c7c301f0a47dd03cf` | Full 6,394-record JSON register |
+| `atlas-symbol-coverage/atlas-symbol-coverage.csv` | 2,660,021 | `0723337274fd35ae0ddf5d5640d54d45486551419bae0ae2c3dcd6ea6255fbc0` | Full 6,394-row CSV register (25 columns, `atlas.symbol_coverage.v4`) |
+| `atlas-symbol-coverage/atlas-symbol-coverage.json` | 5,377,852 | `8aecc87a81fe32f70681f4ba517e2f1803ccda0b3323ac7e964bbeb0bc7ea9da` | Full 6,394-record JSON register |
 | `atlas-symbol-coverage/schema.json` | 3,720 | `8a69589461dc00b4e914e44c13d725ebb600647b5d609c4f1695dd44b01dd33f` | Machine-readable 25-column v4 schema |
-| `atlas-symbol-coverage/atlas-symbol-coverage-summary.json` | 1,457 | `5354f83b0b8adc7f090e3c9c87559da3e17c88780b27413de8fd8126f7723b39` | Counts for this release (quote, profile, research and chart layers) |
+| `atlas-symbol-coverage/atlas-symbol-coverage-summary.json` | 1,456 | `65096ac7ba100851da47ec5526a0f08abce5fb9a3197220edd3ba0ed24ccfdff` | Counts for this release (quote, profile, research and chart layers) |
 
 Columns (`25`): `listing_key`, `ticker`, `name`, `asset_class`, `exchange`, `country_code`, `route_slug`, `profile_url`, `workstation_url`, `sec_cik`, `coingecko_id`, `profile_state`, `profile_as_of`, `research_state`, `research_as_of`, `quote_state`, `quote_observed_at`, `chart_bars`, `checked_at`, `record_exists`, `record_state`, `record_checked_at`, `record_sha256`, `stored_source_count`, `dated_source_count`.
 
@@ -85,19 +85,19 @@ Joining global datasets on bare ticker strings corrupts cross-border equity and 
 
 ---
 
-## 5. Coverage in this release (2026-11-10)
+## 5. Coverage in this release (2026-11-11)
 
 | Metric | Value | Note |
 | :-- | --: | :-- |
 | Listings | 6,394 | 4,875 equities, 1,500 crypto, 8 indices, 8 commodities, 3 FX |
 | Venues | 69 | exchanges plus crypto namespaces |
-| Live price | 4,808 | current for the listing's exchange session |
-| Stored price awaiting fresh capture | 1,133 | |
-| Valid price held (calendar not certified) | 68 | |
-| Stale / none collected / source conflict | 277 / 2 / 106 | |
+| Live price | 4,856 | current for the listing's exchange session |
+| Stored price awaiting fresh capture | 1,123 | |
+| Valid price held (calendar not certified) | 42 | |
+| Stale / none collected / source conflict | 321 / 2 / 50 | |
 | Verified profile text | 6,394 | |
 | Research report observed | 5,142 | |
-| Chart renderable | 5,251 | listings with daily bars |
+| Chart renderable | 5,263 | listings with daily bars |
 
 Counts are computed from the files in this repository. Unknown never means delisted, and prices that fail a check are held rather than guessed.
 
