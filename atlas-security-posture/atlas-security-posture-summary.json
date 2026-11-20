@@ -1,45 +1,60 @@
 {
- "schema": "atlas.security_posture_evidence.v3",
- "release": "v3.2",
- "generated_at": "2026-11-07T00:14:37Z",
- "snapshot_date": "2026-11-07",
- "summary_counts": {
-  "total_controls": 12,
-  "verified_active_controls": 11,
-  "staged_pending_installation_controls": 1,
-  "recheck_failed_controls": 0,
-  "categories": [
-   "canonical_product_naming_and_feed_integrity",
-   "editorial_receipt_admission",
-   "entity_resolution_integrity",
-   "held_profile_honesty",
-   "media_derivative_verification",
-   "open_data_catalog_and_retirement_governance",
-   "payment_and_billing_isolation",
-   "privacy_and_local_storage",
-   "self_published_claims_boundary",
-   "source_inventory_fail_closed",
-   "temporal_provenance_two_clock",
-   "transport_and_edge_isolation"
-  ],
-  "links_ok_now": 12
- },
- "link_checks": {
-  "live_security_controls_url": {
-   "url": "https://atlas.freedomcore.io/security/",
-   "http_status": 200,
-   "checked_at": "2026-11-07T00:14:37Z"
+  "schema": "atlas.security_posture_evidence.v3",
+  "release": "v3.3",
+  "generated_at": "2026-11-20T22:21:29Z",
+  "snapshot_date": "2026-11-20",
+  "summary_counts": {
+    "total_controls": 12,
+    "verified_active_controls": 11,
+    "staged_pending_installation_controls": 1,
+    "recheck_failed_controls": 0,
+    "categories": [
+      "canonical_product_naming_and_feed_integrity",
+      "editorial_receipt_admission",
+      "entity_resolution_integrity",
+      "held_profile_honesty",
+      "media_derivative_verification",
+      "open_data_catalog_and_retirement_governance",
+      "payment_and_billing_isolation",
+      "privacy_and_local_storage",
+      "self_published_claims_boundary",
+      "source_inventory_fail_closed",
+      "temporal_provenance_two_clock",
+      "transport_and_edge_isolation"
+    ],
+    "links_ok_now": 12
   },
-  "payment_statement_url": {
-   "url": "https://atlas.freedomcore.io/privacy/",
-   "http_status": 200,
-   "checked_at": "2026-11-07T00:14:37Z"
+  "link_checks": {
+    "live_security_controls_url": {
+      "url": "https://atlas.freedomcore.io/security/",
+      "http_status": 200,
+      "checked_at": "2026-11-20T22:21:29Z"
+    },
+    "payment_statement_url": {
+      "url": "https://atlas.freedomcore.io/privacy/",
+      "http_status": 200,
+      "checked_at": "2026-11-20T22:21:29Z"
+    },
+    "canonical_dataset_url": {
+      "url": "https://atlas.freedomcore.io/datasets/atlas-security-posture/",
+      "http_status": 200,
+      "checked_at": "2026-11-20T22:21:29Z"
+    }
   },
-  "canonical_dataset_url": {
-   "url": "https://atlas.freedomcore.io/datasets/atlas-security-posture/",
-   "http_status": 200,
-   "checked_at": "2026-11-07T00:14:37Z"
-  }
- },
- "freshness_note": "v3.2 (2026-11-07): ATLAS-SEC-01, ATLAS-SEC-02, ATLAS-SEC-04, ATLAS-SEC-05, ATLAS-SEC-12 were re-checked at 2026-11-07T00:14:37Z against canonical pages (/security/, /privacy/) and the register files pinned by the authority manifest of 2026-11-07; verified_at is re-dated only where the check passed. The other seven controls are carried from v3 with their own verification (25 October) and link-check (31 October) dates. Internal evidence files are fingerprinted locally; their server paths are withheld."
+  "symbol_coverage_pins": {
+    "rows": 6735,
+    "equities": 5215,
+    "crypto": 1500,
+    "benchmarks": 20,
+    "venues": 69,
+    "equity_exchanges": 59,
+    "equity_countries": 53,
+    "colliding_bare_ticker_groups_eq_crypto": 353,
+    "colliding_listings_eq_crypto": 776,
+    "record_exists_true": 3961,
+    "record_missing": 2774,
+    "csv_sha256": "444e64893ca87a9af42d703afe1dc8e942e77d8c984727099f5d4ee0516b6a77",
+    "json_sha256": "85f9b1e68c31ab45c93201314427f593760a5107e85e2c657777cf94a39987bc"
+  },
+  "freshness_note": "v3.3 (2026-11-20): ATLAS-SEC-01, ATLAS-SEC-02, ATLAS-SEC-04, ATLAS-SEC-05, ATLAS-SEC-12 were re-checked at 2026-11-20T22:21:29Z against canonical pages (/security/, /privacy/) and the 6,735-row atlas-symbol-coverage v4 register pinned by the authority manifest of 2026-11-20; verified_at is re-dated only where the check passed. The other seven controls are carried from v3 with their own verification (25 October) and link-check (31 October) dates. Internal evidence files are fingerprinted locally; their server paths are withheld."
 }

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/atlas-banner.png" alt="Atlas Symbol Coverage: 6,394 listings, 59 exchanges, 1,500 crypto assets" width="100%">
+  <img src="assets/atlas-banner.png" alt="Atlas Symbol Coverage: 6,735 listings — 5,215 equities on 59 exchanges in 53 countries, 1,500 crypto assets, 20 benchmarks" width="100%">
 </p>
 
 # FreedomCore Atlas Open Datasets (CC BY 4.0)
@@ -13,7 +13,7 @@ I started publishing this register because joining market data on bare tickers q
 
 Public, machine-readable reference datasets published by **[FreedomCore Atlas](https://atlas.freedomcore.io/)** for cross-border financial entity resolution, source-dated market developments and platform security verification.
 
-> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,735** listings (5,215 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 venues, checked `2026-11-20T21:35Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
+> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,735** listings (5,215 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 unique venues (59 equity exchanges + 10 crypto & benchmark namespaces), checked `2026-11-20T21:35Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
 
 ---
 
@@ -24,7 +24,7 @@ Public, machine-readable reference datasets published by **[FreedomCore Atlas](h
 | Atlas homepage | [`https://atlas.freedomcore.io/`](https://atlas.freedomcore.io/) | Global market overview and dated observations |
 | Public data catalog | [`/datasets/`](https://atlas.freedomcore.io/datasets/) | `schema.org/DataCatalog` index, CSV/JSON downloads |
 | Symbol Coverage dataset page | [`/datasets/atlas-symbol-coverage/`](https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/) | Canonical page for the files in this repository |
-| Realm directory | [`/stocks/`](https://atlas.freedomcore.io/stocks/) | 6,375 company and crypto listings; equities across 53 countries |
+| Realm directory | [`/stocks/`](https://atlas.freedomcore.io/stocks/) | 6,715 company and crypto listings; equities across 53 countries |
 | Research Centre | [`/workstation/`](https://atlas.freedomcore.io/workstation/) | Interactive research desk with source citations |
 | Atlas Quakes | [`/quakes/`](https://atlas.freedomcore.io/quakes/) | Source-dated company and protocol developments; dated editions at `/quakes/YYYY-MM-DD/` since 2026-10-29 |
 | Atlas Studio | [`/studio/`](https://atlas.freedomcore.io/studio/) | Audio briefings and recorded market observations |
@@ -40,7 +40,8 @@ Public, machine-readable reference datasets published by **[FreedomCore Atlas](h
 | :-- | :-- | :-- | :-- | :-- |
 | **Symbol Coverage** (`atlas-symbol-coverage`) | [`/datasets/atlas-symbol-coverage/`](https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/) | [`freedomcoreai/atlas-symbol-coverage`](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) | [`atlasfreedomcoreio/atlas-symbol-coverage`](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) | **v4** (6,735 rows, refreshed daily, digests below) |
 | **Atlas Quakes (archive to 17 August 2026)** (`atlas-quakes-archive`) | [`/quakes/`](https://atlas.freedomcore.io/quakes/) | [`freedomcoreai/atlas-quakes-archive`](https://huggingface.co/datasets/freedomcoreai/atlas-quakes-archive) | Not mirrored | **Archive.** Earlier editions, published under the product's former name. This folder holds the 20 July 2026 edition; the Hugging Face archive runs to 17 August 2026. Live editions are on the site: [Atlas Quakes](https://atlas.freedomcore.io/quakes/) |
-| **Security Posture** (`atlas-security-posture`) | [`/datasets/atlas-security-posture/`](https://atlas.freedomcore.io/datasets/atlas-security-posture/) | [`freedomcoreai/atlas-security-posture`](https://huggingface.co/datasets/freedomcoreai/atlas-security-posture) | [`atlasfreedomcoreio/atlas-security-posture`](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-security-posture) | **v3.2** (12 controls, re-checked 2026-11-07; CSV, JSON, schema and summary in this folder) |
+| **Global Ticker Collisions** (`atlas-global-ticker-collisions`) | [`/datasets/`](https://atlas.freedomcore.io/datasets/) | [`freedomcoreai/atlas-global-ticker-collisions`](https://huggingface.co/datasets/freedomcoreai/atlas-global-ticker-collisions) | [`atlasfreedomcoreio/atlas-global-ticker-collisions`](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-global-ticker-collisions) | **v1** (355 colliding bare-ticker groups / 781 verified listings; 353 equity+crypto groups / 776 listings; 100% HTTP 200 canonical URLs) |
+| **Security Posture** (`atlas-security-posture`) | [`/datasets/atlas-security-posture/`](https://atlas.freedomcore.io/datasets/atlas-security-posture/) | [`freedomcoreai/atlas-security-posture`](https://huggingface.co/datasets/freedomcoreai/atlas-security-posture) | [`atlasfreedomcoreio/atlas-security-posture`](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-security-posture) | **v3.3** (12 controls, re-checked 2026-11-20 against 6,735-row register; CSV, JSON, schema and summary in this folder) |
 
 Mirror revisions are managed per platform and can lag this repository. The canonical Atlas dataset pages state the current revision for each platform.
 
@@ -90,7 +91,7 @@ Joining global datasets on bare ticker strings corrupts cross-border equity and 
 | Metric | Value | Note |
 | :-- | --: | :-- |
 | Listings | 6,735 | 5,215 equities, 1,500 crypto, 9 indices, 8 commodities, 3 FX |
-| Venues | 69 | exchanges plus crypto namespaces |
+| Venues | 69 | 59 equity exchanges + 10 crypto & benchmark namespaces |
 | Live price | 5,296 | current for the listing's exchange session |
 | Stored price awaiting fresh capture | 994 | |
 | Valid price held (calendar not certified) | 46 | |
@@ -109,4 +110,4 @@ All files are published by FreedomCore Atlas and derived from https://atlas.free
 
 Released under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**. Reuse, including commercial reuse, is permitted with attribution to **FreedomCore Atlas** and a link to https://atlas.freedomcore.io/. See [LICENSE](LICENSE). Contains public identity and provenance metadata only: no paid research prose, no third-party article bodies, no subscriber data.
 
-Contact: freedomcoreai@gmail.com
+Contact: [support@freedomcore.io](mailto:support@freedomcore.io)

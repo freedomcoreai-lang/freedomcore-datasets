@@ -1,7 +1,7 @@
 {
   "schema": "atlas.security_posture_evidence.v3",
-  "title": "FreedomCore Atlas — Security Posture & Audit Evidence Index (v3.2)",
-  "generated_at": "2026-11-07T00:14:37Z",
+  "title": "FreedomCore Atlas \u2014 Security Posture & Audit Evidence Index (v3.2)",
+  "generated_at": "2026-11-20T22:21:29Z",
   "license": "CC-BY-4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "canonical_origin": "https://atlas.freedomcore.io/",
@@ -68,17 +68,17 @@
       "control_title": "Public HTTPS Surface & Internal Monitor Port Isolation at Nginx Edge",
       "enforcement_layer": "nginx_edge_and_tls",
       "verification_status": "verified_active",
-      "verified_at": "2026-11-07T00:14:37Z",
+      "verified_at": "2026-11-20T22:21:29Z",
       "evidence_artifact": "https://atlas.freedomcore.io/security/",
-      "evidence_sha256": "4420146403ca020fb0ba62ed45f27b46c5ec5a1c8d2b149bc3b837fa4b0dedfa",
+      "evidence_sha256": "900c3cd1f4a570f2930a610d1d3479ff832c7c6b6a9242ed765b380fe163fbfb",
       "public_evidence_url": "https://atlas.freedomcore.io/security/",
       "reproducible_check": "Fetch https://atlas.freedomcore.io/security/ over HTTPS: HTTP 200 with Strict-Transport-Security \"max-age=31536000; includeSubDomains; preload\", and the page states that services bind to 127.0.0.1 loopback sockets; the internal monitor route https://atlas.freedomcore.io/api/atlas/daily-notes/monitor returns HTTP 404 at the public edge.",
       "scope_and_limits": "Covers public HTTPS origin routing; third-party TLS/header grades must be re-tested directly at external scanner tools.",
       "evidence_http_status_now": 200,
-      "evidence_sha256_now": "4420146403ca020fb0ba62ed45f27b46c5ec5a1c8d2b149bc3b837fa4b0dedfa",
+      "evidence_sha256_now": "900c3cd1f4a570f2930a610d1d3479ff832c7c6b6a9242ed765b380fe163fbfb",
       "evidence_changed_since_verified": false,
       "public_evidence_http_status_now": 200,
-      "links_checked_at": "2026-11-07T00:14:37Z"
+      "links_checked_at": "2026-11-20T22:21:29Z"
     },
     {
       "control_id": "ATLAS-SEC-02",
@@ -86,17 +86,17 @@
       "control_title": "Stripe-Hosted Checkout Isolation (Zero Raw Card Collection on Atlas Origin)",
       "enforcement_layer": "billing_boundary",
       "verification_status": "verified_active",
-      "verified_at": "2026-11-07T00:14:37Z",
+      "verified_at": "2026-11-20T22:21:29Z",
       "evidence_artifact": "https://atlas.freedomcore.io/privacy/",
-      "evidence_sha256": "f92b132a1f979156ff10a6487d2cd82593602fcb1072d9f8adc26a333022cce6",
+      "evidence_sha256": "39c98d88810d72031df4c33821cbd318d6d6c4e480964aaff0a8bb151fe71804",
       "public_evidence_url": "https://atlas.freedomcore.io/privacy/",
       "reproducible_check": "Read https://atlas.freedomcore.io/privacy/ (\"Payment details stay with Stripe\"; \"Stripe operates checkout and stores card details as a PCI DSS Level 1 service provider\") and confirm that /privacy/, /security/ and /pricing/ contain no card-number input fields on the Atlas origin.",
       "scope_and_limits": "Describes payment card isolation; account entitlement state is verified server-side per session. This re-check covers public pages only; signed-in upgrade flows were not exercised.",
       "evidence_http_status_now": 200,
-      "evidence_sha256_now": "f92b132a1f979156ff10a6487d2cd82593602fcb1072d9f8adc26a333022cce6",
+      "evidence_sha256_now": "39c98d88810d72031df4c33821cbd318d6d6c4e480964aaff0a8bb151fe71804",
       "evidence_changed_since_verified": false,
       "public_evidence_http_status_now": 200,
-      "links_checked_at": "2026-11-07T00:14:37Z"
+      "links_checked_at": "2026-11-20T22:21:29Z"
     },
     {
       "control_id": "ATLAS-SEC-03",
@@ -119,20 +119,20 @@
     {
       "control_id": "ATLAS-SEC-04",
       "category": "entity_resolution_integrity",
-      "control_title": "Canonical listing_key Disambiguation Across 330 Colliding Bare-Ticker Groups (722 Listings)",
+      "control_title": "Canonical listing_key Disambiguation Across 353 Colliding Equity/Crypto Bare-Ticker Groups (776 Listings)",
       "enforcement_layer": "identity_register_contract",
       "verification_status": "verified_active",
-      "verified_at": "2026-11-07T00:14:37Z",
+      "verified_at": "2026-11-20T22:21:29Z",
       "evidence_artifact": "https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/atlas-symbol-coverage.json",
-      "evidence_sha256": "163a4b2bd31df28aad981d478bfb1b0712649714a5c56ad24f6b883402e4f97c",
+      "evidence_sha256": "85f9b1e68c31ab45c93201314427f593760a5107e85e2c657777cf94a39987bc",
       "public_evidence_url": "https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/",
-      "reproducible_check": "Verify that all 6,394 rows in atlas-symbol-coverage.json carry a unique exchange- or namespace-qualified listing_key (e.g., CRYPTO:SOL vs ASX:SOL vs JSE:SOL vs MIL:SOL vs BME:SOL).",
-      "scope_and_limits": "Prevents cross-market data corruption caused by bare-ticker joins.",
+      "reproducible_check": "Verify that all 6,735 rows in atlas-symbol-coverage.json carry a unique exchange- or namespace-qualified listing_key (e.g., CRYPTO:SOL vs ASX:SOL vs JSE:SOL vs MIL:SOL vs BME:SOL; 353 equity+crypto colliding bare-ticker groups / 776 listings; 355 groups / 781 listings across full universe).",
+      "scope_and_limits": "Prevents cross-market data corruption caused by bare-ticker joins across 6,735 listings (69 unique venues).",
       "evidence_http_status_now": 200,
-      "evidence_sha256_now": "163a4b2bd31df28aad981d478bfb1b0712649714a5c56ad24f6b883402e4f97c",
+      "evidence_sha256_now": "85f9b1e68c31ab45c93201314427f593760a5107e85e2c657777cf94a39987bc",
       "evidence_changed_since_verified": false,
       "public_evidence_http_status_now": 200,
-      "links_checked_at": "2026-11-07T00:14:37Z"
+      "links_checked_at": "2026-11-20T22:21:29Z"
     },
     {
       "control_id": "ATLAS-SEC-05",
@@ -140,17 +140,17 @@
       "control_title": "Explicit 5-State Source Inventory & Fail-Closed record_missing Labeling (Zero Blank States)",
       "enforcement_layer": "source_inventory_gate",
       "verification_status": "verified_active",
-      "verified_at": "2026-11-07T00:14:37Z",
+      "verified_at": "2026-11-20T22:21:29Z",
       "evidence_artifact": "https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/schema.json",
       "evidence_sha256": "8a69589461dc00b4e914e44c13d725ebb600647b5d609c4f1695dd44b01dd33f",
       "public_evidence_url": "https://atlas.freedomcore.io/datasets/atlas-symbol-coverage/",
-      "reproducible_check": "Audit record_state across all 6,394 rows in atlas-symbol-coverage.csv; confirm 3,961 rows have record_exists=true with original record_checked_at and record_sha256, and 2,433 rows are explicitly record_missing.",
-      "scope_and_limits": "Directory registration (6,394 listings) is explicitly separated from runtime research state (5,142 research reports observed; 1,252 not observed: 1,070 insufficient evidence, 157 blocked, 25 not qualified), as counted in the authority manifest of 2026-11-07.",
+      "reproducible_check": "Audit record_state across all 6,735 rows in atlas-symbol-coverage.csv; confirm 3,961 rows have record_exists=true with original record_checked_at and record_sha256, and 2,774 rows are explicitly record_missing.",
+      "scope_and_limits": "Directory registration (6,735 listings) is explicitly separated from runtime research state (5,161 research reports observed; 1,574 not observed: 1,369 insufficient evidence, 172 blocked, 33 not qualified), as counted in the authority manifest of 2026-11-20.",
       "evidence_http_status_now": 200,
       "evidence_sha256_now": "8a69589461dc00b4e914e44c13d725ebb600647b5d609c4f1695dd44b01dd33f",
       "evidence_changed_since_verified": false,
       "public_evidence_http_status_now": 200,
-      "links_checked_at": "2026-11-07T00:14:37Z"
+      "links_checked_at": "2026-11-20T22:21:29Z"
     },
     {
       "control_id": "ATLAS-SEC-06",
@@ -234,7 +234,7 @@
       "evidence_artifact": "internal artifact (server path withheld)",
       "evidence_sha256": "89abbc8bd85abeb7ad864d4c35ddfa7966ae2f9cd94f5a471fc0708d86c530a1",
       "public_evidence_url": "https://atlas.freedomcore.io/quakes/",
-      "reproducible_check": "Verify /quakes/ serves 'Atlas Quakes · Source-dated market developments' (HTML SHA-256 721e95bdab7c1a2486194a2e71815d892c65814ed85af457050f4aec7a6d8434) generated by atlas_quakes_feed.py (SHA-256 89abbc8bd85abeb7ad864d4c35ddfa7966ae2f9cd94f5a471fc0708d86c530a1) while preserving internal feed compatibility aliases.",
+      "reproducible_check": "Verify /quakes/ serves 'Atlas Quakes \u00b7 Source-dated market developments' (HTML SHA-256 721e95bdab7c1a2486194a2e71815d892c65814ed85af457050f4aec7a6d8434) generated by atlas_quakes_feed.py (SHA-256 89abbc8bd85abeb7ad864d4c35ddfa7966ae2f9cd94f5a471fc0708d86c530a1) while preserving internal feed compatibility aliases.",
       "scope_and_limits": "Preserves live Studio playlist and daily despatch compatibility.",
       "evidence_http_status_now": "internal_file_checked",
       "evidence_sha256_now": "16fb99c4a0b7713b0954efa61b1ed296d369f5ff46052dab5e8095e3b60f39e7",
@@ -267,44 +267,38 @@
       "control_title": "Explicit Self-Published Security Claims Boundary & External Re-Verification Rule",
       "enforcement_layer": "governance_and_audit_disclosure",
       "verification_status": "verified_active",
-      "verified_at": "2026-11-07T00:14:37Z",
+      "verified_at": "2026-11-20T22:21:29Z",
       "evidence_artifact": "https://atlas.freedomcore.io/security/",
-      "evidence_sha256": "4420146403ca020fb0ba62ed45f27b46c5ec5a1c8d2b149bc3b837fa4b0dedfa",
+      "evidence_sha256": "900c3cd1f4a570f2930a610d1d3479ff832c7c6b6a9242ed765b380fe163fbfb",
       "public_evidence_url": "https://atlas.freedomcore.io/security/",
       "reproducible_check": "Confirm that https://atlas.freedomcore.io/security/ keeps its own architectural statements separate from live third-party checks: its \"Independent external verifiers\" section links Qualys SSL Labs, Mozilla Observatory and SecurityHeaders so grades can be re-tested at the source.",
       "scope_and_limits": "External reviewers should always run live checks against https://atlas.freedomcore.io/security/.",
       "evidence_http_status_now": 200,
-      "evidence_sha256_now": "4420146403ca020fb0ba62ed45f27b46c5ec5a1c8d2b149bc3b837fa4b0dedfa",
+      "evidence_sha256_now": "900c3cd1f4a570f2930a610d1d3479ff832c7c6b6a9242ed765b380fe163fbfb",
       "evidence_changed_since_verified": false,
       "public_evidence_http_status_now": 200,
-      "links_checked_at": "2026-11-07T00:14:37Z"
+      "links_checked_at": "2026-11-20T22:21:29Z"
     }
   ],
   "link_checks": {
     "live_security_controls_url": {
       "url": "https://atlas.freedomcore.io/security/",
       "http_status": 200,
-      "checked_at": "2026-11-07T00:14:37Z"
+      "checked_at": "2026-11-20T22:21:29Z"
     },
     "payment_statement_url": {
       "url": "https://atlas.freedomcore.io/privacy/",
       "http_status": 200,
-      "checked_at": "2026-11-07T00:14:37Z"
+      "checked_at": "2026-11-20T22:21:29Z"
     },
     "canonical_dataset_url": {
       "url": "https://atlas.freedomcore.io/datasets/atlas-security-posture/",
       "http_status": 200,
-      "checked_at": "2026-11-07T00:14:37Z"
+      "checked_at": "2026-11-20T22:21:29Z"
     }
   },
-  "snapshot_date": "2026-11-07",
-  "previous_release": {
-    "schema": "atlas.security_posture_evidence.v3",
-    "release": "v3.1",
-    "generated_at": "2026-11-06T23:20:28Z",
-    "csv_sha256": "c8ed78657892348cb5e2921d8f4360169c1217ae06143a720d2945da62563c80",
-    "json_sha256": "9e312a902ee2dddda887dc50103043c1dade528183cd63ab9b9d570a19f03148"
-  },
-  "freshness_note": "v3.2 (2026-11-07): ATLAS-SEC-01, ATLAS-SEC-02, ATLAS-SEC-04, ATLAS-SEC-05, ATLAS-SEC-12 were re-checked at 2026-11-07T00:14:37Z against canonical pages (/security/, /privacy/) and the register files pinned by the authority manifest of 2026-11-07; verified_at is re-dated only where the check passed. The other seven controls are carried from v3 with their own verification (25 October) and link-check (31 October) dates. Internal evidence files are fingerprinted locally; their server paths are withheld.",
-  "release": "v3.2"
+  "snapshot_date": "2026-11-20",
+  "previous_release": "v3.2",
+  "freshness_note": "v3.3 (2026-11-20): ATLAS-SEC-01, ATLAS-SEC-02, ATLAS-SEC-04, ATLAS-SEC-05, ATLAS-SEC-12 were re-checked at 2026-11-20T22:21:29Z against canonical pages (/security/, /privacy/) and the 6,735-row atlas-symbol-coverage v4 register pinned by the authority manifest of 2026-11-20; verified_at is re-dated only where the check passed. The other seven controls are carried from v3 with their own verification (25 October) and link-check (31 October) dates. Internal evidence files are fingerprinted locally; their server paths are withheld.",
+  "release": "v3.3"
 }

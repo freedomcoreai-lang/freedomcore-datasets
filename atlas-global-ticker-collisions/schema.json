@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FreedomCore Atlas Global Ticker Collisions v1",
+  "type": "object",
+  "columns": [
+    {
+      "name": "bare_ticker",
+      "type": "string",
+      "description": "Uppercase bare ticker shared by two or more distinct instruments"
+    },
+    {
+      "name": "collision_group_size",
+      "type": "integer",
+      "description": "Number of distinct Atlas listings sharing this bare ticker"
+    },
+    {
+      "name": "group_scope",
+      "type": "string",
+      "description": "Asset-class mix of the collision group (equity_only, equity_and_crypto, crypto_only, includes_benchmark)"
+    },
+    {
+      "name": "listing_key",
+      "type": "string",
+      "description": "Canonical exchange- or namespace-qualified primary key (EXCHANGE:TICKER, CRYPTO:SYMBOL, COINGECKO:ID)"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "Verified instrument or issuer display name"
+    },
+    {
+      "name": "asset_class",
+      "type": "string",
+      "description": "Instrument class (equity, crypto, index, commodity, fx)"
+    },
+    {
+      "name": "exchange",
+      "type": "string",
+      "description": "Venue or namespace code"
+    },
+    {
+      "name": "country_code",
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2 country code (GL for global crypto/benchmarks)"
+    },
+    {
+      "name": "route_slug",
+      "type": "string",
+      "description": "Canonical Atlas URL slug"
+    },
+    {
+      "name": "profile_url",
+      "type": "string",
+      "description": "Live verified HTTP 200 canonical Atlas profile URL (empty if non-200)"
+    },
+    {
+      "name": "profile_http_status",
+      "type": "integer",
+      "description": "HTTP status observed on origin during dataset build verification"
+    },
+    {
+      "name": "workstation_url",
+      "type": "string",
+      "description": "Canonical Atlas Research Workstation URL"
+    },
+    {
+      "name": "sec_cik",
+      "type": "string",
+      "description": "10-digit zero-padded SEC EDGAR CIK string where applicable"
+    },
+    {
+      "name": "coingecko_id",
+      "type": "string",
+      "description": "CoinGecko identifier for crypto assets where applicable"
+    },
+    {
+      "name": "quote_state",
+      "type": "string",
+      "description": "Session-verified price freshness state from atlas-symbol-coverage v4"
+    },
+    {
+      "name": "profile_state",
+      "type": "string",
+      "description": "Profile verification state"
+    },
+    {
+      "name": "research_state",
+      "type": "string",
+      "description": "Research coverage state"
+    },
+    {
+      "name": "chart_bars",
+      "type": "integer",
+      "description": "Count of verified daily OHLC bars"
+    },
+    {
+      "name": "snapshot_date",
+      "type": "string",
+      "description": "UTC date (YYYY-MM-DD) of the source symbol-coverage release"
+    }
+  ]
+}

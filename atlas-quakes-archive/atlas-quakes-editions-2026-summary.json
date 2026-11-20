@@ -1,0 +1,13 @@
+{
+  "schema": "atlas.quakes_editions_2026.v1",
+  "generated_at": "2026-11-20T22:16:54Z",
+  "edition_count": 23,
+  "first_edition": "2026-10-29",
+  "latest_edition": "2026-11-20",
+  "total_entries": 2548,
+  "unique_quake_ids": 1032,
+  "entries_with_verified_http_200_stock_url": 2548,
+  "entries_with_non_200_stock_url_suppressed": 0,
+  "live_url": "https://atlas.freedomcore.io/quakes/",
+  "license": "CC-BY-4.0"
+}

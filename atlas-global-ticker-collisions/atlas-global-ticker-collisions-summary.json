@@ -1,0 +1,130 @@
+{
+  "schema": "atlas.global_ticker_collisions.v1",
+  "snapshot_date": "2026-11-20",
+  "generated_at": "2026-11-20T22:16:54Z",
+  "source_symbol_coverage_csv_sha256": "444e64893ca87a9af42d703afe1dc8e942e77d8c984727099f5d4ee0516b6a77",
+  "universe_total_listings": 6735,
+  "universe_equity_exchanges": 59,
+  "universe_equity_countries": 53,
+  "universe_total_venues": 69,
+  "all_universe_colliding_groups": 355,
+  "all_universe_colliding_listings": 781,
+  "equity_crypto_colliding_groups": 353,
+  "equity_crypto_colliding_listings": 776,
+  "group_scope_breakdown": {
+    "equity_and_crypto": 150,
+    "crypto_only": 31,
+    "includes_benchmark": 3,
+    "equity_only": 171
+  },
+  "max_listings_sharing_one_ticker": 5,
+  "verified_http_200_profile_urls": 781,
+  "non_200_profile_urls": 0,
+  "top_collision_examples": [
+    {
+      "bare_ticker": "CAP",
+      "count": 5,
+      "listings": [
+        "BCS:CAP (CAP S.A., CL)",
+        "COINGECKO:cap-4 (Cap, GL)",
+        "CSEMA:CAP (Cash plus S.A, MA)",
+        "EURONEXT:CAP (Capgemini SE, FR)",
+        "NSENG:CAP (Chemical & Allied Products Plc, NG)"
+      ]
+    },
+    {
+      "bare_ticker": "NXT",
+      "count": 5,
+      "listings": [
+        "ASX:NXT (Nextdc Limited, AU)",
+        "BME:NXT (Nueva Expresion Textil, S.A., ES)",
+        "COINGECKO:nexst (NEXST, GL)",
+        "LSE:NXT (Next plc, GB)",
+        "MIL:NXT (Next Geosolutions Europe SpA, IT)"
+      ]
+    },
+    {
+      "bare_ticker": "SOL",
+      "count": 5,
+      "listings": [
+        "ASX:SOL (Washington H. Soul Pattinson and Company Limited, AU)",
+        "BME:SOL (Soltec Power Holdings SA, ES)",
+        "CRYPTO:SOL (Solana, GL)",
+        "JSE:SOL (Sasol Limited, ZA)",
+        "MIL:SOL (SOL S.p.A., IT)"
+      ]
+    },
+    {
+      "bare_ticker": "AMP",
+      "count": 4,
+      "listings": [
+        "ASX:AMP (AMP Limited, AU)",
+        "BME:AMP (Amper, S.A., ES)",
+        "COINGECKO:amp-token (Amp, GL)",
+        "MIL:AMP (Amplifon SpA, IT)"
+      ]
+    },
+    {
+      "bare_ticker": "DIA",
+      "count": 4,
+      "listings": [
+        "BME:DIA (Distribuidora Internacional de Alimentacion SA, ES)",
+        "COINGECKO:dia-data (DIA, GL)",
+        "GPW:DIA (Diagnostyka S.A., PL)",
+        "MIL:DIA (DiaSorin S.p.A., IT)"
+      ]
+    },
+    {
+      "bare_ticker": "IAG",
+      "count": 4,
+      "listings": [
+        "ASX:IAG (Insurance Australia Group Ltd, AU)",
+        "COINGECKO:iagon (Iagon, GL)",
+        "LSE:IAG (International Consolidated Airlines Group SA, GB)",
+        "TSX:IAG (iA Financial Corporation Inc., CA)"
+      ]
+    },
+    {
+      "bare_ticker": "POL",
+      "count": 4,
+      "listings": [
+        "ASX:POL (Polymetals Resources Ltd., AU)",
+        "CRYPTO:POL (POL (ex-MATIC), GL)",
+        "OSL:POL (Polaris Media ASA, NO)",
+        "PSX:POL (Pakistan Oilfields Limited, PK)"
+      ]
+    },
+    {
+      "bare_ticker": "PPC",
+      "count": 4,
+      "listings": [
+        "ATHEX:PPC (Public Power Corporation S.A., GR)",
+        "COINGECKO:peercoin (Peercoin, GL)",
+        "JSE:PPC (PPC Limited, ZA)",
+        "PSE:PPC (Pryce Corp., PH)"
+      ]
+    },
+    {
+      "bare_ticker": "PRL",
+      "count": 4,
+      "listings": [
+        "COINGECKO:pearl-2 (Pearl, GL)",
+        "COINGECKO:perle (Perle, GL)",
+        "PSX:PRL (Pakistan Refinery Limited, PK)",
+        "TSX:PRL (Propel Holdings, Inc., CA)"
+      ]
+    },
+    {
+      "bare_ticker": "SPG",
+      "count": 4,
+      "listings": [
+        "JSE:SPG (Super Group Limited, ZA)",
+        "NZX:SPG (Stride Property Group, NZ)",
+        "OMXCOP:SPG (SP Group A/S, DK)",
+        "XETR:SPG (Springer Nature AG & Co. KGaA, DE)"
+      ]
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "canonical_origin": "https://atlas.freedomcore.io/datasets/"
+}

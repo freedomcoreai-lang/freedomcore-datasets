@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FreedomCore Atlas Quakes Daily Editions 2026 v1",
+  "type": "object",
+  "columns": [
+    {
+      "name": "edition_date",
+      "type": "string",
+      "description": "UTC date (YYYY-MM-DD) of the published Atlas Quakes edition"
+    },
+    {
+      "name": "edition_url",
+      "type": "string",
+      "description": "Canonical live edition URL on atlas.freedomcore.io/quakes/YYYY-MM-DD/"
+    },
+    {
+      "name": "quake_id",
+      "type": "string",
+      "description": "Deterministic item identifier within Atlas Quakes"
+    },
+    {
+      "name": "quake_kind",
+      "type": "string",
+      "description": "Event category (company, crypto, macro)"
+    },
+    {
+      "name": "source_event_date",
+      "type": "string",
+      "description": "Date of the underlying source filing or notice (YYYY-MM-DD)"
+    },
+    {
+      "name": "listing_key",
+      "type": "string",
+      "description": "Exchange- or namespace-qualified instrument key (EXCHANGE:TICKER or CRYPTO:SYMBOL)"
+    },
+    {
+      "name": "region_or_venue",
+      "type": "string",
+      "description": "Country or venue label displayed on the Quakes card"
+    },
+    {
+      "name": "headline",
+      "type": "string",
+      "description": "Source-dated development headline"
+    },
+    {
+      "name": "summary",
+      "type": "string",
+      "description": "Short factual excerpt (<=280 chars) from the public Quakes card"
+    },
+    {
+      "name": "observed_move_pct",
+      "type": "string",
+      "description": "Observed session move percentage where recorded"
+    },
+    {
+      "name": "canonical_stock_url",
+      "type": "string",
+      "description": "Live verified HTTP 200 canonical Atlas listing URL (empty if not 200)"
+    },
+    {
+      "name": "canonical_stock_http_status",
+      "type": "integer",
+      "description": "HTTP status verified on origin during dataset build"
+    },
+    {
+      "name": "source_url",
+      "type": "string",
+      "description": "Primary external source URL cited on the Quakes card"
+    }
+  ]
+}
