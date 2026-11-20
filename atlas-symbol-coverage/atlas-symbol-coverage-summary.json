@@ -1,6 +1,6 @@
 {
  "schema": "atlas.symbol_coverage.v4",
- "generated_at": "2026-11-20T08:55:57+00:00",
+ "generated_at": "2026-11-20T21:37:59+00:00",
  "snapshot_date": "2026-11-20",
  "rows": 6735,
  "asset_class": {
@@ -12,16 +12,15 @@
  },
  "exchanges": 69,
  "quote_state": {
-  "live": 4723,
-  "receipt_present_unverified": 1042,
-  "stale_receipt": 898,
-  "held_calendar_unknown": 45,
-  "source_failure": 25,
+  "live": 5296,
+  "receipt_present_unverified": 994,
+  "stale_receipt": 375,
+  "held_calendar_unknown": 46,
+  "source_failure": 22,
   "unmeasured_no_receipt": 2
  },
  "profile_state": {
-  "observed": 6487,
-  "insufficient_evidence": 248
+  "observed": 6735
  },
  "research_state": {
   "observed": 5161,
@@ -29,13 +28,13 @@
   "blocked": 172,
   "not_qualified": 33
  },
- "rows_with_chart_bars": 5681,
- "fresh_checks_at": "2026-11-20T08:53:51.139880+00:00",
- "register_generated_at": "2026-11-20T08:54:12.395079+00:00",
+ "rows_with_chart_bars": 5728,
+ "fresh_checks_at": "2026-11-20T21:35:54.530005+00:00",
+ "register_generated_at": "2026-11-20T11:39:38.583960+00:00",
  "source_pins": {
-  "master_catalog_sha256": "7fa144795abb9f318cab1c765a5136bf6386a2f45c2396bf6a4166d94207d211",
-  "realm_register_sha256": "f7ae54b20252a01de62b3ae7b68841469fbbc8803ee47005cf33dc2e111426d8",
-  "p8_scoreboard_sha256": "2bac4da362e6f38a76e96dcc70d3cb9dd0a0ab84a400038aec37c91e2f4f3214",
+  "master_catalog_sha256": "8a0ec7ce7ab01e998eb04f9dae9a2fd998b8b310126def99d2af123a7cd80f9e",
+  "realm_register_sha256": "771f2b251007b99f702d4e60c75be71a941c92e5b3ba7b3feb5dfcdd3c546ab1",
+  "p8_scoreboard_sha256": "6c16eb2bcb4b2fab53a3c55b4b0101f7ccb5f63e316d204961774885baf5d5ca",
   "previous_v3_csv_sha256": "ceee6577ee01758b0449187149187926ede6c4186eae83e0971e16a4a455d8ef"
  },
  "carried_columns": "record_* columns are carried unchanged from v3 with their own original record_checked_at dates (2026-10-23..25); they are not re-dated. The 360 rows with no v3 row have no stored record and are labelled record_missing (record_exists False, no record date or digest, zero source counts)."
