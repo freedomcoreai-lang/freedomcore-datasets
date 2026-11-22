@@ -13,7 +13,7 @@ I started publishing this register because joining market data on bare tickers q
 
 Public, machine-readable reference datasets published by **[FreedomCore Atlas](https://atlas.freedomcore.io/)** for cross-border financial entity resolution, source-dated market developments and platform security verification.
 
-> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,735** listings (5,215 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 unique venues (59 equity exchanges + 10 crypto & benchmark namespaces), checked `2026-11-21T21:31Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
+> **Current release in this repository:** `atlas-symbol-coverage` **v4** (`atlas.symbol_coverage.v4`), **6,735** listings (5,215 equities, 1,500 crypto assets, plus indices, commodities and FX) across 69 unique venues (59 equity exchanges + 10 crypto & benchmark namespaces), checked `2026-11-22T21:35Z`. It refreshes daily, together with the [Hugging Face](https://huggingface.co/datasets/freedomcoreai/atlas-symbol-coverage) and [Kaggle](https://www.kaggle.com/datasets/atlasfreedomcoreio/atlas-symbol-coverage) mirrors.
 
 ---
 
@@ -51,10 +51,10 @@ Mirror revisions are managed per platform and can lag this repository. The canon
 
 | File | Bytes | SHA-256 | Description |
 | :-- | --: | :-- | :-- |
-| `atlas-symbol-coverage/atlas-symbol-coverage.csv` | 2,774,937 | `e4842641169b9bd1900e3e499f5c2e47db34d892ffdce3dfbdc752172afe3f82` | Full 6,735-row CSV register (25 columns, `atlas.symbol_coverage.v4`) |
-| `atlas-symbol-coverage/atlas-symbol-coverage.json` | 5,637,677 | `9a3646db5ed066d67e2198249e6d1c732d89be776c5e5689f663e90f19f3a22f` | Full 6,735-record JSON register |
+| `atlas-symbol-coverage/atlas-symbol-coverage.csv` | 2,775,583 | `46d7e182f3ecaeaa41089919405f374504087dde018ff957b445679d40662aac` | Full 6,735-row CSV register (25 columns, `atlas.symbol_coverage.v4`) |
+| `atlas-symbol-coverage/atlas-symbol-coverage.json` | 5,638,323 | `ed55167c82d65c780c163cdf788d01a8e21160cf2a6a13a1cd23ac5d7a426577` | Full 6,735-record JSON register |
 | `atlas-symbol-coverage/schema.json` | 3,720 | `8a69589461dc00b4e914e44c13d725ebb600647b5d609c4f1695dd44b01dd33f` | Machine-readable 25-column v4 schema |
-| `atlas-symbol-coverage/atlas-symbol-coverage-summary.json` | 1,456 | `9e09f1b9c0af0205a7d55ce8edfb490cfc7a850f843d8221816378eef73aed50` | Counts for this release (quote, profile, research and chart layers) |
+| `atlas-symbol-coverage/atlas-symbol-coverage-summary.json` | 1,456 | `2b7f183ab03b049ec321158299c5e967ff47b3abe932a11b80327d1a55ee81ed` | Counts for this release (quote, profile, research and chart layers) |
 
 Columns (`25`): `listing_key`, `ticker`, `name`, `asset_class`, `exchange`, `country_code`, `route_slug`, `profile_url`, `workstation_url`, `sec_cik`, `coingecko_id`, `profile_state`, `profile_as_of`, `research_state`, `research_as_of`, `quote_state`, `quote_observed_at`, `chart_bars`, `checked_at`, `record_exists`, `record_state`, `record_checked_at`, `record_sha256`, `stored_source_count`, `dated_source_count`.
 
@@ -74,7 +74,7 @@ Joining global datasets on bare ticker strings corrupts cross-border equity and 
 | `SOL` | `JSE:SOL` | Sasol Limited | `equity` | `ZA` | [`/stocks/jse-sol/`](https://atlas.freedomcore.io/stocks/jse-sol/) | `live` |
 | `SOL` | `MIL:SOL` | SOL S.p.A. | `equity` | `IT` | [`/stocks/mil-sol/`](https://atlas.freedomcore.io/stocks/mil-sol/) | `live` |
 | `ARB` | `CRYPTO:ARB` | Arbitrum | `crypto` | `GL` | [`/stocks/ARB/`](https://atlas.freedomcore.io/stocks/ARB/) | `live` |
-| `ARB` | `NZX:ARB` | ArborGen Holdings Limited | `equity` | `NZ` | [`/stocks/nzx-arb/`](https://atlas.freedomcore.io/stocks/nzx-arb/) | `live` |
+| `ARB` | `NZX:ARB` | ArborGen Holdings Limited | `equity` | `NZ` | [`/stocks/nzx-arb/`](https://atlas.freedomcore.io/stocks/nzx-arb/) | `stale_receipt` |
 | `BCH` | `CRYPTO:BCH` | Bitcoin Cash | `crypto` | `GL` | [`/stocks/BCH/`](https://atlas.freedomcore.io/stocks/BCH/) | `live` |
 | `BCH` | `SET:BCH` | Bangkok Chain Hospital Public Co., Ltd. | `equity` | `TH` | [`/stocks/set-bch/`](https://atlas.freedomcore.io/stocks/set-bch/) | `live` |
 | `LDO` | `COINGECKO:lido-dao` | Lido DAO | `crypto` | `GL` | [`/stocks/cg-lido-dao/`](https://atlas.freedomcore.io/stocks/cg-lido-dao/) | `live` |
@@ -86,19 +86,19 @@ Joining global datasets on bare ticker strings corrupts cross-border equity and 
 
 ---
 
-## 5. Coverage in this release (2026-11-21)
+## 5. Coverage in this release (2026-11-22)
 
 | Metric | Value | Note |
 | :-- | --: | :-- |
 | Listings | 6,735 | 5,215 equities, 1,500 crypto, 9 indices, 8 commodities, 3 FX |
 | Venues | 69 | 59 equity exchanges + 10 crypto & benchmark namespaces |
-| Live price | 5,304 | current for the listing's exchange session |
+| Live price | 5,234 | current for the listing's exchange session |
 | Stored price awaiting fresh capture | 994 | |
-| Valid price held (calendar not certified) | 48 | |
-| Stale / none collected / source conflict | 366 / 2 / 21 | |
+| Valid price held (calendar not certified) | 50 | |
+| Stale / none collected / source conflict | 435 / 2 / 20 | |
 | Verified profile text | 6,735 | |
 | Research report observed | 5,161 | |
-| Chart renderable | 5,728 | listings with daily bars |
+| Chart renderable | 5,729 | listings with daily bars |
 
 Counts are computed from the files in this repository. Unknown never means delisted, and prices that fail a check are held rather than guessed.
 
