@@ -104,6 +104,12 @@ Counts are computed from the files in this repository. Unknown never means delis
 
 ---
 
+## Sample Dossiers, Founding 100 & Source Verification Bounty
+
+- **Inspect unredacted Supreme V12 PDF Dossiers (zero login):** [https://atlas.freedomcore.io/examples/](https://atlas.freedomcore.io/examples/) — full Dark & Light 12-page reference editions with inline primary-source and filing provenance.
+- **Founding 100 Cohort:** Early researchers who create a free account at [https://atlas.freedomcore.io/free-account/](https://atlas.freedomcore.io/free-account/) and email [support@freedomcore.io](mailto:support@freedomcore.io) with 2 tickers receive **2 custom Supreme V12 PDF dossiers free** (no card required). UK Atlas Pro buyers can also apply promo code `FOUNDING100` for **50% off the first 3 months** (52-market promo unlock rolling out next).
+- **Atlas Source Verification Bounty:** Spot a broken filing link, stale unflagged quote, cross-exchange ticker collision error, or PDF chart defect? Email the URL, `listing_key`, and observed defect to [support@freedomcore.io](mailto:support@freedomcore.io) — every verified catch ships in a numbered audited release (`R##`) and earns free dossiers or Pro passes.
+
 ## 6. Provenance and licence
 
 All files are published by FreedomCore Atlas and derived from https://atlas.freedomcore.io. Each row maps to a real, indexable Atlas page. This is research metadata: not financial advice, not signals, not brokerage execution.
